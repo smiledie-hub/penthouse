@@ -22,10 +22,10 @@
                 </div>
             </div>
             <div class="footer__whatsapp-box">
-                <a href="#" class="footer__whatsapp"><span class="btn-icon btn-icon--primary "><span class="icon-whatsapp"></span></span> Whatsapp</a>
+                <a href="#" class="whatsapp"><span class="btn-icon btn-icon--primary "><span class="icon-whatsapp"></span></span> Whatsapp</a>
             </div>
             <div class="footer__socials-box">
-                <div class="footer__socials">
+                <div class="socials">
                     <a href="#"><span class="icon-fb"></span></a>
                     <a href="#"><span class="icon-inst"></span></a>
                     <a href="#"><span class="icon-twitter"></span></a>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="footer__pdf-box">
-                <a href="#" class="btn btn--pdf footer__pdf">
+                <a href="#" class="btn btn--pdf btn--pdf-big">
                     <span>PDF</span>
                     Download<br>brochure
                 </a>
