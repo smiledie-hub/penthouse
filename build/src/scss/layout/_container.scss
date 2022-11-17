@@ -1,0 +1,16 @@
+@import "../spec/mixins";
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1620px;
+  box-sizing: content-box;
+
+  @include media-down(md) {
+    padding: 0 40px;
+  }
+
+  @include media-down(sm) {
+    padding: 0 20px;
+  }
+}

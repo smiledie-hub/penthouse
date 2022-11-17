@@ -1,0 +1,52 @@
+.front-we-are {
+  &__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #3B3734;
+    max-width: 711px;
+    position: relative;
+    width: 100%;
+    height: 233px;
+    margin-bottom: 90px;
+
+    @include media-down(md) {
+      font-size: 32px;
+      height: 104px;
+      max-width: 280px;
+      margin-bottom: 22px;
+    }
+  }
+
+  &__title-start {
+    display: table;
+  }
+
+  &__sg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 545px;
+    height: 198px;
+
+    @include media-down(md) {
+      height: 98px;
+      width: 272px;
+    }
+  }
+
+  &__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media-down(sm) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__slider {
+
+  }
+}

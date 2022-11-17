@@ -1,0 +1,196 @@
+.sell-page {
+
+  &__bg-mobile {
+    @include media-down(md) {
+      background: #E8E4DD;
+    }
+  }
+
+  &__quote {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+
+    @include media-down(md) {
+      margin-top: -60px;
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3B3734;
+    max-width: 332px;
+
+    @include media-down(md) {
+      font-size: 20px;
+      margin-bottom: 38px;
+    }
+
+    &--2 {
+      max-width: 603px;
+
+      @include media-down(md) {
+        max-width: 483px;
+      }
+    }
+
+    &--3 {
+      margin-top: 100px;
+      max-width: 573px;
+      margin-bottom: 84px;
+
+      @include media-down(md) {
+        width: 50%;
+        padding-left: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+        position: relative;
+        top: 60px;
+      }
+    }
+
+    &--4 {
+      max-width: 410px;
+      margin-bottom: 49px;
+    }
+
+    &--5 {
+      max-width: 615px;
+      margin-bottom: 117px;
+      margin-top: 117px + 249px;
+
+      @include media-down(md) {
+        margin-top: 40px;
+        margin-bottom: 0;
+      }
+    }
+
+    &--6 {
+      max-width: 410px;
+      position: absolute;
+      left: var(--cp);
+      bottom: 190px;
+
+      @include media-down(md) {
+        position: static;
+        padding: 0 var(--cp);
+        left: 0;
+        max-width: 100%;
+        margin-top: 21px;
+      }
+    }
+  }
+
+
+  &__box-image2 {
+    position: relative;
+    margin-bottom: 200px;
+
+    @include media-down(md) {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+  }
+
+  &__end {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  &__box-image {
+    position: relative;
+    top: -471px;
+
+    @include media-down(md) {
+      top: 0;
+    }
+  }
+
+  &__row-images {
+    margin-top: -471px + -249px;
+    position: relative;
+    top: 249px;
+
+    @include media-down(md) {
+      margin-top: -30px;
+      top: 0;
+    }
+  }
+}
+
+.sell-advantages {
+  padding-top: 250px;
+  padding-bottom: 555px;
+  background-image: url("/public/images/about-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  @include media-down(md) {
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+
+  &__row-images {
+    margin-bottom: 188px;
+
+    @include media-down(md) {
+      margin-bottom: 49px;
+    }
+  }
+
+  &__img {
+    @include media-down(md) {
+      height: 329px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    position: relative;
+    margin-bottom: 356px;
+
+    @include media-down(md) {
+      font-size: 32px;
+      margin-bottom: 86px;
+    }
+  }
+
+  &__start {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__sg {
+    font-weight: 400;
+    font-size: 210px;
+    line-height: 140.62%;
+    color: #D0A966;
+    position: absolute;
+    z-index: 0;
+    left: 80px;
+    top: -48px;
+
+    @include media-down(md) {
+      font-size: 74px;
+      left: 9px;
+      top: 19px;
+    }
+  }
+}

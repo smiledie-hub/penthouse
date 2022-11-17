@@ -1,0 +1,175 @@
+.card-schema {
+  background: #fff;
+  height: 100vh;
+  max-height: 1080px;
+
+  @include media-down(md) {
+    position: relative;
+  }
+
+  .container{
+    height: 100%;
+  }
+
+  &__wrapper {
+    display: grid;
+    padding: 180px 0 123px 0;
+    grid-template-columns: 500px 1fr;
+    gap: 30px;
+    height: 100%;
+
+    @include media-down(md) {
+      display: flex;
+      padding: 37px 0 51px 0;
+    }
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+
+    @include media-down(md) {
+      width: calc(50% - 30px);
+    }
+
+    &:last-child {
+      @include media-down(md) {
+        width: 50%;
+        height: 100%;
+      }
+    }
+  }
+
+  &__price {
+    margin-bottom: 10px;
+
+    @include media-down(md) {
+      margin-bottom: 4px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 20px;
+
+    @include media-down(md) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__category {
+    margin-bottom: 10px;
+
+    @include media-down(md) {
+      margin-bottom: 6px;
+    }
+  }
+
+  &__map {
+
+  }
+
+  &__items {
+    margin-top: 46px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 40%;
+
+    @include media-down(md) {
+      margin-top: 26px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    & > span {
+      display: table;
+      width: 80px;
+
+      .icon-baths {
+        font-size: 24px;
+      }
+
+      .icon-cars {
+        font-size: 14px;
+      }
+
+      .icon-beds {
+        font-size: 12px;
+      }
+
+      .icon-sort-fill {
+        font-size: 24px;
+      }
+    }
+
+    &:last-child {
+      margin-top: auto;
+      font-weight: 600;
+
+      @include media-down(md) {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__icon {
+    width: 45px;
+    height: 45px;
+    background: #8F8175;
+    border: 1px solid #8F8175;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    .icon-leaf, .icon-pool {
+      font-size: 22px;
+    }
+  }
+
+  &__navs {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+
+    @include media-down(md) {
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 51px;
+    }
+  }
+}
+
+.btn-nav {
+  font-size: 9px;
+
+  &--prev {
+
+  }
+
+  &--next {
+
+  }
+}
+
+.card-schema-prev, .card-schema-next {
+  @include media-down(md) {
+    width: 45px;
+    height: 45px;
+    font-size: 10px;
+  }
+}

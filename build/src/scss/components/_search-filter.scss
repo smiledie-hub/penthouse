@@ -1,0 +1,71 @@
+.search-filter {
+  @include media-down(md) {
+    padding-top: 185px;
+    margin-bottom: -185px;
+  }
+
+  &__form {
+    display: grid;
+    gap: 40px 20px;
+
+    grid-template-areas: 'purchase status search search search search search find' 'property property min_area max_area bedrooms lifestyle min_price max_price';
+    grid-template-columns: minmax(100px, 137px) minmax(100px, 243px) minmax(100px, 150px) minmax(100px, 150px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px);
+
+    @include media-down(md) {
+      grid-template-areas: 'purchase max_area' 'status bedrooms' 'search lifestyle' 'property min_price' 'min_area max_price';
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px 30px;
+    }
+
+    @include media-down(sm) {
+      gap: 10px;
+    }
+  }
+
+  &__purchase {
+    grid-area: purchase;
+  }
+
+  &__status {
+    grid-area: status;
+  }
+  &__search {
+    grid-area: search;
+  }
+
+  &__find {
+    grid-area: find;
+
+    @include media-down(md) {
+      display: none;
+    }
+  }
+
+  &__property {
+    grid-area: property;
+  }
+
+  &__min_area {
+    grid-area: min_area;
+  }
+
+  &__max_area {
+    grid-area: max_area;
+  }
+
+  &__min_price {
+    grid-area: min_price;
+  }
+
+  &__max_price {
+    grid-area: max_price;
+  }
+
+  &__bedrooms {
+    grid-area: bedrooms;
+  }
+
+  &__lifestyle {
+    grid-area: lifestyle;
+  }
+}

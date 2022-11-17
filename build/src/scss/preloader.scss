@@ -1,0 +1,57 @@
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #161616;
+  z-index: 1001;
+  transition: 1500ms;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  $root: &;
+
+  svg {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 300px;
+
+    @media (max-width: 768px) {
+      width: 200px;
+    }
+  }
+
+  &__mask-1 {
+    animation: load 1s linear forwards;
+  }
+
+  &__mask-2 {
+    animation: load2 1s linear forwards;
+  }
+
+  &--hide {
+    visibility: hidden;
+    height: 0;
+  }
+
+  @keyframes load {
+    0% {
+      transform: translateY(100%)
+    }
+
+    100% {
+      transform: translateY(0)
+    }
+  }
+
+  @keyframes load2 {
+    0% {
+      transform: translateY(0)
+    }
+
+    100% {
+      transform: translateY(-100%)
+    }
+  }
+}

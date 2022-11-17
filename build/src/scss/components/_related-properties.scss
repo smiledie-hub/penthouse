@@ -1,0 +1,24 @@
+.related-properties {
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  @include media-down(md) {
+    background: #E8E4DD;
+    padding-top: 57px;
+    padding-bottom: 57px;
+  }
+
+  &__title {
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #3B3734;
+
+    @include media-down(md) {
+      margin-bottom: 39px;
+      font-size: 32px;
+    }
+  }
+}

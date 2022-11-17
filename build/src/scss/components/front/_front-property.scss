@@ -1,0 +1,103 @@
+.front-property {
+  position: relative;
+  color: #FFFFFF;
+
+  &__title {
+    margin-bottom: 134px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130%;
+    text-transform: uppercase;
+    position: relative;
+    display: table;
+
+    @include media-down(md) {
+      font-size: 32px;
+      margin-bottom: 36px;
+    }
+  }
+
+  &__title-start {
+    display: table;
+  }
+
+  &__sg {
+    position: absolute;
+    top: 29px;
+    left: 203px;
+    z-index: 0;
+    width: 392px;
+    height: 211px;
+
+    @include media-down(md) {
+      top: -10px;
+      left: 70px;
+      width: 173px;
+      height: 111px;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    max-width: 533px;
+    margin-left: 114px;
+    position: relative;
+    z-index: 3;
+
+    @include media-down(md) {
+      max-width: 393px;
+      color: #FFFFFF;
+      margin-left: 0;
+    }
+  }
+
+  &__button {
+    width: 225px;
+    height: 225px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150%;
+    margin-top: 199px;
+
+    @include media-down(md) {
+      margin-top: 26px;
+      width: 144px;
+      height: 144px;
+      font-size: 16px;
+      padding: 0;
+    }
+  }
+
+  &__image {
+    max-height: 1161px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    padding-top: 171px;
+    padding-bottom: 224px;
+    padding-left: 63px;
+
+    @include media-down(md) {
+      padding-top: 47px;
+      padding-bottom: 37px;
+      padding-left: 0;
+    }
+  }
+}

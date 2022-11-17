@@ -1,0 +1,38 @@
+.comforts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 30px;
+  margin-bottom: 55px;
+
+  @include media-down(md) {
+    gap: 20px;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3B3734;
+
+    @include media-down(md) {
+      font-size: 14px;
+    }
+
+    .icon-baths {
+      font-size: 20px;
+
+      @include media-down(md) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  &__icon {
+    margin-right: 11px;
+
+    @include media-down(md) {
+      margin-right: 6px;
+    }
+  }
+}

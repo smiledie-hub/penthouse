@@ -1,0 +1,94 @@
+.front-page {
+  &__banner {
+
+  }
+
+  &__about {
+    margin-top: -100px;
+    margin-bottom: 284px;
+    background: #F2F0EF;
+    padding-top: 5px;
+    position: relative;
+    top: -5px;
+
+    @include media-down(md) {
+      margin-top: -150px;
+      margin-bottom: 73px;
+    }
+
+    @include media-down(sm) {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__agents {
+    margin-bottom: 200px;
+
+    @include media-down(md) {
+      margin-bottom: 63px;
+    }
+
+    @include media-down(sm) {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__residence {
+    margin-bottom: 335px;
+
+    @include media-down(md) {
+      margin-bottom: 116px;
+    }
+  }
+
+  &__we-are {
+    margin-bottom: 300px;
+
+    @include media-down(md) {
+      margin-bottom: 95px;
+    }
+
+    @include media-down(sm) {
+      margin-bottom: 65px;
+    }
+  }
+
+  &__projects {
+    margin-bottom: 200px;
+
+    @include media-down(md) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__services {
+    margin-bottom: 150px;
+
+    @include media-down(md) {
+      margin-bottom: 84px;
+    }
+  }
+
+  &__property {
+    margin-bottom: 116px;
+
+    @include media-down(md) {
+      margin-bottom: 51px;
+    }
+  }
+
+  &__blog {
+    margin-bottom: 117px;
+
+    @include media-down(md) {
+      margin-bottom: 37px;
+    }
+  }
+
+  &__background {
+    background-image: url("/public/images/front-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}

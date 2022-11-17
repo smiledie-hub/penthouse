@@ -1,0 +1,114 @@
+/*
+  Конструктор двойных картинок
+*/
+
+.row-images {
+  gap: 100px;
+  display: grid;
+  grid-template-columns: minmax(0, 710px) minmax(0, 960px);
+  justify-content: flex-end;
+  position: relative;
+  z-index: 0;
+  padding: 0 var(--cp);
+
+  @include media-down(md) {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  &--g50 {
+    gap: 50px;
+
+    @include media-down(md) {
+      gap: 30px;
+    }
+  }
+
+  &--960-710 {
+    grid-template-columns: minmax(0, 960px) minmax(0, 710px);
+
+    @include media-down(md) {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+  }
+
+  &--670-960 {
+    grid-template-columns: minmax(0, 670px) minmax(0, 960px);
+
+    @include media-down(md) {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+  }
+
+  &--items-end {
+    align-items: flex-end;
+  }
+
+  &--text {
+    @include media-down(md) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  &--right {
+    padding-right: calc(var(--cp) - 150px - 30px);
+    justify-content: flex-end;
+
+    @include media-down(md) {
+      padding-right: var(--cp);
+    }
+  }
+
+  &--left {
+    padding-left: calc(var(--cp) - 150px - 30px);
+    justify-content: flex-start;
+
+    @include media-down(md) {
+      padding-left: var(--cp);
+    }
+  }
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+
+    &--h1080 {
+      height: 1080px;
+      max-width: 960px;
+
+      @include media-down(md) {
+        height: 249px;
+      }
+    }
+
+    &--h710 {
+      height: 710px;
+      max-width: 710px;
+
+      @include media-down(md) {
+        height: 249px;
+      }
+    }
+
+    &--h670 {
+      height: 671px;
+      max-width: 671px;
+
+      @include media-down(md) {
+        height: 249px;
+      }
+    }
+
+    &--h850 {
+      height: 850px;
+      max-width: 966px;
+
+      @include media-down(md) {
+        height: 249px;
+      }
+    }
+  }
+}

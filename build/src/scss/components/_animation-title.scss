@@ -1,0 +1,16 @@
+.animation-title {
+  $root: &;
+
+  &__mask {
+    transition: 1.5s;
+    transform: translateX(-100%);
+  }
+
+  &--animate {
+    #{$root} {
+      &__mask {
+        transform: translateX(0)
+      }
+    }
+  }
+}

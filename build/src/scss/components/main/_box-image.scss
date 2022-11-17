@@ -1,0 +1,101 @@
+/*
+  Конструктор одной большой картинки (Слева или справа)
+*/
+
+.box-image {
+  $root: &;
+
+  @include media-down(md) {
+    width: 100%;
+  }
+
+  &__content {
+    width: 100%;
+    padding-left: calc(var(--cp) - 150px - 30px);
+    padding-right: calc(var(--cp) + 380px);
+
+    &--p250 {
+      padding-right: calc(var(--cp) + 250px);
+    }
+
+    &--p550 {
+      padding-right: calc(var(--cp) + 550px);
+    }
+
+    &--p-none {
+      padding-right: var(--cp);
+    }
+
+    @include media-down(md) {
+      width: 100%;
+
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  &__image {
+    max-width: 1390px;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+
+    &--h930 {
+      max-width: 1520px;
+      height: 930px;
+    }
+
+    &--mw-none {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    @include media-down(md) {
+      max-width: 100%;
+      height: 435px;
+    }
+  }
+
+  &--right {
+    display: flex;
+    justify-content: flex-end;
+
+    #{$root} {
+      &__content {
+        padding-right: calc(var(--cp) - 150px - 30px);
+        padding-left: calc(var(--cp) + 380px);
+
+        &--p250 {
+          padding-left: calc(var(--cp) + 250px);
+
+          @include media-down(md) {
+            padding-left: 0 !important;
+          }
+        }
+
+        &--p550 {
+          padding-left: calc(var(--cp) + 550px);
+
+          @include media-down(md) {
+            padding-left: 0 !important;
+          }
+        }
+
+        &--p-none {
+          padding-left: var(--cp);
+
+          @include media-down(md) {
+            padding-left: 0 !important;
+          }
+        }
+
+        @include media-down(md) {
+          width: 100%;
+
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
+    }
+  }
+}
