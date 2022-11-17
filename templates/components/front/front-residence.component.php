@@ -14,23 +14,89 @@
                             <h2 class="front-residence__title">Lorem ipsum.</h2>
                         </div>
 
-                        <p class="front-residence__price">12,000,000 AED</p>
-                        <p class="front-residence__text">2-level luxury penthouse with city view</p>
-
-                        <div class="front-residence__items">
-                            <p class="front-residence__item"><span class="icon-beds front-residence__icon"></span> 4</p>
-                            <p class="front-residence__item"><span class="icon-baths front-residence__icon"></span> 4</p>
-                            <p class="front-residence__item"><span class="icon-cars front-residence__icon"></span> 3</p>
-                            <p class="front-residence__item">5678.78 sqft</p>
+                        <div data-index="1" data-animation="fade">
+                            <p class="front-residence__price">12,000,000 AED</p>
+                        </div>
+                        <div data-index="2" data-animation="fade">
+                            <p class="front-residence__price">7,000,000 AED</p>
+                        </div>
+                        <div data-index="3" data-animation="fade">
+                            <p class="front-residence__price">17,000,000 AED</p>
                         </div>
 
-                        <a href="#" class="btn btn--primary btn--small btn--cl-black">Learn more</a>
+                        <div data-index="1" data-animation="fade">
+                            <p class="front-residence__text">2-level luxury penthouse with city view</p>
+                        </div>
+                        <div data-index="2" data-animation="fade">
+                            <p class="front-residence__text">1-level luxury penthouse</p>
+                        </div>
+                        <div data-index="3" data-animation="fade">
+                            <p class="front-residence__text">with city view</p>
+                        </div>
 
-                        <div class="front-residence-presented">
-                            <div class="front-residence-presented__image">
-                                <img class="lazy" data-src="/public/images/presented.jpg" alt="presented">
+
+                        <div data-index="1" data-animation="fade">
+                            <div class="front-residence__items">
+                                <p class="front-residence__item"><span class="icon-beds front-residence__icon"></span> 4</p>
+                                <p class="front-residence__item"><span class="icon-baths front-residence__icon"></span> 4</p>
+                                <p class="front-residence__item"><span class="icon-cars front-residence__icon"></span> 3</p>
+                                <p class="front-residence__item">5678.78 sqft</p>
                             </div>
-                            <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz</p>
+                        </div>
+
+                        <div data-index="2" data-animation="fade">
+                            <div class="front-residence__items">
+                                <p class="front-residence__item"><span class="icon-beds front-residence__icon"></span> 2</p>
+                                <p class="front-residence__item"><span class="icon-baths front-residence__icon"></span> 3</p>
+                                <p class="front-residence__item"><span class="icon-cars front-residence__icon"></span> 1</p>
+                                <p class="front-residence__item">3608.78 sqft</p>
+                            </div>
+                        </div>
+
+                        <div data-index="3" data-animation="fade">
+                            <div class="front-residence__items">
+                                <p class="front-residence__item"><span class="icon-beds front-residence__icon"></span> 1</p>
+                                <p class="front-residence__item"><span class="icon-baths front-residence__icon"></span> 4</p>
+                                <p class="front-residence__item"><span class="icon-cars front-residence__icon"></span> 1</p>
+                                <p class="front-residence__item">4371.71 sqft</p>
+                            </div>
+                        </div>
+
+                        <div data-index="1" data-animation="none">
+                            <a href="#" class="btn btn--primary btn--small btn--cl-black">Learn more</a>
+                        </div>
+                        <div data-index="2" data-animation="none">
+                            <a href="#" class="btn btn--primary btn--small btn--cl-black">Learn more</a>
+                        </div>
+                        <div data-index="3" data-animation="none">
+                            <a href="#" class="btn btn--primary btn--small btn--cl-black">Learn more</a>
+                        </div>
+
+                        <div data-index="1" data-animation="fade">
+                            <div class="front-residence-presented">
+                                <div class="front-residence-presented__image">
+                                    <img class="lazy" data-src="/public/images/presented.jpg" alt="presented">
+                                </div>
+                                <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz</p>
+                            </div>
+                        </div>
+
+                        <div data-index="2" data-animation="fade">
+                            <div class="front-residence-presented">
+                                <div class="front-residence-presented__image">
+                                    <img class="lazy" data-src="/public/images/spec-2.jpg" alt="presented">
+                                </div>
+                                <p class="front-residence-presented__text">Presented <br>by Lorem Isp</p>
+                            </div>
+                        </div>
+
+                        <div data-index="3" data-animation="fade">
+                            <div class="front-residence-presented">
+                                <div class="front-residence-presented__image">
+                                    <img class="lazy" data-src="/public/images/spec-3.jpg" alt="presented">
+                                </div>
+                                <p class="front-residence-presented__text">Presented <br>by Elena Elk</p>
+                            </div>
                         </div>
 
                         <div class="front-residence__buttons">

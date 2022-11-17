@@ -1,4 +1,4 @@
 assets
 .idea
 vendor
-build/node_modules
+resources/node_modules

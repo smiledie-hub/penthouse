@@ -1,0 +1,261 @@
+.account-page {
+  position: relative;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: bottom center;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #3B3734;
+
+    @include media-down(md) {
+      font-size: 20px;
+    }
+  }
+}
+
+
+.my-collections {
+  margin-top: 100px;
+
+  @include media-down(md) {
+    margin-top: 50px;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+    @include media-down(md) {
+      gap: 40px 30px;
+      margin-bottom: 60px;
+    }
+
+    @include media-down(sm) {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      margin-bottom: 36px;
+    }
+
+    .catalog-item {
+      &:nth-last-child(1), &:nth-last-child(2) {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__title-box {
+    display: grid;
+    grid-template-areas: "title sign" "text text";
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+    grid-template-columns: 1fr 150px;
+
+
+    @include media-down(md) {
+      position: relative;
+
+      .btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+
+    @include media-down(sm) {
+      grid-template-areas: "title" "text" "sign";
+      grid-template-columns: 1fr;
+      text-align: center;
+      max-width: 280px;
+      margin: 0 auto;
+
+      .btn {
+        position: static;
+      }
+    }
+  }
+
+  &__title {
+    grid-area: title;
+    margin-bottom: 28px;
+
+    @include media-down(md) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__sign {
+    grid-area: sign;
+
+    @include media-down(sm) {
+      margin-top: 20px;
+    }
+  }
+
+  &__text {
+    grid-area: text;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #3B3734;
+
+    @include media-down(md) {
+      max-width: 386px;
+      font-size: 16px;
+    }
+
+    .icon {
+      color: #D0A966;
+      font-size: 32px;
+
+      @include media-down(md) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.my-documents {
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 70px 30px;
+    margin-top: 50px;
+    padding-bottom: 150px;
+
+    @include media-down(md) {
+      margin-top: 30px;
+      grid-template-columns: 1fr 1fr;
+      padding-bottom: 60px;
+      gap: 21px 30px;
+    }
+
+    @include media-down(sm) {
+      margin-top: 24px;
+      grid-template-columns: 1fr;
+      gap: 21px;
+      padding-bottom: 50px;
+    }
+  }
+}
+
+.my-documents-item {
+  $root: &;
+
+  display: flex;
+  align-items: center;
+  gap: 34px;
+
+  @include media-down(md) {
+    gap: 13px;
+  }
+
+  &__image {
+    width: 58px;
+    height: 77px;
+
+    @include media-down(md) {
+      width: 38px;
+      height: 51px;
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @include media-down(md) {
+      width: 100%;
+      gap: 4px;
+    }
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    color: #515151;
+    transition: 300ms;
+
+    @include media-down(md) {
+      font-size: 16px;
+    }
+  }
+
+  &__type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #515151;
+    opacity: 0.6;
+
+    @include media-down(md) {
+      font-size: 14px;
+    }
+  }
+
+  &:hover {
+    #{$root} {
+      &__name {
+        color: #D0A966;
+      }
+    }
+  }
+}
+
+.my-properties {
+  padding-top: 130px;
+  padding-bottom: 150px;
+  background: #F2F0EF;
+
+  @include media-down(md) {
+    background: none;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  @include media-down(sm) {
+    padding-bottom: 45px;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-top: 100px;
+
+    @include media-down(md) {
+      margin-top: 30px;
+      gap: 30px 40px;
+    }
+
+    @include media-down(sm) {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .catalog-item {
+      &:nth-last-child(1), &:nth-last-child(2) {
+        border-bottom: none;
+      }
+    }
+  }
+}

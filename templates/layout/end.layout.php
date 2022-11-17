@@ -1,5 +1,21 @@
+<div class="modal micromodal-slide" id="modal-enquiry" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1">
+        <div class="modal__container" role="dialog" aria-modal="true">
+            <header class="modal__header">
+                <h2 class="modal__title">Send E-mail</h2>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close>
+                    <span class="icon icon-close"></span>
+                </button>
+            </header>
+            <main class="modal__content">
+                <?php include "templates/components/forms/contact-send.php"; ?>
+            </main>
+        </div>
+    </div>
+</div>
 
-<script type="text/javascript" src="/assets/js/main.bundle.js?123121233"></script>
+
+<script type="text/javascript" src="/assets/js/main.bundle.js?123121212312333"></script>
 <script>
     function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {

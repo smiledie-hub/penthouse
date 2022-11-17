@@ -40,7 +40,7 @@
                 </div>
                 <div class="header__right">
                     <a href="#" class="btn btn--text header__login">Log in</a>
-                    <a href="#" class="btn btn--outline btn--default header__enquiry">Enquiry</a>
+                    <a href="#" class="btn btn--outline btn--default header__enquiry" data-micromodal-open="modal-enquiry">Enquiry</a>
                     <a href="#" class="btn-icon btn-icon--white btn-icon--no-border header__profile"><span
                                 class="icon-profile"></span></a>
                     <a href="#" class="btn-icon btn-icon--white btn-icon--no-border header__like"><span
@@ -54,6 +54,7 @@
 </header>
 
 <div class="menu">
+
     <div class="menu__wrapper">
 
         <div class="menu__close">
@@ -91,20 +92,20 @@
                         <a href="#" class="btn-select__btn">RUB</a>
                     </div>
                 </div>
-                <a href="#" class="btn btn--outline btn--default menu__enquiry">Enquiry</a>
+                <a href="#" class="btn btn--outline btn--default menu__enquiry" data-micromodal-open="modal-enquiry">Enquiry</a>
             </div>
         </div>
 
         <nav class="menu__nav">
             <ul>
                 <li><a href="#!">Buy</a></li>
-                <li><a href="#!">Sell</a></li>
-                <li><a href="#!">Areas</a></li>
-                <li><a href="#!">Projects</a></li>
+                <li><a href="/sell.php">Sell</a></li>
+                <li><a href="/areas.php">Areas</a></li>
+                <li><a href="/project.php">Projects</a></li>
                 <li><a href="#!">Services</a></li>
-                <li><a href="#!">About us</a></li>
-                <li><a href="#!">Our specialists</a></li>
-                <li><a href="#!">Blog</a></li>
+                <li><a href="/about.php">About us</a></li>
+                <li><a href="/our_specialists.php">Our specialists</a></li>
+                <li><a href="/blog.php">Blog</a></li>
             </ul>
         </nav>
 
