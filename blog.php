@@ -15,9 +15,13 @@
                 <div class="blog__wrapper">
                     <h2 class="blog__title blog__title--page">Blog</h2>
                     <div class="blog__categories">
-                        <a href="#" class="btn btn--category btn--category btn--orange">Lifestyle/Trends</a>
-                        <a href="#" class="btn btn--category">News</a>
-                        <a href="#" class="btn btn--category">Market reviews</a>
+                        <div class="swiper blog__slider">
+                            <div class="swiper-wrapper">
+                                <a href="#" class="swiper-slide btn-category btn-category--active"><span>Lifestyle/Trends</span></a>
+                                <a href="#" class="swiper-slide btn-category"><span>News</span></a>
+                                <a href="#" class="swiper-slide btn-category"><span>Market reviews</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

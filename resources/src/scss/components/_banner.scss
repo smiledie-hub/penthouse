@@ -146,22 +146,37 @@
 
 .banner-smoke {
   position: absolute;
-  bottom: -300px;
-  overflow-x: hidden;
   z-index: 0;
-  height: 600px;
-  width: 150%;
-  left: -25%;
-  background: #F2F0EF;
-  filter: blur(90px);
+  width: 100%;
+  left: 0;
+  background-image: url("/public/images/areas-blur-desktop.png");
+  background-size: 1920px 1207px;
+  background-repeat: repeat-x;
+  bottom: -600px;
+  height: 1207px;
 
   @include media-down(md) {
-    height: 640px;
-    bottom: -390px;
-    filter: blur(100px);
+    background-image: url("/public/images/areas-blur-tablet.png");
+    background-size: 768px 1040px;
+    height: 1040px;
+  }
+
+  @include media-down(sm) {
+    background-image: url("/public/images/areas-blur-mobile.png");
+    background-size: 320px 906px;
+    height: 906px;
+    bottom: -400px;
   }
 
   &--dark {
-    background: #3B3734;
+    background-image: url("/public/images/areas-blur-desktop-dark.png");
+
+    @include media-down(md) {
+      background-image: url("/public/images/areas-blur-tablet-dark.png");
+    }
+
+    @include media-down(sm) {
+      background-image: url("/public/images/areas-blur-mobile-dark.png");
+    }
   }
 }

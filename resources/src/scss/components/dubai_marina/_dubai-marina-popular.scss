@@ -49,6 +49,11 @@
 .dubai-marina-popular-block {
   position: relative;
 
+  @include media-down(sm) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   &--1 {
     margin-bottom: 289px;
 
@@ -116,6 +121,11 @@
       flex-direction: row;
       gap: 52px;
     }
+
+    @include media-down(sm) {
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 
   &__content {
@@ -140,6 +150,10 @@
       padding: 35px 40px 40px;
     }
 
+    @include media-down(sm) {
+      padding: 29px var(--cp) 22px;
+    }
+
     &--left {
       left: calc(var(--cp) - 150px - 30px);
       bottom: 237px;
@@ -156,6 +170,10 @@
       @include media-down(md) {
         max-width: 100%;
         padding: 35px 40px 40px;
+      }
+
+      @include media-down(sm) {
+        padding: 29px var(--cp) 22px;
       }
     }
 
@@ -174,6 +192,10 @@
       @include media-down(md) {
         max-width: 100%;
         padding: 35px 40px 40px;
+      }
+
+      @include media-down(sm) {
+        padding: 29px var(--cp) 22px;
       }
     }
   }
@@ -212,6 +234,10 @@
 
       @include media-down(md) {
         height: 430px;
+      }
+
+      @include media-down(sm) {
+        height: 243px;
       }
     }
   }

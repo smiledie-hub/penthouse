@@ -40,6 +40,11 @@
       background: #D0A966;
       color: #fff;
     }
+
+    @include media-down(md) {
+      height: 41px;
+      width: 41px;
+    }
   }
 
   &__next {

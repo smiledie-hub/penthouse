@@ -73,28 +73,6 @@
   font-weight: 400;
   transition: 200ms;
 
-  &--category {
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 150%;
-    padding: 10px 20px;
-    border: 1px solid rgba(39, 39, 39, 0.2);
-
-    &#{$root} {
-      &--orange {
-        color: #fff;
-        border-color: #D0A966;
-      }
-    }
-
-    &:hover {
-      color: #fff;
-      border-color: #D0A966;
-      background: #D0A966;
-    }
-  }
-
   &--primary-outline {
     color: #3B3734;
     border: 1px solid #3B3734;

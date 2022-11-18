@@ -17,6 +17,8 @@
             <div class="dubai-marina-banner__content">
                 <h1 class="dubai-marina-banner__title">Dubai Marina</h1>
             </div>
+
+            <div class="banner-smoke"></div>
         </div>
 
         <div class="dubai-marina-about">

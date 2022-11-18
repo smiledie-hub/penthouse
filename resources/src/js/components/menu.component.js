@@ -24,6 +24,11 @@ export default function () {
 
                 menuEl.classList.add('menu--active')
                 document.body.classList.add('lock')
+
+                setTimeout(() => {
+                    document.body.classList.add('is-menu-open')
+                },1000)
+
             } else {
                 openMenuEls.forEach(el => {
                     el.classList.remove('btn-menu--active')
@@ -31,6 +36,8 @@ export default function () {
 
                 menuEl.classList.remove('menu--active')
                 document.body.classList.remove('lock')
+
+                document.body.classList.remove('is-menu-open')
             }
         }
     }

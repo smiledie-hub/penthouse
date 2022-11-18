@@ -2,8 +2,8 @@ import Swiper, {Navigation} from "swiper";
 
 window.addEventListener("DOMContentLoaded", () => {
     new Swiper('.about-specialists__slider', {
-        spaceBetween: 30,
-        slidesPerView: 2,
+        spaceBetween: 10,
+        slidesPerView: 1,
         slideToClickedSlide: true,
         grabCursor: true,
         navigation: {
@@ -12,6 +12,10 @@ window.addEventListener("DOMContentLoaded", () => {
         },
         modules: [Navigation],
         breakpoints: {
+            560: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
             992: {
                 spaceBetween: 18,
                 slidesPerView: 3,

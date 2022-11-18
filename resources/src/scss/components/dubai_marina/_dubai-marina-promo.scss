@@ -20,6 +20,10 @@
       max-width: 100%;
       margin-bottom: 58px + 216px;
     }
+
+    @include media-down(sm) {
+      margin-bottom: 32px;
+    }
   }
 
   &__image-box {
@@ -44,6 +48,10 @@
       @include media-down(md) {
         height: 430px;
         max-width: 100%;
+      }
+
+      @include media-down(sm) {
+        height: 243px;
       }
     }
   }
@@ -78,6 +86,11 @@
       right: auto;
       padding: 36px 40px 40px;
     }
+
+    @include media-down(sm) {
+      position: static;
+      padding: 35px var(--cp) 28px;
+    }
   }
 
   &__text {
@@ -91,5 +104,12 @@
   &__navs {
     display: flex;
     gap: 20px;
+
+    .btn-nav {
+      @include media-down(sm) {
+        width: 45px;
+        height: 45px;
+      }
+    }
   }
 }

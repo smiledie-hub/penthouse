@@ -22,11 +22,12 @@
     gap: 53px;
     margin-top: 56px;
 
+    @include media-down(md) {
+      gap: 32px;
+    }
+
     @include media-down(sm) {
-      justify-content: space-between;
-      gap: 0;
-      padding: 0 20px;
-      max-width: 360px;
+      justify-content: center;
       margin: 23px auto 0 auto;
     }
   }
@@ -45,6 +46,11 @@
     &:hover {
       background: #D0A966;
       color: #fff;
+    }
+
+    @include media-down(md) {
+      height: 41px;
+      width: 41px;
     }
   }
 

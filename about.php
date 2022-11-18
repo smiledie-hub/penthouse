@@ -11,11 +11,11 @@
             </div>
         </div>
 
-        <div class="banner banner--2">
+        <div class="banner banner--2 about-page__banner">
             <img class="banner__image" src="/public/images/about-banner.jpg" alt="Banner">
 
-            <div class="banner__content">
-                <h1 class="banner__title"><span class="banner__first">Real estate agency <br>for connoisseurs of luxurious lifestyle</span>
+            <div class="banner__content about-page__content">
+                <h1 class="banner__title about-page__title"><span class="banner__first">Real estate agency <br>for connoisseurs of luxurious lifestyle</span>
                     <span class="banner__sg fn-sg">About</span></h1>
             </div>
 

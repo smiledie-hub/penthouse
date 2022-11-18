@@ -45,6 +45,10 @@
   margin-bottom: 150px;
   margin-top: -150px;
 
+  &__row-images {
+    margin-top: -45px;
+  }
+
   @include media-down(md) {
     margin-bottom: 45px;
     margin-top: -200px;
@@ -85,6 +89,16 @@
 .areas-beachfront {
   background: #3B3734;
   color: #3B3734;
+
+  .bg-gray {
+    position: relative;
+    top: -2px;
+  }
+
+  .bg-second {
+    position: relative;
+    top: -2px;
+  }
 
   @include media-down(md) {
     position: relative;
@@ -127,6 +141,11 @@
       margin-top: -44px;
       padding-bottom: 37px;
     }
+
+    @include media-down(sm) {
+      width: 100%;
+      padding-bottom: 36px;
+    }
   }
 
   &__text {
@@ -135,6 +154,10 @@
     @include media-down(md) {
       padding-top: 50px;
       margin-bottom: 38px;
+    }
+
+    @include media-down(sm) {
+      margin-bottom: 25px;
     }
   }
 
@@ -154,6 +177,13 @@
       img {
         height: 249px;
       }
+    }
+
+    @include media-down(sm) {
+      position: static;
+      padding: 0;
+      width: 100%;
+      margin-top: 0;
     }
   }
 }
@@ -198,6 +228,10 @@
       padding-bottom: 250px + 52px + 45px;
       gap: 0;
     }
+
+    @include media-down(sm) {
+      padding-right: 0;
+    }
   }
 
   &__images {
@@ -225,6 +259,11 @@
       margin-top: 46px + 46px;
       margin-bottom: 46px;
       width: 50%;
+    }
+
+    @include media-down(sm) {
+      margin-top: 40px;
+      width: 100%;
     }
   }
 
@@ -256,6 +295,13 @@
       img {
         height: 249px;
       }
+    }
+
+    @include media-down(sm) {
+      width: 100%;
+      padding: 0;
+      position: static;
+      margin-bottom: 37px;
     }
   }
 }
