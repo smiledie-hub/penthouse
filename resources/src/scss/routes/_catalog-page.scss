@@ -16,6 +16,10 @@
 
   &__minmax-box {
     position: relative;
+
+    @include media-down(sm) {
+      position: static;
+    }
   }
 
   &__minmax-panel {

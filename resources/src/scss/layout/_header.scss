@@ -390,18 +390,14 @@
 }
 
 body.is-menu-open {
-  .header__menu, .header__lang, .header__currency {
-    opacity: 0;
-  }
-
-  @include media-down(md) {
+  @include media-up(md) {
     .header__menu, .header__lang, .header__currency {
       opacity: 0;
     }
   }
 }
 
-@include media-down(md) {
+@include media-up(md) {
   .header__menu, .header__lang, .header__currency {
     transition: opacity 1000ms;
   }

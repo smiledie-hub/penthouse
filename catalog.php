@@ -143,6 +143,5 @@
             </div>
         </div>
     </main>
-
 <?php include_once "./templates/components/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>
