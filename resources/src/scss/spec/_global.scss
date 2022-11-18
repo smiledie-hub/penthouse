@@ -7,8 +7,9 @@ body {
 }
 
 .x-fix {
-  overflow-x: hidden;
+  overflow: unset;
   width: 100%;
+  max-width: 100vw;
 }
 
 .fn-sg {

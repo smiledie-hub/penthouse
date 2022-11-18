@@ -1,3 +1,4 @@
+
 .search-filter {
   @include media-down(md) {
     padding-top: 185px;
@@ -12,12 +13,13 @@
     grid-template-columns: minmax(100px, 137px) minmax(100px, 243px) minmax(100px, 150px) minmax(100px, 150px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px);
 
     @include media-down(md) {
-      grid-template-areas: 'purchase max_area' 'status bedrooms' 'search lifestyle' 'property min_price' 'min_area max_price';
+      grid-template-areas: 'purchase max_area' 'status bedrooms' 'search lifestyle' 'property min_price' 'min_area max_price' 'find find';
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 10px 30px;
     }
 
     @include media-down(sm) {
+      grid-template-areas: "purchase status" "property property" "min_area max_area" "bedrooms lifestyle" "min_price max_price" "find find";
       gap: 10px;
     }
   }
@@ -29,15 +31,26 @@
   &__status {
     grid-area: status;
   }
+
   &__search {
     grid-area: search;
+
+    @include media-down(sm) {
+      display: none !important;
+    }
   }
 
   &__find {
     grid-area: find;
 
     @include media-down(md) {
-      display: none;
+      display: none !important;
+    }
+
+    @include media-down(sm) {
+      margin-top: 10px;
+      height: 60px;
+      display: flex !important;
     }
   }
 

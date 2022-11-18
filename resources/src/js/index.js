@@ -33,7 +33,6 @@ window.addEventListener("DOMContentLoaded", () => {
     cookiesComponent()
 
 
-
     function checkVisibleAnimationTitlle() {
         const titleAnimItems = document.querySelectorAll('.animation-title')
 
@@ -44,7 +43,6 @@ window.addEventListener("DOMContentLoaded", () => {
         })
     }
 
-
     const preloadEl = document.querySelector('.preloader')
     if (preloadEl) {
         setTimeout(() => {
@@ -54,6 +52,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 document.body.classList.add('loaded')
             }, 500)
 
+
             const frontBannerVideo = document.getElementById('front-banner-video')
             const frontBannerVideoRect = frontBannerVideo.getBoundingClientRect()
 
@@ -61,14 +60,19 @@ window.addEventListener("DOMContentLoaded", () => {
                 frontBannerVideo.currentTime = 0;
                 let isPause = false
 
-                window.addEventListener('scroll', (e) => {
-                    const top = window.pageYOffset || document.documentElement.scrollTop
-                    const bottom = frontBannerVideo.getBoundingClientRect().bottom
-                    const m = top - frontBannerVideoRect.height
+                const windowWidth = window.innerWidth
 
-                    if (m <= 0) {
-                        const l = 200 - Math.round(100 - ((100 * top) / frontBannerVideoRect.height))
-                        frontBannerVideo.style.transform = `scale(${l}%)`
+                window.addEventListener('scroll', (e) => {
+                    const bottom = frontBannerVideo.getBoundingClientRect().bottom
+
+                    if(windowWidth>= 1023) {
+                        const top = window.pageYOffset || document.documentElement.scrollTop
+                        const m = top - frontBannerVideoRect.height
+
+                        if (m <= 0) {
+                            const l = 200 - Math.round(100 - ((100 * top) / frontBannerVideoRect.height))
+                            frontBannerVideo.style.transform = `scale(${l}%)`
+                        }
                     }
 
                     isPause = bottom <= 0;

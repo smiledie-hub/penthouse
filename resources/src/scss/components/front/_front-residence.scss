@@ -143,7 +143,6 @@
 
     @include media-down(md) {
       max-width: 384px;
-      max-height: 509px;
     }
 
     @include media-down(sm) {
@@ -294,6 +293,10 @@
   &--slides {
     position: relative;
 
+    @include media-down(md) {
+      display: none;
+    }
+
     #{$root} {
       &__inner {
         height: 100vh;
@@ -328,6 +331,7 @@
         height: auto;
       }
     }
+
     [data-animation="none"] {
       display: none;
 
@@ -335,6 +339,7 @@
         display: block;
       }
     }
+
     [data-animation="image"] {
       position: absolute;
       overflow: hidden;
@@ -367,7 +372,7 @@
   margin-bottom: 30px;
 
   @include media-down(md) {
-    margin-top: 26px;
+    margin-top: 43px;
     margin-bottom: 21px;
   }
 
@@ -391,5 +396,106 @@
     line-height: 130%;
     color: #3B3734;
     max-width: 154px;
+  }
+}
+
+
+.front-residence-slider {
+  display: none;
+  position: relative;
+
+  @include media-down(md) {
+    display: block;
+  }
+
+  &__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .front-residence {
+      width: 100%;
+
+      @include media-up(md) {
+        .front-residence__content, .front-residence__image-box {
+          width: 50vw;
+          max-width: 50vw;
+        }
+
+        .front-residence__content {
+          @media (min-width: 808px) {
+            padding-left: 73px;
+          }
+        }
+      }
+
+      @include media-down(sm) {
+        .front-residence__image, .front-residence__image-box {
+          height: 278px;
+        }
+
+        .front-residence__image-box {
+          margin-bottom: 83px;
+        }
+      }
+    }
+  }
+
+  &__prev, &__next {
+    border: 1.5px solid #D0A966;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D0A966;
+    transition: 300ms;
+    position: absolute;
+    top: 49%;
+    transform: translateY(-50%);
+    z-index: 3;
+
+    &-text {
+      display: none;
+
+      @include media-down(sm) {
+        display: block;
+      }
+    }
+
+    &:hover {
+      background: #D0A966;
+      color: #fff;
+    }
+
+    @include media-down(sm) {
+      top: 278px + 41px;
+      transform: none;
+      border: none;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #3B3734;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+
+      &:hover {
+        background: none;
+        color: #D0A966;
+      }
+    }
+  }
+
+  &__next {
+    right: 23px;
+  }
+
+  &__prev {
+    left: 23px;
   }
 }

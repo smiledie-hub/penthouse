@@ -20,9 +20,31 @@
     z-index: 2;
 
     @include media-down(md) {
-      height: 840px;
-      bottom: -280px;
-      filter: blur(70px);
+      width: 1248px;
+      height: 640px;
+      bottom: -180px;
+      filter: blur(100px);
+    }
+
+    @include media-down(sm) {
+      height: 506px;
+      bottom: 0;
+      width: 718px;
+      filter: blur(100px);
+    }
+  }
+
+  @include media-down(sm) {
+    &:after {
+      content: '';
+      width: 100%;
+      height: 200px;
+      bottom: 200px;
+      left: 0;
+      position: absolute;
+      background: #F2F0EF;
+      z-index: 1;
+      filter: blur(40px);
     }
   }
 
@@ -34,7 +56,21 @@
 
     @include media-down(md) {
       padding: 0;
-      margin-bottom: 400px;
+      //margin-bottom: 400px;
+      margin-bottom: 0;
+      margin-top: 185px;
+
+      .search-filter {
+        margin-bottom: 0;
+        padding-top: 0;
+      }
+    }
+
+    @include media-down(sm) {
+      margin-bottom: 0;
+      padding-bottom: 11px;
+      padding-top: 84px;
+      margin-top: 163px - 84px;
     }
   }
 
@@ -48,6 +84,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    @include media-down(md) {
+      max-height: 900px;
+    }
+
+    @include media-down(sm) {
+      max-height: 700px;
+    }
   }
 
   &__video {
@@ -62,6 +106,14 @@
     object-fit: cover;
     transition: 1s;
     transform: scale(2);
+
+    @include media-down(md) {
+      max-height: 900px;
+    }
+
+    @include media-down(sm) {
+      max-height: 700px;
+    }
   }
 
   &__container {
@@ -79,6 +131,7 @@
 
     @include media-down(sm) {
       min-height: 300px;
+      padding-top: 172px;
     }
   }
 
@@ -106,6 +159,7 @@
       font-size: 32px;
       max-width: 280px;
       height: 130px;
+      margin: 0 auto;
     }
   }
 
@@ -170,13 +224,13 @@
 
     @include media-down(md) {
       max-width: 280px;
-      margin-top: 82px;
+      margin-top: 0;
       font-size: 16px;
       left: 0;
     }
 
     @include media-down(sm) {
-      margin-top: 118px;
+      margin: 30px auto 0 auto;
     }
   }
 
@@ -187,6 +241,9 @@
 
     @include media-down(md) {
       align-items: flex-start;
+      max-width: 525px;
+      width: 100%;
+      margin: 0 auto;
     }
   }
 
@@ -198,10 +255,6 @@
     }
 
     @include media-down(md) {
-      padding-left: calc(var(--cp) + 90px);
-    }
-
-    @include media-down(sm) {
       padding-left: var(--cp);
     }
   }

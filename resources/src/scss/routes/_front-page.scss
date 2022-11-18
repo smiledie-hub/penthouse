@@ -12,11 +12,15 @@
     top: -5px;
 
     @include media-down(md) {
-      margin-top: -150px;
+      top: 0;
+      //margin-top: -150px;
       margin-bottom: 73px;
+      margin-top: 92px;
     }
 
     @include media-down(sm) {
+      margin-top: 111px;
+      top: 0;
       margin-bottom: 28px;
     }
   }
@@ -37,7 +41,7 @@
     margin-bottom: 335px;
 
     @include media-down(md) {
-      margin-bottom: 116px;
+      margin-bottom: 0;
     }
   }
 
@@ -66,6 +70,7 @@
 
     @include media-down(md) {
       margin-bottom: 84px;
+      padding-top: 116px;
     }
   }
 
