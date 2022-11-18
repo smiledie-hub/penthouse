@@ -1,17 +1,20 @@
-import Swiper, {Navigation} from "swiper";
+import Swiper, {Navigation, Pagination} from "swiper";
 
 export default function () {
 
     const slider = new Swiper('.card-banner__swiper', {
         speed: 800,
         spaceBetween: 0,
-        allowTouchMove: false,
         slidesPerView: 1,
         navigation: {
             nextEl: document.querySelector('.card-banner__next'),
             prevEl:  document.querySelector('.card-banner__prev'),
         },
-        modules: [Navigation],
+        pagination: {
+            el: '.card-banner__pagination',
+            type: 'bullets',
+        },
+        modules: [Navigation, Pagination],
     });
 
     const followCursor = () => { // объявляем функцию followCursor

@@ -22,10 +22,12 @@
 
       @include media-down(md) {
         font-size: 42px;
+        height: 42px;
       }
 
       @include media-down(sm) {
-        font-size: 33px;
+        font-size: 34px;
+        height: 34px;
       }
     }
   }
@@ -58,7 +60,8 @@
   }
 
   &__lang {
-    margin-right: 19px;
+    margin-right: 15px;
+    justify-content: flex-end;
 
     @include media-down(md) {
       display: none;
@@ -117,6 +120,12 @@
     @include media-down(md) {
       display: none;
     }
+
+    &:hover {
+      span {
+        color: #D0A966;
+      }
+    }
   }
 
   &__enquiry {
@@ -146,7 +155,7 @@
 
     &:hover {
       background: #D0A966;
-      color: #3B3734;
+      color: #fff;
     }
 
     @include media-down(md) {
@@ -202,6 +211,7 @@
       &:hover {
         .btn-select__btn--selected {
           border-color: #fff;
+          color: #D0A966;
         }
       }
     }
@@ -215,6 +225,7 @@
       &:hover {
         .btn-select__btn--selected {
           border-color: #fff;
+          color: #D0A966;
         }
       }
     }
@@ -224,6 +235,12 @@
 
       span {
         color: #332E2A;
+      }
+
+      &:hover {
+        span {
+          color: #D0A966;
+        }
       }
     }
 
@@ -245,7 +262,7 @@
 
       &:hover {
         background: #D0A966;
-        color: #3B3734;
+        color: #fff;
       }
     }
 
@@ -290,7 +307,7 @@
 
         &:hover {
           border-color: #fff;
-          color: #fff;
+          color: #D0A966;
         }
       }
 
@@ -303,6 +320,7 @@
         &:hover {
           .btn-select__btn--selected {
             border-color: #fff;
+            color: #D0A966;
           }
         }
       }
@@ -316,6 +334,7 @@
         &:hover {
           .btn-select__btn--selected {
             border-color: #fff;
+            color: #D0A966;
           }
         }
       }
@@ -324,7 +343,13 @@
         color: #fff;
 
         span {
-          color: #D0A966;
+          color: #272727;
+        }
+
+        &:hover {
+          span {
+            color: #D0A966;
+          }
         }
       }
 
@@ -337,7 +362,7 @@
         border-color: #fff;
 
         &:hover {
-          color: #272727;
+          color: #D0A966;
           border-color: #fff;
         }
       }
@@ -347,7 +372,7 @@
 
         &:hover {
           background: #D0A966;
-          color: #3B3734;
+          color: #fff;
         }
       }
 

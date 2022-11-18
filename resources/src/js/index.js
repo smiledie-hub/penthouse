@@ -33,6 +33,18 @@ window.addEventListener("DOMContentLoaded", () => {
     cookiesComponent()
 
 
+    const jsSmooth = document.querySelectorAll('.js-smooth')
+    jsSmooth.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault()
+            const container = document.querySelector(item.getAttribute('href'));
+            container.scrollIntoView({
+                behavior: 'smooth'
+            })
+        })
+    })
+
+
     function checkVisibleAnimationTitlle() {
         const titleAnimItems = document.querySelectorAll('.animation-title')
 
@@ -115,7 +127,7 @@ window.addEventListener("DOMContentLoaded", () => {
             duplicated: true,
             startVisible: true,
             direction: 'left',
-            speed: 200
+            speed: window.innerWidth / 10
         });
     }
 

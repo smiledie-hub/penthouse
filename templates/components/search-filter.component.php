@@ -16,7 +16,7 @@
             </label>
             <label class="search-field search-filter__search">
                 <span class="icon-search search-field__icon"></span>
-                <input type="search" name="search" placeholder="Location, Community, City..." class="search-field__input">
+                <input type="text" name="search" placeholder="Location, Community, City..." class="search-field__input">
             </label>
             <button type="submit" class="search-filter__find btn btn--primary">Find</button>
 

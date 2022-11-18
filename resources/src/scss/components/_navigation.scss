@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+
+.navigation-item {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3B3734;
+  border: 1px solid #3B3734;
+  transition: 400ms;
+  font-size: 10px;
+
+  &--large {
+    width: 53px;
+    height: 53px;
+  }
+
+  &:hover {
+    background: #D0A966;
+    border-color: #D0A966;
+    color: #FFFFFF;
+  }
+}

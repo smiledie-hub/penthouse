@@ -81,6 +81,11 @@
     line-height: 150%;
     text-transform: uppercase;
     color: #3B3734;
+    transition: 300ms;
+
+    &:hover {
+      color: #D0A966;
+    }
 
     @include media-down(md) {
       margin-top: 2em;

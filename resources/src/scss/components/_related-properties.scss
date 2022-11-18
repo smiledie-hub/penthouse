@@ -8,6 +8,20 @@
     padding-bottom: 57px;
   }
 
+  @include media-down(sm) {
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+
+  &__navigation {
+    display: none;
+
+    @include media-down(sm) {
+      display: flex;
+      margin-top: 19px;
+    }
+  }
+
   &__title {
     margin-bottom: 100px;
     font-weight: 500;
@@ -19,6 +33,11 @@
     @include media-down(md) {
       margin-bottom: 39px;
       font-size: 32px;
+    }
+
+    @include media-down(sm) {
+      font-size: 20px;
+      margin-bottom: 22px;
     }
   }
 }

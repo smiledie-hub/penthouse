@@ -15,11 +15,11 @@
       top: 0;
       //margin-top: -150px;
       margin-bottom: 73px;
-      margin-top: 92px;
+      margin-top: 0;
     }
 
     @include media-down(sm) {
-      margin-top: 111px;
+      margin-top: 0;
       top: 0;
       margin-bottom: 28px;
     }
@@ -93,7 +93,7 @@
   &__background {
     background-image: url("/public/images/front-bg.png");
     background-size: cover;
-    background-position: center center;
+    background-position: top left;
     background-repeat: no-repeat;
   }
 }

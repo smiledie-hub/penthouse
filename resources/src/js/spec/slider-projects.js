@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
         }
 
         const sliderProjects = new Swiper(sliderEl, {
-            speed: 400,
+            speed: 1000,
             width: (sliderEl.clientWidth + 100) / 2,
             spaceBetween: 30,
             grabCursor: true,

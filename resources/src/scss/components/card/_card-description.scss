@@ -1,6 +1,10 @@
 .card-description {
   padding-top: 100px;
 
+  @include media-down(md) {
+    padding-top: 29px;
+  }
+
   &__subtitle{
     font-weight: 400;
     font-size: 16px;
@@ -41,6 +45,10 @@
       grid-template-columns: 50vw 1fr;
     }
 
+    @include media-down(sm) {
+      grid-template-columns: 1fr;
+    }
+
     &--first {
       @include media-down(md) {
         display: block;
@@ -58,6 +66,10 @@
         padding-left: 0;
         gap: 49px;
         margin-bottom: 59px - 36px;
+      }
+
+      @include media-down(sm) {
+        grid-template-columns: 1fr;
       }
     }
   }
@@ -77,6 +89,11 @@
       justify-content: flex-start;
       margin-bottom: 31px;
     }
+
+    @include media-down(sm) {
+      flex-direction: column;
+      gap: 19px;
+    }
   }
 
   &__image {
@@ -92,6 +109,11 @@
     @include media-down(md) {
       max-width: 320px;
       height: 290px;
+    }
+
+    @include media-down(sm) {
+      max-width: none;
+      width: calc(100% + var(--cp));
     }
   }
 
@@ -141,6 +163,10 @@
 
     @include media-down(md) {
       max-width: none;
+    }
+
+    @include media-down(sm) {
+      padding-left: var(--cp);
     }
 
     p {

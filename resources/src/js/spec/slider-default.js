@@ -1,8 +1,7 @@
 import Swiper, {Navigation} from "swiper";
-import {calcOffsetContainer} from "../helper";
 
 window.addEventListener("DOMContentLoaded", () => {
-    const sliderDefault = new Swiper('.slider-default__el', {
+    new Swiper('.slider-default__el', {
         speed: 400,
         slidesPerView: 1,
         spaceBetween: 0,
@@ -17,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
         },
         modules: [Navigation],
         breakpoints: {
-            1023: {
+            560: {
                 slidesPerView: 3
             }
         },

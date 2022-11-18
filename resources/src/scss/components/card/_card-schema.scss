@@ -5,6 +5,8 @@
 
   @include media-down(md) {
     position: relative;
+    height: auto;
+    max-height: none;
   }
 
   .container{
@@ -22,6 +24,11 @@
       display: flex;
       padding: 37px 0 51px 0;
     }
+
+    @include media-down(sm) {
+      flex-direction: column;
+      gap: 40px;
+    }
   }
 
   &__section {
@@ -37,6 +44,16 @@
         width: 50%;
         height: 100%;
       }
+
+      @include media-down(sm) {
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+      }
+    }
+
+    @include media-down(sm) {
+      width: 100%;
     }
   }
 
@@ -79,6 +96,10 @@
     @include media-down(md) {
       margin-top: 26px;
     }
+
+    @include media-down(sm) {
+      margin-bottom: 0;
+    }
   }
 
   &__item {
@@ -120,6 +141,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
+    @include media-down(md) {
+      margin-top: 18px;
+    }
   }
 
   &__icon {
@@ -150,6 +175,10 @@
       position: absolute;
       left: 50%;
       bottom: 51px;
+    }
+
+    @include media-down(sm) {
+      left: var(--cp);
     }
   }
 }

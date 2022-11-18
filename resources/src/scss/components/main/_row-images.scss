@@ -16,6 +16,11 @@
     gap: 30px;
   }
 
+  @include media-down(sm) {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
   &--g50 {
     gap: 50px;
 
@@ -31,6 +36,10 @@
       grid-template-columns: 1fr 1fr;
       gap: 30px;
     }
+
+    @include media-down(sm) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &--670-960 {
@@ -39,6 +48,10 @@
     @include media-down(md) {
       grid-template-columns: 1fr 1fr;
       gap: 30px;
+    }
+
+    @include media-down(sm) {
+      grid-template-columns: 1fr;
     }
   }
 
@@ -60,6 +73,10 @@
     @include media-down(md) {
       padding-right: var(--cp);
     }
+
+    @include media-down(sm) {
+      padding-right: 0;
+    }
   }
 
   &--left {
@@ -68,6 +85,10 @@
 
     @include media-down(md) {
       padding-left: var(--cp);
+    }
+
+    @include media-down(sm) {
+      padding-left: 0;
     }
   }
 

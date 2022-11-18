@@ -10,12 +10,24 @@
   overflow-x: hidden;
   visibility: hidden;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    color: #FFFFFF;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    z-index: 0;
+  }
 
   @include media-down(md) {
     z-index: 98;
   }
 
-  transition: background .3s, backdrop-filter .3s;
+  transition: 1s;
 
   @include media-down(md) {
     padding-top: 154px;
@@ -28,17 +40,20 @@
   &__wrapper {
     margin-right: calc(var(--cp) + 150px);
     min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+
     max-width: calc(1449px + var(--cp));
     padding: 49px 89px 128px var(--cp);
-    transform: translateX(-100%);
+    transform: translateX(-140%);
     display: grid;
     grid-template-areas: "open lang-currency lang-currency metering" "nav nav nav none" "nav nav nav pdf" "socials socials socials info";
     grid-template-columns: 150px 135px 1fr 1fr;
     grid-template-rows: 45px 1fr 120px 100px;
     justify-content: space-between;
 
-    transition: background .3s, backdrop-filter .3s, transform .3s;
+    transition: 1s;
     position: relative;
+    z-index: 2;
 
     @include media-down(md) {
       grid-template-areas: "nav lang-currency" "nav metering" "nav pdf" "nav socials" "nav info";
@@ -49,6 +64,8 @@
       width: 100%;
       padding: 0 var(--cp);
       height: calc(100vh - 154px);
+      height: calc((var(--vh, 1vh) * 100) - 154px);
+
       min-height: auto;
       padding-bottom: 52px;
     }
@@ -58,6 +75,7 @@
       grid-template-columns: 1fr;
       grid-template-rows: 68px 70px 1fr 130px 55px 115px;
       height: calc(100vh - 83px);
+      height: calc((var(--vh, 1vh) * 100) - 83px);
       min-height: auto;
       padding-bottom: 33px;
     }
@@ -87,7 +105,7 @@
     grid-area: lang-currency;
 
     @include media-down(sm) {
-      max-width: 320px;
+      max-width: 280px;
     }
 
     &-wrap {
@@ -104,6 +122,12 @@
 
   &__enquiry {
     display: none;
+
+    &:hover {
+      background: #ffffff;
+      color: #D0A966;
+      border-color: #fff;
+    }
 
     @include media-down(md) {
       display: flex;
@@ -167,7 +191,7 @@
     grid-area: metering;
 
     @include media-down(sm) {
-      max-width: 320px;
+      max-width: 280px;
     }
 
     &-wrap {
@@ -278,6 +302,8 @@
     backdrop-filter: blur(7px);
     visibility: visible;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+
     overflow-y: auto;
 
     @include media-down(md) {

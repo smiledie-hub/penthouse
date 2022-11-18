@@ -9,28 +9,31 @@
 
   &:before {
     content: '';
-    width: 150%;
-    height: 1000px;
+    width: 100%;
+    height: 1611px;
     left: 50%;
-    bottom: -400px;
+    bottom: -700px;
     position: absolute;
-    background: #F2F0EF;
-    filter: blur(150.5px);
+    //background: #F2F0EF;
+    //filter: blur(150px);
     transform: translateX(-50%);
     z-index: 2;
+    background-image: url("/public/images/front-blur-desktop.png");
+    background-size: 1920px 1611px;
+    background-repeat: repeat-x;
 
     @include media-down(md) {
-      width: 1248px;
-      height: 640px;
-      bottom: -180px;
-      filter: blur(100px);
+      bottom: -200px;
+      background-image: url("/public/images/front-blur-tablet.png");
+      height: 1040px;
+      background-size: 768px 1040px;
     }
 
     @include media-down(sm) {
-      height: 506px;
-      bottom: 0;
-      width: 718px;
-      filter: blur(100px);
+      bottom: -100px;
+      background-image: url("/public/images/front-blur-mobile.png");
+      height: 906px;
+      background-size: 320px 906px;
     }
   }
 
@@ -55,9 +58,8 @@
     padding: 0 30px;
 
     @include media-down(md) {
-      padding: 0;
-      //margin-bottom: 400px;
       margin-bottom: 0;
+      padding: 0 0 92px + 60px;
       margin-top: 185px;
 
       .search-filter {
@@ -68,7 +70,7 @@
 
     @include media-down(sm) {
       margin-bottom: 0;
-      padding-bottom: 11px;
+      padding-bottom: 111px;
       padding-top: 84px;
       margin-top: 163px - 84px;
     }

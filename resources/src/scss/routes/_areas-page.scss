@@ -28,6 +28,10 @@
     line-height: 150%;
     padding: 10px 25px;
 
+    &:hover {
+      background: #fff;
+    }
+
     @include media-down(md) {
 
     }

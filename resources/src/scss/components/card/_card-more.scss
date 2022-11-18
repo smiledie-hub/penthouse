@@ -60,11 +60,20 @@
       padding-top: 0;
       gap: 68px;
     }
+
+    @include media-down(sm) {
+      flex-direction: column;
+      gap: 27px;
+    }
   }
 
   &__item {
     &:last-child {
       margin-left: 44px;
+
+      @include media-down(sm) {
+        margin-left: 0;
+      }
     }
 
     max-width: 170px;
@@ -127,6 +136,10 @@
       grid-template-columns: 1fr 1fr;
       margin-bottom: 38px;
       gap: 18px;
+    }
+
+    @include media-down(sm) {
+      grid-template-columns: 1fr;
     }
   }
 }

@@ -96,6 +96,10 @@
     position: absolute;
     right: -53px;
     bottom: -193px;
+    
+    @media (max-width: 1550px) {
+      right: var(--cp);
+    }
 
     @include media-down(md) {
       font-size: 96px;

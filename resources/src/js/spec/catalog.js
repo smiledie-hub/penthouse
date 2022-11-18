@@ -4,17 +4,32 @@ window.addEventListener("DOMContentLoaded", () => {
 
         const btnMapOpen = catalog.querySelector('.catalog-toggle__open')
         const btnMapClose = catalog.querySelector('.catalog-toggle__close')
+        const btnMapPlain = document.querySelector('.catalog-page__plain-btn')
+
+        btnMapPlain && btnMapPlain.addEventListener('click', (e) => {
+            e.preventDefault()
+            catalog.classList.toggle('catalog--open-map-full')
+        })
 
         btnMapOpen && btnMapOpen.addEventListener('click', (e) => {
             e.preventDefault()
-            catalog.classList.add('catalog--open-map')
+
+            if(catalog.classList.contains('catalog--open-map')) {
+                catalog.classList.add('catalog--open-map-full')
+            } else {
+                catalog.classList.add('catalog--open-map')
+            }
         })
 
         btnMapClose && btnMapClose.addEventListener('click', (e) => {
             e.preventDefault()
-            catalog.classList.remove('catalog--open-map')
-        })
 
+            if(catalog.classList.contains('catalog--open-map-full')) {
+                catalog.classList.remove('catalog--open-map-full')
+            } else {
+                catalog.classList.remove('catalog--open-map')
+            }
+        })
 
 
         const btnOpenFilter = document.querySelector('.catalog-page__filter-btn')

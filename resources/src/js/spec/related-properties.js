@@ -1,4 +1,4 @@
-import Swiper, {EffectCreative} from "swiper";
+import Swiper, {EffectCreative, Navigation} from "swiper";
 
 window.addEventListener("DOMContentLoaded", () => {
     new Swiper('.related-properties__slider', {
@@ -12,6 +12,10 @@ window.addEventListener("DOMContentLoaded", () => {
         freeMode: true,
         width: 320,
         grabCursor: true,
+        navigation: {
+            nextEl: document.querySelector('.related-properties__next'),
+            prevEl: document.querySelector('.related-properties__prev'),
+        },
         creativeEffect: {
             prev: {
                 translate: ['calc(-100% - 50px)', 0, 0],
@@ -21,7 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
             },
             perspective: true
         },
-        modules: [EffectCreative],
+        modules: [EffectCreative, Navigation],
         breakpoints: {
             1023: {
                 width: 964,

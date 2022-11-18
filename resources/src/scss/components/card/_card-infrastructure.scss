@@ -2,6 +2,14 @@
   margin-bottom: 450px;
   position: relative;
 
+  @include media-down(md) {
+    margin-bottom: 0;
+
+    .card-infrastructure__image-3 {
+      position: static;
+    }
+  }
+
   &__btn {
     @include media-down(md) {
       padding: 0 12px;
@@ -52,6 +60,10 @@
       @include media-down(md) {
         margin-bottom: 35px;
       }
+
+      @include media-down(sm) {
+        margin-bottom: 0;
+      }
     }
 
     &--2 {
@@ -67,6 +79,10 @@
 
       @include media-down(md) {
         max-width: 280px;
+      }
+
+      @include media-down(sm) {
+        max-width: 100%;
       }
     }
   }
@@ -105,13 +121,20 @@
       grid-template-columns: 1fr 1fr;
       padding-left: var(--cp);
     }
+
+    @include media-down(sm) {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0;
+      gap: 27px;
+    }
   }
 
   &__section {
     padding-right: var(--cp);
 
-    @include media-down(md) {
-
+    @include media-down(sm) {
+      padding-left: var(--cp);
     }
   }
 
@@ -131,6 +154,13 @@
       padding-right: var(--cp);
       grid-template-columns: 1fr 1fr;
       gap: 30px;
+    }
+
+    @include media-down(sm) {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin-bottom: 29px;
     }
   }
 
@@ -153,6 +183,11 @@
       padding-left: var(--cp);
       padding-bottom: 59px;
     }
+
+    @include media-down(sm) {
+      padding-right: var(--cp);
+      padding-bottom: 0;
+    }
   }
 
   &__image {
@@ -168,6 +203,11 @@
       @include media-down(md) {
         max-width: 329px;
         height: 249px;
+      }
+
+      @include media-down(sm) {
+        width: 100%;
+        max-width: 100%;
       }
     }
   }
@@ -185,6 +225,12 @@
       top: 39px;
       max-width: 327px;
       height: 268px;
+    }
+
+    @include media-down(sm) {
+      max-width: 100%;
+      position: static;
+      width: 100%;
     }
   }
 

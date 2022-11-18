@@ -7,6 +7,10 @@
     padding-bottom: 56px;
   }
 
+  @include media-down(sm) {
+    position: relative;
+  }
+
   &__title {
     margin-bottom: 20px;
     font-weight: 500;
@@ -26,10 +30,23 @@
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+
+    @include media-down(sm) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 60px;
+      margin-bottom: 30px;
+    }
   }
 
   &__label {
     margin-bottom: 30px;
     font-size: 20px;
+
+    @include media-down(sm) {
+      position: absolute;
+      top: 90px;
+      margin-bottom: 0;
+    }
   }
 }

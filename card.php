@@ -19,10 +19,10 @@
             </div>
             <section class="card-banner">
                 <div class="card-banner__next">
-                    <span class="card-banner__icon icon-arrow-next"></span> <!-- TODO Заменить иконки по дизайну -->
+                    <span class="card-banner__icon icon-arrow-next"></span>
                 </div>
                 <div class="card-banner__prev">
-                    <span class="card-banner__icon icon-arrow-prev"></span> <!-- TODO Заменить иконки по дизайну -->
+                    <span class="card-banner__icon icon-arrow-prev"></span>
                 </div>
                 <div class="card-banner__buttons">
                     <a href="#" class="btn--primary card-banner__play"><span class="play"><span
@@ -41,6 +41,7 @@
                             <img class="card-banner__image" src="/public/images/card-image.jpg" alt="">
                         </div>
                     </div>
+                    <div class="card-banner__pagination"></div>
                 </div>
             </section>
             <div class="card-detail">
@@ -537,6 +538,15 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="related-properties__navigation navigation">
+                <button class="navigation-item related-properties__prev">
+                    <span class="icon-arrow-prev"></span>
+                </button>
+                <button class="navigation-item related-properties__next">
+                    <span class="icon-arrow-next"></span>
+                </button>
             </div>
         </div>
     </main>

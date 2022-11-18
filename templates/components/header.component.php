@@ -54,11 +54,11 @@
 </header>
 
 <div class="menu">
-
+    <div class="menu__overlay js-menu-close"></div>
     <div class="menu__wrapper">
 
         <div class="menu__close">
-            <button class="btn-menu-close">
+            <button class="btn-menu-close js-menu-close">
                 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="44.1426" y="14.4443" width="2.83146" height="42" transform="rotate(45 44.1426 14.4443)" fill="white"/>
                     <rect x="13.7363" y="16.5654" width="2.83146" height="42" transform="rotate(-45 13.7363 16.5654)" fill="white"/>
@@ -128,6 +128,7 @@
                     </button>
                     <div class="btn-metering__list">
                         <a href="#" class="btn-metering__item">Sq.Ft</a>
+                        <a href="#" class="btn-metering__item">Sq.Mt</a>
                     </div>
                 </div>
             </div>

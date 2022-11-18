@@ -55,6 +55,14 @@
     display: flex;
     gap: 18px;
 
+    .btn-select {
+      height: 45px;
+
+      &--round {
+        width: 45px;
+      }
+    }
+
     @include media-down(md) {
       display: none;
     }
@@ -179,7 +187,7 @@
 
   &:hover {
     .btn-icon {
-      color: #fff;
+      background: #fff;
     }
   }
 }
@@ -245,7 +253,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 0.5px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     font-size: 14px;
     transition: 300ms;
 

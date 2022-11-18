@@ -17,30 +17,38 @@
 
                 <div class="catalog-page__panel-box">
                     <div class="container">
+
+                        <label class="search-field catalog-page__search">
+                            <span class="icon-search search-field__icon"></span>
+                            <input type="text" name="search" placeholder="Location, Community, City..." class="search-field__input">
+                        </label>
+
                         <div class="catalog-page__buttons">
-                            <button class="btn btn--primary-outline catalog-page__filter-btn"><span class="icon-filters"><span class="catalog-page__badge">3</span></span> Filters</button>
-                            <div class="catalog-page__minmax-box">
-                                <button class="btn btn--primary-outline catalog-page__minmax-btn"><span class="icon-minmax"></span> For the price of min</button>
+                            <button class="btn btn--primary-outline catalog-page__plain-btn"><span class="icon-plain"></span> View map</button>
+                            <div class="catalog-page__buttons-items">
+                                <button class="btn btn--primary-outline catalog-page__filter-btn"><span class="icon-filters"><span class="catalog-page__badge">3</span></span> <span class="catalog-page__filter-btn-text">Filters</span></button>
+                                <div class="catalog-page__minmax-box">
+                                    <button class="btn btn--primary-outline catalog-page__minmax-btn"><span class="icon-minmax"></span> <span class="catalog-page__minmax-btn-text">For the price of min</span></button>
+                                    <form class="catalog-page__minmax-panel">
+                                        <label class="field-radio">
+                                            <input type="radio" value="price-min" name="sort" checked>
+                                            <span class="field-radio__box"></span>
+                                            <span>for the price of min</span>
+                                        </label>
+                                        <label class="field-radio">
+                                            <input type="radio" value="price-max" name="sort">
+                                            <span class="field-radio__box"></span>
+                                            <span>for the price of max</span>
+                                        </label>
+                                        <label class="field-radio">
+                                            <input type="radio" value="popularity" name="sort">
+                                            <span class="field-radio__box"></span>
+                                            <span>by popularity</span>
+                                        </label>
 
-                                <form class="catalog-page__minmax-panel">
-                                    <label class="field-radio">
-                                        <input type="radio" value="price-min" name="sort" checked>
-                                        <span class="field-radio__box"></span>
-                                        <span>for the price of min</span>
-                                    </label>
-                                    <label class="field-radio">
-                                        <input type="radio" value="price-max" name="sort">
-                                        <span class="field-radio__box"></span>
-                                        <span>for the price of max</span>
-                                    </label>
-                                    <label class="field-radio">
-                                        <input type="radio" value="popularity" name="sort">
-                                        <span class="field-radio__box"></span>
-                                        <span>by popularity</span>
-                                    </label>
-
-                                    <button type="submit" class="btn btn--primary">done</button>
-                                </form>
+                                        <button type="submit" class="btn btn--primary">done</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -124,7 +132,7 @@
                     </div>
                 </div>
 
-                <?php include_once "./templates/components/minimal-footer.component.php"; ?>
+
             </div>
 
             <div class="catalog__map">
@@ -134,7 +142,7 @@
                 </p>
             </div>
         </div>
-
-
     </main>
+
+<?php include_once "./templates/components/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

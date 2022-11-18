@@ -4,7 +4,7 @@ export default function () {
     if(menuEl) {
         let isOpen = false;
         const openMenuEls = document.querySelectorAll('.btn-menu')
-        const closeMenuEls = document.querySelectorAll('.btn-menu-close')
+        const closeMenuEls = document.querySelectorAll('.js-menu-close')
 
         openMenuEls.forEach(el => {
             el.addEventListener('click', () => setStatusMenu(!isOpen))
