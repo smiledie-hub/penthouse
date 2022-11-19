@@ -1,5 +1,5 @@
 import Swiper, {Navigation} from "swiper";
-import {calcOffsetContainer} from "../helper";
+import calcOffsetContainer from "../helpers/calcOffsetContainer";
 
 window.addEventListener("DOMContentLoaded", () => {
     const progress = document.querySelector('.slider-projects__progress')

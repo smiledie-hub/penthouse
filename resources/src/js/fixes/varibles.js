@@ -1,5 +1,4 @@
-// 100 vh fixes
-import {calcOffsetContainer} from "../helper";
+import calcOffsetContainer from "../helpers/calcOffsetContainer";
 
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', vh + 'px');

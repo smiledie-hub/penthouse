@@ -16,14 +16,18 @@ import IMask from 'imask';
 import yall from "yall-js";
 import AOS from "aos";
 import SimpleBar from "simplebar";
-import {isInViewport} from "./helper";
 import MicroModal from 'micromodal';
+import isInViewport from "./helpers/isInViewport";
+import {isDesktop} from "./helpers/isDevice";
 
 window.addEventListener("DOMContentLoaded", () => {
     menuComponent()
     cookiesComponent()
     btnSelectsComponent()
-    selScrollComponent()
+
+    if(isDesktop) {
+        selScrollComponent()
+    }
 
     MicroModal.init({
         openTrigger: 'data-micromodal-open',

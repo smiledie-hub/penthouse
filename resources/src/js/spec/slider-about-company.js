@@ -1,5 +1,5 @@
 import Swiper from "swiper";
-import {calcOffsetContainer} from "../helper";
+import calcOffsetContainer from "../helpers/calcOffsetContainer";
 
 window.addEventListener("DOMContentLoaded", () => {
     const offset = calcOffsetContainer();
