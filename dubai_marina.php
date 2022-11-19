@@ -1,6 +1,6 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
     <main class="dubai-marina-page">
-        <?php include_once "./templates/components/header.component.php"; ?>
+        <?php HeaderComponent("header--absolute"); ?>
         <div class="absolute-breadcrumps breadcrumps-not-tablet">
             <div class="container">
                 <div class="breadcrumbs">
@@ -337,5 +337,5 @@
         </div>
     </main>
 
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

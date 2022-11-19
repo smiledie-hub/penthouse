@@ -1,7 +1,9 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
-    <main class="catalog-page header-static">
+    <main class="catalog-page">
         <div class="bg-second">
-            <?php include_once "./templates/components/header.component.php"; ?>
+
+            <?php HeaderComponent("header--dark"); ?>
+
             <div class="container">
                 <div class="breadcrumbs">
                     <a href="/">Home</a>
@@ -143,5 +145,5 @@
             </div>
         </div>
     </main>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

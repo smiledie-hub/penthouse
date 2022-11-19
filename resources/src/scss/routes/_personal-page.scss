@@ -102,11 +102,21 @@
   padding: 60px 0;
 
   @include media-down(md) {
-    min-height: calc(100vh - 64px - 20px);
+    min-height: calc(100vh - 117px);
   }
 
   @include media-down(sm) {
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 80px);
+  }
+
+  &--min {
+    @include media-down(md) {
+      min-height: calc(100vh - 117px - 224px);
+    }
+
+    @include media-down(sm) {
+      min-height: calc(100vh - 80px);
+    }
   }
 }
 

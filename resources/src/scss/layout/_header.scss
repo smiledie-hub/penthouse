@@ -1,404 +1,795 @@
 .header {
-  height: 64px;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  width: 100%;
+  $root: &;
+  position: relative;
   z-index: 99;
-  color: #fff;
-
-  @include media-down(sm) {
-    top: 26px;
-    height: 34px;
-  }
 
   &__wrapper {
     width: 100%;
-  }
-
-  &__logotype {
-    .icon-logo {
-      font-size: 63px;
-
-      @include media-down(md) {
-        font-size: 42px;
-        height: 42px;
-      }
-
-      @include media-down(sm) {
-        font-size: 34px;
-        height: 34px;
-      }
-    }
-  }
-
-  &__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__left {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-
-  &__right {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: flex-end;
-  }
-
-  &__menu {
-    margin-right: 32px;
-
-    @include media-down(sm) {
-      margin-right: 0;
-    }
-  }
-
-  &__lang {
-    margin-right: 15px;
-    justify-content: flex-end;
-
-    @include media-down(md) {
-      display: none;
-    }
-  }
-
-  &__whatsapp {
-    transition: 200ms;
-    @include media-down(md) {
-      display: none;
-    }
-
-    .icon-whatsapp {
-      transition: 200ms;
-    }
-
-    &:hover {
-      background: #fff;
-
-      .icon-whatsapp {
-        color: #3B3734;
-      }
-    }
-  }
-
-  &__profile {
-    display: none;
-
-    @include media-down(md) {
-      display: flex;
-      font-size: 21px;
-    }
-
-    @include media-down(sm) {
-      font-size: 16px;
-    }
-  }
-
-  &__currency {
-    margin-right: 15px;
-
-    @include media-down(md) {
-      display: none;
-    }
-  }
-
-  &__login {
-    margin-right: 18px;
-
-    @include media-down(md) {
-      display: none;
-    }
-  }
-
-  &__pdf {
-    @include media-down(md) {
-      display: none;
-    }
-
-    &:hover {
-      span {
-        color: #D0A966;
-      }
-    }
-  }
-
-  &__enquiry {
-    margin-right: 15px;
-
-    &:hover {
-      background: #ffffff;
-      color: #D0A966;
-      border-color: #fff;
-    }
-
-    @include media-down(md) {
-      display: none;
-    }
-  }
-
-  &__like {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-
-    .icon-like {
-      position: relative;
-      top: 2px;
-    }
-
-    &:hover {
-      background: #D0A966;
-      color: #fff;
-    }
-
-    @include media-down(md) {
-      font-size: 21px;
-      margin-right: 0;
-    }
-
-    @include media-down(sm) {
-      font-size: 16px;
-    }
-  }
-}
-.header-static {
-  .header {
-    height: 144px;
-    top: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
     border-bottom: 1px solid rgba(#3B3734, .1);
-    display: flex;
-    align-items: center;
-    position: relative;
 
     @include media-down(md) {
-      height: auto;
-      border-bottom: none;
+      border-bottom: 0;
+      padding-bottom: 29px;
       padding-top: 44px;
     }
 
     @include media-down(sm) {
-      padding-top: 0;
-      height: 60px;
-      align-items: flex-end;
+      padding-top: 26px;
+      padding-bottom: 19px;
+    }
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 10px;
+    height: 64px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+
+    @include media-down(md) {
+      height: 44px;
     }
 
-    &__logotype {
-      color: #332E2A;
+    @include media-down(sm) {
+      height: 34px;
     }
+  }
 
-    &__menu {
-      color: #fff;
+  &__item {
+    display: flex;
+    align-items: center;
+    border-color: inherit;
 
-      &:hover {
-        border-color: #fff;
-        color: #D0A966;
+    &:first-child {
+      width: 100%;
+
+      .btn-menu {
+        margin-right: 32px;
+
+        @include media-down(md) {
+          margin-right: 0;
+        }
       }
-    }
 
-    &__lang {
-      .btn-select__btn--selected {
-        color: #332E2A;
-        border-color: #332E2A;
+      .btn-pdf {
+        @include media-down(md) {
+          display: none;
+        }
       }
 
-      &:hover {
-        .btn-select__btn--selected {
-          border-color: #fff;
-          color: #D0A966;
+      .btn-lang {
+        margin-right: 15px;
+
+        @include media-down(md) {
+          display: none;
+        }
+      }
+
+      .btn-currency {
+        margin-right: 15px;
+
+        @include media-down(md) {
+          display: none;
         }
       }
     }
 
-    &__currency {
-      .btn-select__btn--selected {
-        color: #332E2A;
-        border-color: #332E2A;
-      }
+    &:last-child {
+      justify-content: flex-end;
+      width: 100%;
 
-      &:hover {
-        .btn-select__btn--selected {
-          border-color: #fff;
-          color: #D0A966;
+      .btn-login {
+        margin-right: 23px;
+
+        @include media-down(md) {
+          display: none;
         }
       }
-    }
 
-    &__pdf {
-      color: #332E2A;
+      .btn-enquiry {
+        margin-right: 16px;
 
-      span {
-        color: #332E2A;
-      }
-
-      &:hover {
-        span {
-          color: #D0A966;
+        @include media-down(md) {
+          display: none;
         }
       }
-    }
 
-    &__login {
-      color: #332E2A;
-    }
-
-    &__enquiry {
-      color: #332E2A;
-      border-color: #332E2A;
-
-      &:hover {
-        border-color: #fff;
-      }
-    }
-
-    &__like {
-      color: #332E2A;
-
-      &:hover {
-        background: #D0A966;
-        color: #fff;
-      }
-    }
-
-    &__profile {
-      color: #332E2A;
-
-      &:hover {
-        background: #D0A966;
-        color: #3B3734;
-      }
-    }
-
-
-    &__whatsapp {
-      transition: 200ms;
-
-      .icon-whatsapp {
-        color: #fff;
-        transition: 200ms;
+      .btn-like {
+        margin-right: 14px;
       }
 
-      &:hover {
-        background: #fff;
+      .btn-profile {
+        @include media-up(lg) {
+          display: none;
+        }
+      }
 
-        .icon-whatsapp {
-          color: #3B3734;
+      .btn-whatsapp {
+        @include media-down(md) {
+          display: none;
         }
       }
     }
   }
 
-  &--white {
-    .header {
-      border-bottom: 1px solid rgba(#FFFFFF, .1);
+  &--absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+  }
 
-      @include media-down(md) {
-        border-bottom: none;
+  &--dark {
+    #{$root} {
+      &__items {
+        color: #332E2A;
+        border-color: #332E2A;
       }
+    }
+  }
+}
 
-      &__logotype {
-        color: #FFFFFF;
+.logotype {
+  font-size: 64px;
+  color: inherit;
+
+  @include media-down(md) {
+    font-size: 42px;
+  }
+
+  @include media-down(sm) {
+    font-size: 33px;
+  }
+}
+
+.btn-menu {
+  $root: &;
+
+  user-select: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #3B3734;
+  padding: 0 32px;
+  background: #D0A966;
+  border-radius: 142px;
+  height: 45px;
+  border: 1px solid #D0A966;
+  transition: 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include media-down(md) {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+  }
+
+  @include media-down(sm) {
+    height: 34px;
+    width: 34px;
+  }
+
+  &:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #D0A966;
+
+    #{$root} {
+      &__burger-item {
+        background: #D0A966;
       }
+    }
+  }
 
-      &__menu {
-        color: #272727;
+  &__burger {
+    display: none;
 
-        &:hover {
-          border-color: #fff;
-          color: #D0A966;
+    @include media-down(md) {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    @include media-down(sm) {
+      gap: 4px;
+    }
+  }
+
+  &__burger-item {
+    transition: 300ms;
+    display: block;
+    width: 18px;
+    height: 1px;
+    background: #fff;
+
+    @include media-down(sm) {
+      width: 15px;
+    }
+  }
+
+  &__text {
+    @include media-down(md) {
+      display: none;
+    }
+  }
+
+  &--active {
+    #{$root} {
+      &__burger-item {
+        position: relative;
+
+        &:last-child {
+          transform: rotate(-45deg);
+          top: -2px;
         }
-      }
 
-      &__lang {
-        .btn-select__btn--selected {
-          color: #fff;
-          border-color: #fff;
-        }
-
-        &:hover {
-          .btn-select__btn--selected {
-            border-color: #fff;
-            color: #D0A966;
-          }
-        }
-      }
-
-      &__currency {
-        .btn-select__btn--selected {
-          color: #fff;
-          border-color: #fff;
-        }
-
-        &:hover {
-          .btn-select__btn--selected {
-            border-color: #fff;
-            color: #D0A966;
-          }
-        }
-      }
-
-      &__pdf {
-        color: #fff;
-
-        span {
-          color: #272727;
-        }
-
-        &:hover {
-          span {
-            color: #D0A966;
-          }
-        }
-      }
-
-      &__login {
-        color: #fff;
-      }
-
-      &__enquiry {
-        color: #fff;
-        border-color: #fff;
-
-        &:hover {
-          color: #D0A966;
-          border-color: #fff;
-        }
-      }
-
-      &__like {
-        color: #fff;
-
-        &:hover {
-          background: #D0A966;
-          color: #fff;
-        }
-      }
-
-      &__whatsapp {
-        .icon-whatsapp {
-          color: #272727;
+        &:first-child {
+          transform: rotate(45deg);
+          top: 3px;
         }
       }
     }
   }
 }
 
+.btn-login {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: inherit;
+  transition: 400ms;
+
+  &:hover {
+    color: #D0A966;
+  }
+}
+
+.btn-enquiry {
+  border-radius: 142px;
+  color: inherit;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  padding: 12px 25px;
+  transition: 400ms;
+
+  &:hover {
+    background: #FFFFFF;
+    color: #D0A966;
+    border-color: #FFFFFF;
+  }
+}
+
+.btn-whatsapp, .btn-like, .btn-profile  {
+  $root: &;
+  color: inherit;
+  transition: color 400ms;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+
+  @include media-down(md) {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .icon {
+    font-size: 16px;
+    transition: color 400ms, background 400ms;
+    background: #D0A966;
+    color: #332E2A;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media-down(md) {
+      width: 34px;
+      height: 34px;
+    }
+  }
+
+  &:hover {
+    .icon {
+      color: #D0A966;
+      background: #FFFFFF;
+    }
+  }
+}
+
+.btn-like, .btn-profile {
+  .icon {
+    background: transparent;
+    color: inherit;
+  }
+}
+
+.btn-pdf {
+  $root: &;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: inherit;
+    transition: 400ms;
+  }
+
+  &__icon {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #3B3734;
+    width: 45px;
+    height: 45px;
+    background: #D0A966;
+    border: 1px solid #D0A966;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+
+    @include media-down(md) {
+      width: 34px;
+      height: 34px;
+      font-size: 12px;
+    }
+  }
+
+  &--big {
+    @include media-up(lg) {
+      gap: 20px;
+
+      #{$root} {
+        &__text {
+          font-size: 22px;
+          font-weight: 400;
+        }
+        &__icon {
+          width: 80px;
+          height: 80px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    #{$root} {
+      &__icon {
+        color: #D0A966;
+        background: #FFFFFF;
+        border-color: #FFFFFF;
+      }
+    }
+  }
+}
+
+
+//.header {
+//  height: 64px;
+//  position: absolute;
+//  top: 50px;
+//  left: 0;
+//  width: 100%;
+//  z-index: 99;
+//  color: #fff;
+//
+//  @include media-down(sm) {
+//    top: 26px;
+//    height: 34px;
+//  }
+//
+//  &__wrapper {
+//    width: 100%;
+//  }
+//
+//  &__logotype {
+//    .icon-logo {
+//      font-size: 63px;
+//
+//      @include media-down(md) {
+//        font-size: 42px;
+//        height: 42px;
+//      }
+//
+//      @include media-down(sm) {
+//        font-size: 34px;
+//        height: 34px;
+//      }
+//    }
+//  }
+//
+//  &__content {
+//    display: flex;
+//    justify-content: space-between;
+//    align-items: center;
+//  }
+//
+//  &__left {
+//    display: flex;
+//    align-items: center;
+//    width: 100%;
+//  }
+//
+//  &__right {
+//    display: flex;
+//    align-items: center;
+//    width: 100%;
+//    justify-content: flex-end;
+//  }
+//
+//  &__menu {
+//    margin-right: 32px;
+//
+//    @include media-down(sm) {
+//      margin-right: 0;
+//    }
+//  }
+//
+//  &__lang {
+//    margin-right: 15px;
+//    justify-content: flex-end;
+//
+//    @include media-down(md) {
+//      display: none;
+//    }
+//  }
+//
+//  &__whatsapp {
+//    transition: 200ms;
+//    @include media-down(md) {
+//      display: none;
+//    }
+//
+//    .icon-whatsapp {
+//      transition: 200ms;
+//    }
+//
+//    &:hover {
+//      background: #fff;
+//
+//      .icon-whatsapp {
+//        color: #3B3734;
+//      }
+//    }
+//  }
+//
+//  &__profile {
+//    display: none;
+//
+//    @include media-down(md) {
+//      display: flex;
+//      font-size: 21px;
+//    }
+//
+//    @include media-down(sm) {
+//      font-size: 16px;
+//    }
+//  }
+//
+//  &__currency {
+//    margin-right: 15px;
+//
+//    @include media-down(md) {
+//      display: none;
+//    }
+//  }
+//
+//  &__login {
+//    margin-right: 18px;
+//
+//    @include media-down(md) {
+//      display: none;
+//    }
+//  }
+//
+//  &__pdf {
+//    @include media-down(md) {
+//      display: none;
+//    }
+//
+//    &:hover {
+//      span {
+//        color: #D0A966;
+//      }
+//    }
+//  }
+//
+//  &__enquiry {
+//    margin-right: 15px;
+//
+//    &:hover {
+//      background: #ffffff;
+//      color: #D0A966;
+//      border-color: #fff;
+//    }
+//
+//    @include media-down(md) {
+//      display: none;
+//    }
+//  }
+//
+//  &__like {
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    margin-right: 15px;
+//
+//    .icon-like {
+//      position: relative;
+//      top: 2px;
+//    }
+//
+//    &:hover {
+//      background: #D0A966;
+//      color: #fff;
+//    }
+//
+//    @include media-down(md) {
+//      font-size: 21px;
+//      margin-right: 0;
+//    }
+//
+//    @include media-down(sm) {
+//      font-size: 16px;
+//    }
+//  }
+//}
+//.header-static {
+//  .header {
+//    height: 144px;
+//    top: 0;
+//    border-bottom: 1px solid rgba(#3B3734, .1);
+//    display: flex;
+//    align-items: center;
+//    position: relative;
+//
+//    @include media-down(md) {
+//      height: auto;
+//      border-bottom: none;
+//      padding-top: 44px;
+//    }
+//
+//    @include media-down(sm) {
+//      padding-top: 0;
+//      height: 60px;
+//      align-items: flex-end;
+//    }
+//
+//    &__logotype {
+//      color: #332E2A;
+//    }
+//
+//    &__menu {
+//      color: #fff;
+//
+//      &:hover {
+//        border-color: #fff;
+//        color: #D0A966;
+//      }
+//    }
+//
+//    &__lang {
+//      .btn-select__btn--selected {
+//        color: #332E2A;
+//        border-color: #332E2A;
+//      }
+//
+//      &:hover {
+//        .btn-select__btn--selected {
+//          border-color: #fff;
+//          color: #D0A966;
+//        }
+//      }
+//    }
+//
+//    &__currency {
+//      .btn-select__btn--selected {
+//        color: #332E2A;
+//        border-color: #332E2A;
+//      }
+//
+//      &:hover {
+//        .btn-select__btn--selected {
+//          border-color: #fff;
+//          color: #D0A966;
+//        }
+//      }
+//    }
+//
+//    &__pdf {
+//      color: #332E2A;
+//
+//      span {
+//        color: #332E2A;
+//      }
+//
+//      &:hover {
+//        span {
+//          color: #D0A966;
+//        }
+//      }
+//    }
+//
+//    &__login {
+//      color: #332E2A;
+//    }
+//
+//    &__enquiry {
+//      color: #332E2A;
+//      border-color: #332E2A;
+//
+//      &:hover {
+//        border-color: #fff;
+//      }
+//    }
+//
+//    &__like {
+//      color: #332E2A;
+//
+//      &:hover {
+//        background: #D0A966;
+//        color: #fff;
+//      }
+//    }
+//
+//    &__profile {
+//      color: #332E2A;
+//
+//      &:hover {
+//        background: #D0A966;
+//        color: #3B3734;
+//      }
+//    }
+//
+//
+//    &__whatsapp {
+//      transition: 200ms;
+//
+//      .icon-whatsapp {
+//        color: #fff;
+//        transition: 200ms;
+//      }
+//
+//      &:hover {
+//        background: #fff;
+//
+//        .icon-whatsapp {
+//          color: #3B3734;
+//        }
+//      }
+//    }
+//  }
+//
+//  &--white {
+//    .header {
+//      border-bottom: 1px solid rgba(#FFFFFF, .1);
+//
+//      @include media-down(md) {
+//        border-bottom: none;
+//      }
+//
+//      &__logotype {
+//        color: #FFFFFF;
+//      }
+//
+//      &__menu {
+//        color: #272727;
+//
+//        &:hover {
+//          border-color: #fff;
+//          color: #D0A966;
+//        }
+//      }
+//
+//      &__lang {
+//        .btn-select__btn--selected {
+//          color: #fff;
+//          border-color: #fff;
+//        }
+//
+//        &:hover {
+//          .btn-select__btn--selected {
+//            border-color: #fff;
+//            color: #D0A966;
+//          }
+//        }
+//      }
+//
+//      &__currency {
+//        .btn-select__btn--selected {
+//          color: #fff;
+//          border-color: #fff;
+//        }
+//
+//        &:hover {
+//          .btn-select__btn--selected {
+//            border-color: #fff;
+//            color: #D0A966;
+//          }
+//        }
+//      }
+//
+//      &__pdf {
+//        color: #fff;
+//
+//        span {
+//          color: #272727;
+//        }
+//
+//        &:hover {
+//          span {
+//            color: #D0A966;
+//          }
+//        }
+//      }
+//
+//      &__login {
+//        color: #fff;
+//      }
+//
+//      &__enquiry {
+//        color: #fff;
+//        border-color: #fff;
+//
+//        &:hover {
+//          color: #D0A966;
+//          border-color: #fff;
+//        }
+//      }
+//
+//      &__like {
+//        color: #fff;
+//
+//        &:hover {
+//          background: #D0A966;
+//          color: #fff;
+//        }
+//      }
+//
+//      &__whatsapp {
+//        .icon-whatsapp {
+//          color: #272727;
+//        }
+//      }
+//    }
+//  }
+//}
+//
+
 body.is-menu-open {
-  @include media-up(md) {
-    .header__menu, .header__lang, .header__currency {
+  @include media-up(lg) {
+    .header__btn-menu, .btn-lang, .btn-currency {
       opacity: 0;
     }
   }
 }
 
-@include media-up(md) {
-  .header__menu, .header__lang, .header__currency {
+@include media-up(lg) {
+  .header__btn-menu, .btn-lang, .btn-currency {
     transition: opacity 1000ms;
   }
 }

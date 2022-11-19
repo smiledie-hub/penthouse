@@ -4,7 +4,7 @@
         <?php include_once "./templates/svg/preloader.svg.php"; ?>
     </div>
 
-<?php include_once "./templates/components/header.component.php"; ?>
+    <?php HeaderComponent("header--absolute"); ?>
 
     <div class="x-fix">
         <section class="front-page__banner">
@@ -50,5 +50,5 @@
         </form>
     </div>
 
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

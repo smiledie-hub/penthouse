@@ -1,5 +1,6 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
-<?php include_once "./templates/components/header.component.php"; ?>
+
+<?php HeaderComponent("header--absolute"); ?>
 
     <main class="page-404 fullpage">
         <img class="fullpage__backgrond lazy" data-src="/public/images/404.jpg" alt="">
@@ -19,7 +20,7 @@
         </div>
 
         <div class="fullpage__footer">
-            <?php include_once "./templates/components/footer.component.php"; ?>
+            <?php include_once "./templates/layout/footer.component.php"; ?>
         </div>
     </main>
 <?php include_once "./templates/layout/end.layout.php"; ?>

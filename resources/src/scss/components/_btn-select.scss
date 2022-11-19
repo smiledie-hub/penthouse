@@ -1,5 +1,5 @@
 @keyframes showAnim {
-  0%{
+  0% {
     opacity: 0;
     top: -10px;
   }
@@ -43,6 +43,7 @@
 
   &:hover {
     z-index: 10;
+
     #{$root}__list {
       visibility: visible;
 
@@ -281,6 +282,124 @@
 
     .icon-arrow-down {
       transform: scaleY(-1);
+    }
+  }
+}
+
+.btn-selects {
+  $root: &;
+
+  user-select: none;
+  position: relative;
+  z-index: 0;
+  border-color: inherit;
+
+  &__items {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 15px;
+    visibility: hidden;
+    padding-top: 15px;
+    transition: 400ms;
+  }
+
+  &__header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    color: inherit;
+    transition: 400ms;
+  }
+
+  &__item {
+    border: 1px solid inherit;
+    color: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+    position: relative;
+    background: #FFFFFF;
+    color: #3B3734;
+    top: -20px;
+    opacity: 0;
+
+    &:hover {
+      background: #D0A966;
+      color: #FFFFFF;
+    }
+
+    &--visible {
+      opacity: 1;
+      top: 0;
+    }
+  }
+
+  &--hover {
+    z-index: 10;
+
+    #{$root}__items {
+      visibility: visible;
+    }
+
+    #{$root}__header {
+      background: #fff;
+      color: #D0A966;
+      border-color: #FFFFFF;
+    }
+  }
+}
+
+.btn-lang {
+  &__header {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  &__item {
+    border-radius: 142px;
+    width: 45px;
+    height: 45px;
+
+    &:hover {
+      width: 53px;
+      height: 53px;
+    }
+  }
+}
+
+.btn-currency {
+  &__header {
+    width: 69px;
+    height: 45px;
+    border-radius: 142px;
+  }
+
+  &__item {
+    border-radius: 142px;
+    width: 69px;
+    height: 45px;
+
+    &:hover {
+      width: 82px;
+      height: 53px;
     }
   }
 }

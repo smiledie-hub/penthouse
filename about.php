@@ -1,6 +1,7 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
+<?php HeaderComponent("header--absolute"); ?>
+
     <main class="about-page">
-        <?php include_once "./templates/components/header.component.php"; ?>
         <div class="absolute-breadcrumps breadcrumps-not-tablet">
             <div class="container">
                 <div class="breadcrumbs">
@@ -192,5 +193,5 @@
         <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg"); ?>
     </main>
 
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

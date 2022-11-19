@@ -1,7 +1,7 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
 <main class="catalog-page header-static">
     <div class="bg-second">
-        <?php include_once "./templates/components/header.component.php"; ?>
+        <?php HeaderComponent("header--dark"); ?>
         <div class="container">
             <div class="breadcrumbs">
                 <a href="/">Home</a>
@@ -105,14 +105,7 @@
                 <p class="catalog__result">Sorry, we couldn’t find any results</p>
             </div>
         </div>
-
-        <div class="catalog__map">
-            <p class="catalog-toggle">
-                <button class="catalog-toggle__open"><span class="icon-arrow-prev"></span></button>
-                <button class="catalog-toggle__close"><span class="icon-arrow-next"></span></button>
-            </p>
-        </div>
     </div>
 </main>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

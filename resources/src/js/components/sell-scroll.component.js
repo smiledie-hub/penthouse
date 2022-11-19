@@ -1,5 +1,18 @@
-window.addEventListener("DOMContentLoaded", () => {
+
+
+export default function () {
     if(window.innerWidth >= 1023) {
+        function getOffset( el ) {
+            let _x = 0;
+            let _y = 0;
+            while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+                _x += el.offsetLeft - el.scrollLeft;
+                _y += el.offsetTop - el.scrollTop;
+                el = el.offsetParent;
+            }
+            return { top: _y, left: _x };
+        }
+
         const containerEl = document.querySelector('.sell-scroll')
         const containerStickyEl = document.querySelector('.sell-scroll__sticky')
         const containerWrapperEl = document.querySelector('.sell-scroll__main')
@@ -7,10 +20,28 @@ window.addEventListener("DOMContentLoaded", () => {
         if (containerEl && containerStickyEl && containerWrapperEl) {
             const itemsEl = containerEl.querySelectorAll('.sell-scroll-item'),
                 items = []
-
+            const cTop = getOffset(containerEl).top
             const sellCurrent = containerEl.querySelector('.sell-scroll__current')
             const anim1 = containerEl.querySelector('.sell-scroll-item__image-2')
             const anim2 = containerEl.querySelector('.sell-scroll-item__image')
+
+            const throttle = function(type, name){
+                let running = false;
+                const func = function(){
+                    if (running){ return; }
+                    running = true;
+                    requestAnimationFrame(function(timestamp){
+                        window.dispatchEvent(new CustomEvent(name))
+                        running = false;
+                    });
+                };
+                window.addEventListener(type, func)
+            };
+            throttle("scroll", "optimizedScroll");
+
+            function setTranslate(x) {
+                containerWrapperEl.style.transform = "translateX("+ x + "px)";
+            }
 
             itemsEl.forEach(item => {
                 const rect = item.getBoundingClientRect()
@@ -21,27 +52,18 @@ window.addEventListener("DOMContentLoaded", () => {
             })
 
             if (itemsEl.length > 0) {
-                let lastScrollTop = 0;
-                const hOneEl = itemsEl[0].clientHeight,
-                    height = (hOneEl * itemsEl.length) * 2,
-                    maxScroll = containerWrapperEl.clientWidth,
-                    itemsElLast = itemsEl[itemsEl.length - 1]
+                const maxScroll = containerWrapperEl.clientWidth
 
-                containerEl.style.height = height + "px"
+                containerEl.style.height = maxScroll - (window.innerWidth / 2) + "px"
 
-                window.addEventListener('scroll', (e) => {
-                    const top = containerStickyEl.getBoundingClientRect().top,
-                        st = window.pageYOffset || document.documentElement.scrollTop
+                window.addEventListener('optimizedScroll', (e) => {
+                    const top = containerStickyEl.getBoundingClientRect().top
 
-                    if (top === 0) {
-                        const cTop = containerEl.getBoundingClientRect().top
-                        let percentH = (Math.round((100 * cTop) / (height - hOneEl)))
-                        const offsetX = ((maxScroll - itemsElLast.clientWidth) / 100) * percentH
-                        containerWrapperEl.style.transform = `translateX(${offsetX}px)`
+                    if(top === 0) {
+                        const offsetX = cTop - ((window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0))
 
                         const item2 = items[2];
                         const item4 = items[4];
-
 
                         if(item2) {
                             if(-offsetX > (item2.rect.left - (item2.rect.width / 2))) {
@@ -97,19 +119,11 @@ window.addEventListener("DOMContentLoaded", () => {
                                 sellCurrent.textContent = "0" + i
                             }
                         })
+
+                        setTranslate(offsetX)
                     }
-
-                    lastScrollTop = st <= 0 ? 0 : st;
-                }, false)
-
-                function scrollDown(st) {
-
-                }
-
-                function scrollUp(st) {
-                    console.log("Сколлл вверх")
-                }
+                })
             }
         }
     }
-})
+}

@@ -1,10 +1,15 @@
 // FIXES
 import "./fixes"
 import "./spec"
+
+import menuComponent from "./components/menu.component";
+import btnSelectsComponent from "./components/btn-selects.component";
+import cookiesComponent from "./components/cookies.component";
+import selScrollComponent from "./components/sell-scroll.component";
+
 import frontResidence from "./spec/front-residence"
 import cardBanner from "./spec/slider-card-banner";
-import menuComponent from "./components/menu.component";
-import cookiesComponent from "./components/cookies.component";
+
 import marquee from 'vanilla-marquee'
 import countries from 'countries-phone-masks'
 import IMask from 'imask';
@@ -15,6 +20,11 @@ import {isInViewport} from "./helper";
 import MicroModal from 'micromodal';
 
 window.addEventListener("DOMContentLoaded", () => {
+    menuComponent()
+    cookiesComponent()
+    btnSelectsComponent()
+    selScrollComponent()
+
     MicroModal.init({
         openTrigger: 'data-micromodal-open',
         closeTrigger: 'data-micromodal-close',
@@ -28,10 +38,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
     frontResidence()
     cardBanner()
-
-    menuComponent()
-    cookiesComponent()
-
 
     const jsSmooth = document.querySelectorAll('.js-smooth')
     jsSmooth.forEach(item => {

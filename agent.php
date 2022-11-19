@@ -1,7 +1,7 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
     <main class="agent-page header-static header-static--white breadcrumbs-white">
         <div class="bg-dark agent-page__bg">
-            <?php include_once "./templates/components/header.component.php"; ?>
+            <?php HeaderComponent(""); ?>
             <div class="container">
                 <div class="breadcrumbs">
                     <a href="/">Home</a>
@@ -114,5 +114,5 @@
                     </a>
                 </div>'); ?>
     </main>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

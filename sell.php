@@ -1,5 +1,5 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
-<?php include_once "./templates/components/header.component.php"; ?>
+<?php HeaderComponent("header--absolute"); ?>
 
     <div class="x-fix">
         <div class="absolute-breadcrumps breadcrumps-not-tablet">
@@ -197,5 +197,5 @@
     </div>
 
 <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg-2.jpg"); ?>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

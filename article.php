@@ -1,7 +1,7 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
-    <main class="article header-static">
-        <?php include_once "./templates/components/header.component.php"; ?>
+<?php HeaderComponent("header--dark"); ?>
 
+    <main class="article header-static">
         <div class="container">
             <div class="breadcrumbs">
                 <a href="/">Home</a>
@@ -146,5 +146,5 @@
             </div>
         </div>
     </main>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

@@ -2,7 +2,7 @@
     <main class="header-static personal-page">
         <img data-src="/public/images/about-bg.svg" alt="" class="personal-page__background lazy">
 
-        <?php include_once "./templates/components/header.component.php"; ?>
+        <?php HeaderComponent("header--dark"); ?>
 
         <div class="content-center">
             <div class="personal-page__container container">
@@ -72,5 +72,5 @@
     </main>
 
 <?php include_once "./templates/components/cookies.component.php"; ?>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

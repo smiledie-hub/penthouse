@@ -1,6 +1,7 @@
 <?php include_once "./templates/layout/start.layout.php"; ?>
+
     <main class="header-static account-page">
-        <?php include_once "./templates/components/header.component.php"; ?>
+        <?php HeaderComponent("header--dark"); ?>
 
         <img data-src="/public/images/about-bg.svg" alt="" class="account-page__background lazy">
 
@@ -11,7 +12,7 @@
                     <h2 class="account-page__title my-collections__title">Your collection</h2>
                     <a href="#!" class="btn btn--primary my-collections__sign">Sign out</a>
                     <p class="my-collections__text">Add more properties to your collection cliking on <span class="icon icon-heart"></span>
-                        when you browse through our portfolio&</p>
+                        when you browse through our portfolio.</p>
                 </div>
 
                 <div class="my-collections__items">
@@ -56,5 +57,5 @@
         </div>
     </main>
 <?php include_once "./templates/components/cookies.component.php"; ?>
-<?php include_once "./templates/components/footer.component.php"; ?>
+<?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

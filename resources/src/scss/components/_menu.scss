@@ -290,6 +290,7 @@
 
     @include media-down(md) {
       font-size: 12px;
+      max-width: 211px;
     }
 
     @include media-down(sm) {
