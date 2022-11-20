@@ -3,9 +3,8 @@ import "./fixes"
 import "./spec"
 
 import yall from "yall-js";
-import {isDesktop} from "./helpers/isDevice";
+import {isDesktop, isMobile, isTable} from "./helpers/isDevice";
 import PreloaderComponent from "./components/preloader.component";
-import BtnSelectsComponent from "./components/btn-selects.component";
 import CookiesComponent from "./components/cookies.component";
 import SellScrollComponent from "./components/sell-scroll.component";
 import FieldPhoneComponent from "./components/field-phone.component";
@@ -20,6 +19,8 @@ import SmothToElComponent from "./components/smoth-to-el.component";
 import TabsComponent from "./components/tabs.component";
 import CatalogComponent from "./components/catalog.component";
 import MapComponent from "./components/map.component";
+import SliderProjectComponent from "./components/slider-project.component";
+import SellScrollMobileComponent from "./components/sell-scroll-mobile.component";
 
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -30,7 +31,6 @@ window.addEventListener("DOMContentLoaded", () => {
     PreloaderComponent()
     MenuComponent()
     CookiesComponent()
-    BtnSelectsComponent()
     ChoiceComponent()
     AreaComponent()
     FieldPhoneComponent()
@@ -41,22 +41,27 @@ window.addEventListener("DOMContentLoaded", () => {
     TabsComponent()
     CatalogComponent()
     MapComponent()
+    SliderProjectComponent()
 
     if (isDesktop) {
         SellScrollComponent()
         FrontResidenceComponent()
     }
 
-    SmoothScroll({
-        animationTime    : 1000,
-        stepSize         : 65,
-        accelerationDelta : 30,
-        accelerationMax   : 2,
-        keyboardSupport   : true,
-        arrowScroll       : 50,
-        pulseAlgorithm   : true,
-        pulseScale       : 4,
-        pulseNormalize   : 1,
-        touchpadSupport   : true,
-    })
+    if(isTable || isMobile) {
+        SellScrollMobileComponent()
+    }
+
+    // SmoothScroll({
+    //     animationTime    : 1000,
+    //     stepSize         : 65,
+    //     accelerationDelta : 30,
+    //     accelerationMax   : 2,
+    //     keyboardSupport   : true,
+    //     arrowScroll       : 50,
+    //     pulseAlgorithm   : true,
+    //     pulseScale       : 4,
+    //     pulseNormalize   : 1,
+    //     touchpadSupport   : true,
+    // })
 })

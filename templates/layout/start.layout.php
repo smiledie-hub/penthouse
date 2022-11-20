@@ -8,6 +8,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WEBPACK PHP</title>
-    <link rel="stylesheet" href="/assets/css/main.css?211">
+    <link rel="stylesheet" href="/assets/css/main.css?qqqqqq">
 </head>
 <body class="lock">

@@ -25,6 +25,10 @@
       gap: 27px;
       margin-top: 13px;
     }
+
+    @include media-down(sm) {
+      gap: 0;
+    }
   }
 
   &__progress {
@@ -59,6 +63,10 @@
     height: 595px;
     margin-bottom: 50px;
     overflow: hidden;
+
+    @media (max-width: 1440px) {
+      height: 395px;
+    }
 
     @include media-down(md){
       height: 200px;

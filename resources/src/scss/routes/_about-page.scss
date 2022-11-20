@@ -558,4 +558,11 @@
       will-change: transform;
     }
   }
+
+  &__wrapper {
+    @include media-up(lg) {
+      gap: 40px;
+      padding: 0 var(--cp);
+    }
+  }
 }

@@ -1,0 +1,118 @@
+.sell-scroll-mobile {
+  @include media-up(lg) {
+    display: none;
+  }
+
+  &__form {
+    @include media-up(smd) {
+      display: none;
+    }
+
+    .contact-send__section:last-child {
+      display: none;
+    }
+  }
+
+  &__header {
+    height: 315px;
+    background: #FFFFFF;
+    padding: 56px var(--cp) 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include media-down(sm) {
+      background: #F2F0EF;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #3B3734;
+    margin-bottom: 18px;
+  }
+
+  &__number {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #3B3734;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #3B3734;
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__scroll {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #3B3734;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  &__counters {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #332E2A;
+  }
+
+  &__content {
+    height: 505px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @include media-down(sm) {
+      display: none;
+    }
+
+    &--form {
+      padding: 0 var(--cp);
+      background: #AA9F8D;
+    }
+
+    &--image-1 {
+      padding: 0 var(--cp);
+      background: #F2F0EF;
+
+      img {
+        max-width: 587px;
+        max-height: 405px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &--image-2 {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+  }
+}

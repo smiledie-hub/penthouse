@@ -16,14 +16,16 @@
                 <img class="banner__image" src="/public/images/sell-banner.jpg" alt="Banner">
 
                 <div class="banner__content">
-                    <h1 class="banner__title">
-                        <span class="banner__sg fn-sg">Sell</span>
-                        <span class="banner__first">Selling a dream</span>
-                    </h1>
-                    <p class="banner__text">Let professionals of Penthouse.ae powered by Metropolitan to sell your
-                        luxurious
-                        real estate in Dubai and we will find the right buyer quickly, due to our effective marketing
-                        campaign and extensive customer base.</p>
+                    <div class="container">
+                        <h1 class="banner__title sell-page__title">
+                            <span class="banner__sg fn-sg sell-page__sg">Sell</span>
+                            <span class="banner__first">Selling a dream</span>
+                        </h1>
+                        <p class="banner__text">Let professionals of Penthouse.ae powered by Metropolitan to sell your
+                            luxurious
+                            real estate in Dubai and we will find the right buyer quickly, due to our effective marketing
+                            campaign and extensive customer base.</p>
+                    </div>
                 </div>
 
                 <div class="banner-smoke banner-smoke--dark">
@@ -133,6 +135,114 @@
         </div>
     </div>
 
+    <div class="sell-scroll-mobile">
+        <div class="swiper sell-scroll-mobile__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide sell-scroll-mobile__slide swiper-slide">
+                    <div class="sell-scroll-mobile__header">
+                        <div>
+                            <h2 class="sell-scroll-mobile__title">How it works</h2>
+                            <p class="sell-scroll-mobile__number">01.</p>
+                            <p class="sell-scroll-mobile__text">You contact us or send us the request by form below</p>
+                        </div>
+
+                        <div class="sell-scroll-mobile__items">
+                            <div class="sell-scroll-mobile__scroll">
+                                Scroll
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.48528 18.0001L16.9706 9.51477L8.48528 1.02949" stroke="#3B3734"/>
+                                    <path d="M0 9.51477L16.9706 9.51477" stroke="#3B3734"/>
+                                </svg>
+                            </div>
+
+                            <p class="sell-scroll-mobile__counters">01 / 04</p>
+                        </div>
+                    </div>
+                    <div class="sell-scroll-mobile__content sell-scroll-mobile__content--form">
+                        <div class="sell-scroll-item__form">
+                            <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg.jpg"); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide sell-scroll-mobile__slide ">
+                    <div class="sell-scroll-mobile__header">
+                        <div>
+                            <h2 class="sell-scroll-mobile__title">How it works</h2>
+                            <p class="sell-scroll-mobile__number">02.</p>
+                            <p class="sell-scroll-mobile__text">We estimate your project and prepare a contract.</p>
+                        </div>
+
+                        <div class="sell-scroll-mobile__items">
+                            <div class="sell-scroll-mobile__scroll">
+                                Scroll
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.48528 18.0001L16.9706 9.51477L8.48528 1.02949" stroke="#3B3734"/>
+                                    <path d="M0 9.51477L16.9706 9.51477" stroke="#3B3734"/>
+                                </svg>
+                            </div>
+
+                            <p class="sell-scroll-mobile__counters">02 / 04</p>
+                        </div>
+                    </div>
+                    <div class="sell-scroll-mobile__content sell-scroll-mobile__content--image-1">
+                        <img src="/public/images/scroll-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide sell-scroll-mobile__slide ">
+                    <div class="sell-scroll-mobile__header">
+                        <div>
+                            <h2 class="sell-scroll-mobile__title">How it works</h2>
+                            <p class="sell-scroll-mobile__number">03.</p>
+                            <p class="sell-scroll-mobile__text">We come to your property to take high-quality photos and videos.</p>
+                        </div>
+
+                        <div class="sell-scroll-mobile__items">
+                            <div class="sell-scroll-mobile__scroll">
+                                Scroll
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.48528 18.0001L16.9706 9.51477L8.48528 1.02949" stroke="#3B3734"/>
+                                    <path d="M0 9.51477L16.9706 9.51477" stroke="#3B3734"/>
+                                </svg>
+                            </div>
+
+                            <p class="sell-scroll-mobile__counters">03 / 04</p>
+                        </div>
+                    </div>
+                    <div class="sell-scroll-mobile__content sell-scroll-mobile__content--image-2">
+                        <img src="/public/images/scroll-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide sell-scroll-mobile__slide">
+                    <div class="sell-scroll-mobile__header">
+                        <div>
+                            <h2 class="sell-scroll-mobile__title">How it works</h2>
+                            <p class="sell-scroll-mobile__number">04.</p>
+                            <p class="sell-scroll-mobile__text">We release your property on our catalog and start to sell it.</p>
+                        </div>
+
+                        <div class="sell-scroll-mobile__items">
+                            <div class="sell-scroll-mobile__scroll">
+                                Scroll
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.48528 18.0001L16.9706 9.51477L8.48528 1.02949" stroke="#3B3734"/>
+                                    <path d="M0 9.51477L16.9706 9.51477" stroke="#3B3734"/>
+                                </svg>
+                            </div>
+
+                            <p class="sell-scroll-mobile__counters">04 / 04</p>
+                        </div>
+                    </div>
+                    <div class="sell-scroll-mobile__content sell-scroll-mobile__content--image-1">
+                        <img src="/public/images/scroll-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sell-scroll-mobile__form">
+        <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg-2.jpg"); ?>
+    </div>
+
     <div class="x-fix">
         <div class="sell-advantages">
             <div class="container">
@@ -196,6 +306,9 @@
         </div>
     </div>
 
-<?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg-2.jpg"); ?>
+    <div class="sell-page__contact">
+        <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg-2.jpg"); ?>
+    </div>
+
 <?php include_once "./templates/layout/footer.component.php"; ?>
 <?php include_once "./templates/layout/end.layout.php"; ?>

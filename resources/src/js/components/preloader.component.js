@@ -23,34 +23,36 @@ export default function PreloaderComponent () {
             }, 500)
 
 
-            const frontBannerVideo = document.getElementById('front-banner-video')
-            const frontBannerVideoRect = frontBannerVideo.getBoundingClientRect()
+            if(isDesktop) {
+                const frontBannerVideo = document.getElementById('front-banner-video')
+                const frontBannerVideoRect = frontBannerVideo.getBoundingClientRect()
 
-            if (frontBannerVideo) {
-                frontBannerVideo.currentTime = 0;
-                let isPause = false
+                if (frontBannerVideo) {
+                    frontBannerVideo.currentTime = 0;
+                    let isPause = false
 
-                window.addEventListener('scroll', () => {
-                    const bottom = frontBannerVideo.getBoundingClientRect().bottom
+                    window.addEventListener('scroll', () => {
+                        const bottom = frontBannerVideo.getBoundingClientRect().bottom
 
-                    if (isDesktop) {
-                        const top = window.pageYOffset || document.documentElement.scrollTop
-                        const m = top - frontBannerVideoRect.height
+                        if (isDesktop) {
+                            const top = window.pageYOffset || document.documentElement.scrollTop
+                            const m = top - frontBannerVideoRect.height
 
-                        if (m <= 0) {
-                            const l = 200 - Math.round(100 - ((100 * top) / frontBannerVideoRect.height))
-                            frontBannerVideo.style.transform = `scale(${l}%)`
+                            if (m <= 0) {
+                                const l = 200 - Math.round(100 - ((100 * top) / frontBannerVideoRect.height))
+                                frontBannerVideo.style.transform = `scale(${l}%)`
+                            }
                         }
-                    }
 
-                    isPause = bottom <= 0;
+                        isPause = bottom <= 0;
 
-                    if (isPause) {
-                        frontBannerVideo.pause()
-                    } else {
-                        frontBannerVideo.play()
-                    }
-                })
+                        if (isPause) {
+                            frontBannerVideo.pause()
+                        } else {
+                            frontBannerVideo.play()
+                        }
+                    })
+                }
             }
 
             setTimeout(() => {

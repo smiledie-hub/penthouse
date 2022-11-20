@@ -1,8 +1,38 @@
 .sell-page {
 
+  &__title {
+    @include media-down(sm) {
+      position: relative;
+      max-width: 180px;
+      text-align: left;
+    }
+  }
+
+  &__contact {
+    @include media-down(sm) {
+      .contact-send__section:last-child {
+        display: none;
+      }
+    }
+  }
+
+  &__sg {
+    @include media-down(sm) {
+      font-size: 110px;
+      right: auto;
+      left: 100%;
+      top: -22px;
+      bottom: auto;
+    }
+  }
+
   &__bg-mobile {
     @include media-down(md) {
       background: #E8E4DD;
+    }
+
+    @include media-down(sm) {
+      background: none;
     }
   }
 
@@ -13,6 +43,10 @@
 
     @include media-down(md) {
       margin-top: -60px;
+    }
+
+    @include media-down(sm) {
+      margin-top: -80px;
     }
   }
 
@@ -27,6 +61,10 @@
     @include media-down(md) {
       font-size: 20px;
       margin-bottom: 38px;
+    }
+
+    @include media-down(sm) {
+      margin-bottom: 25px;
     }
 
     &--2 {
@@ -50,11 +88,22 @@
         position: relative;
         top: 60px;
       }
+
+      @include media-down(sm) {
+        width: 100%;
+        padding: 0;
+        top: 0;
+        margin-top: 51px;
+      }
     }
 
     &--4 {
       max-width: 410px;
       margin-bottom: 49px;
+
+      @include media-down(sm) {
+        margin-bottom: 0;
+      }
     }
 
     &--5 {
@@ -93,6 +142,16 @@
       flex-direction: column;
       margin-bottom: 0;
     }
+
+    @include media-down(sm) {
+      padding-bottom: 51px;
+
+      img {
+        height: 194px;
+        margin: 0 var(--cp);
+        max-width: calc(100% - var(--cp) - var(--cp));
+      }
+    }
   }
 
   &__end {
@@ -100,6 +159,11 @@
     justify-content: flex-end;
     padding-right: 30px;
     padding-left: 30px;
+
+    @include media-down(sm) {
+      padding: 0;
+      display: block;
+    }
   }
 
   &__box-image {
@@ -108,6 +172,16 @@
 
     @include media-down(md) {
       top: 0;
+    }
+
+    @include media-down(sm) {
+      padding: 0 var(--cp);
+      position: relative;
+      top: -86px;
+
+      img {
+        height: 171px;
+      }
     }
   }
 
@@ -119,6 +193,11 @@
     @include media-down(md) {
       margin-top: -30px;
       top: 0;
+    }
+
+    @include media-down(sm) {
+      padding: 0 var(--cp);
+      padding-bottom: 56px;
     }
   }
 }
@@ -136,11 +215,19 @@
     padding-bottom: 0;
   }
 
+  @include media-down(sm) {
+    padding-bottom: 86px;
+  }
+
   &__row-images {
     margin-bottom: 188px;
 
     @include media-down(md) {
       margin-bottom: 49px;
+    }
+
+    @include media-down(sm) {
+      padding: 0 var(--cp);
     }
   }
 

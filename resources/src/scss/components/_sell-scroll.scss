@@ -1,5 +1,8 @@
 .sell-scroll {
   transform-style: preserve-3d;
+  @include media-down(md) {
+    display: none;
+  }
 
   &__wrapper {
     height: 100vh;

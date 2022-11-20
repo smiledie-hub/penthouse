@@ -11,6 +11,8 @@
             <?php include_once "./templates/components/front/front-banner.component.php"; ?>
         </section>
 
+        <div class="front-banner-smoke"></div>
+
         <section class="front-page__about">
             <?php include_once "./templates/components/front/front-about.component.php"; ?>
         </section>

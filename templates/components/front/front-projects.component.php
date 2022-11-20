@@ -48,9 +48,7 @@
 
 
             <div class="slider-projects__container">
-                <div class="slider-projects__progress">
-                    <div class="slider-projects__progress-bar"></div>
-                </div>
+                <div class="slider-projects__progress"></div>
                 <div class="slider-projects__pagination">
                     <button class="slider-projects__prev"><span class="icon-arrow-prev"></span></button>
                     <button class="slider-projects__next"><span class="icon-arrow-next"></span></button>

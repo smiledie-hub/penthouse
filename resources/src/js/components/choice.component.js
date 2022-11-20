@@ -75,10 +75,12 @@ export default function ChoiceComponent() {
                 })
 
                 div.classList.add('choice__item--selected')
+
+                choice.classList.remove('choice--active')
+                itemsEl.style.height = "0px"
             })
 
             itemsEl.appendChild(div)
-
         }
     })
 }

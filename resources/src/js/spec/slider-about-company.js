@@ -1,50 +1,69 @@
 import Swiper from "swiper";
 import calcOffsetContainer from "../helpers/calcOffsetContainer";
-import {isDesktop} from "../helpers/isDevice";
+import {isDesktop, isMobile, isTable} from "../helpers/isDevice";
 import getOffset from "../helpers/getOffset";
+import throttle from "../helpers/throttle";
 
 window.addEventListener("DOMContentLoaded", () => {
-    const offset = calcOffsetContainer();
 
-    const slider = new Swiper('.about-company__slider', {
-        spaceBetween: 20,
-        initialSlide: 1,
-        slidesPerView: 'auto',
-        slideToClickedSlide: true,
-        freeMode: false,
-        grabCursor: true,
-        slidesOffsetBefore: offset,
-        slidesOffsetAfter: offset,
-        centeredSlides: true,
-        allowTouchMove: true,
-        breakpoints: {
-            1023: {
-                initialSlide: 0,
-                spaceBetween: 40,
-                slideToClickedSlide: false,
-                allowTouchMove: false,
-                centeredSlides: false,
-                grabCursor: false,
+    if (isTable || isMobile) {
+        const offset = calcOffsetContainer();
+
+        new Swiper('.about-company__slider', {
+            spaceBetween: 20,
+            initialSlide: 1,
+            slidesPerView: 'auto',
+            slideToClickedSlide: true,
+            freeMode: false,
+            grabCursor: true,
+            slidesOffsetBefore: offset,
+            slidesOffsetAfter: offset,
+            centeredSlides: true,
+            allowTouchMove: true,
+            breakpoints: {
+                1023: {
+                    initialSlide: 0,
+                    spaceBetween: 40,
+                    slideToClickedSlide: false,
+                    allowTouchMove: false,
+                    centeredSlides: false,
+                    grabCursor: false,
+                },
+                560: {
+                    centeredSlides: false,
+                }
             },
-            560: {
-                centeredSlides: false,
-            }
-        },
-    });
+        });
+    }
 
-    if(isDesktop) {
+    if (isDesktop) {
         const containerEl = document.querySelector('.about-company-scroll')
         const containerStickyEl = document.querySelector('.about-company-scroll__sticky')
 
-        if (containerEl && containerStickyEl && slider) {
-            containerEl.style.height = slider.width + (window.innerWidth - (calcOffsetContainer() * 2)) + "px"
+        if (containerEl && containerStickyEl) {
+            const slider = document.querySelector('.about-company-scroll__wrapper')
 
+            let modificator = 0
+
+            if(window.innerWidth <= 1600) {
+                modificator = window.innerWidth / 2
+            }
+
+            if(window.innerWidth <= 1300) {
+                modificator = window.innerWidth
+            }
+
+            if(window.innerWidth <= 1100) {
+                modificator = window.innerWidth + (window.innerWidth / 2)
+            }
+
+            containerEl.style.height = slider.getBoundingClientRect().width + (window.innerWidth - (calcOffsetContainer() * 2)) + modificator + "px"
             const cTop = getOffset(containerEl).top
-            const topStart = slider.getTranslate()
 
-            window.addEventListener('scroll', () => {
+            throttle("scroll", "optimizedScroll");
+            window.addEventListener('optimizedScroll', () => {
                 const offsetX = cTop - ((window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0))
-                slider.setTranslate(topStart + offsetX)
+                slider.style.transform = `translateX(${offsetX}px)`
             })
         }
     }

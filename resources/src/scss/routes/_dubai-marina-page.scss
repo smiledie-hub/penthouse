@@ -414,19 +414,6 @@
     max-height: 850px;
     height: 80vh;
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-      max-height: 329px;
-
-      .swiper-slide {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 30px;
-      }
-    }
-
     @media (max-width: 1000px) {
       left: calc(var(--cp) - 30px);
       padding: 150px 30px 115px 30px;
@@ -642,5 +629,18 @@
       font-size: 20px;
       margin-bottom: 36px;
     }
+  }
+}
+
+.area-slider {
+  width: 100%;
+  height: 100%;
+  max-height: 329px;
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
   }
 }

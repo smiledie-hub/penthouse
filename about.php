@@ -77,7 +77,7 @@
 
 
                     <div class="about-company-scroll__items swiper about-company__slider">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper about-company-scroll__wrapper">
                             <div class="about-company-item swiper-slide">
                                 <div class="about-company-item__wrapper">
                                     <p class="about-company-item__title">14 years</p>

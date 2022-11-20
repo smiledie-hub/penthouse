@@ -1,15 +1,10 @@
 .front-page {
-  &__banner {
-
-  }
-
   &__about {
     margin-top: -100px;
     margin-bottom: 284px;
     background: #F2F0EF;
-    padding-top: 5px;
     position: relative;
-    top: -5px;
+    z-index: 2;
 
     @include media-down(md) {
       top: 0;
