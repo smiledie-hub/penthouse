@@ -1,10 +1,8 @@
 .about-page {
 
-  @include media-down(sm) {
-    .contact-send__section:last-child {
-      display: none;
-    }
-  }
+
+
+
 
   &__text {
     font-weight: 500;
@@ -55,6 +53,14 @@
   &__banner {
     @include media-down(sm) {
       height: 800px;
+    }
+  }
+}
+
+.about-contact {
+  @include media-down(sm) {
+    .contact-send__section:last-child {
+      display: none !important;
     }
   }
 }

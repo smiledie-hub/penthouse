@@ -11,9 +11,11 @@ function contactSendComponent($title, $img, $content = "")
             <div class="contact-send__section">
                 <img class="contact-send__image" src="<?php echo $img; ?>" alt="">
 
-                <div class="contact-send__content">
-                    <?php echo $content; ?>
-                </div>
+                <?php if ($content): ?>
+                    <div class="contact-send__content">
+                        <?php echo $content; ?>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
