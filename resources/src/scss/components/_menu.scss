@@ -193,17 +193,6 @@
     @include media-down(sm) {
       max-width: 280px;
     }
-
-    &-wrap {
-      @include media-down(md) {
-        display: grid;
-        align-items: flex-start;
-        gap: 26px;
-        justify-content: space-between;
-
-        grid-template-columns: 114px 1fr;
-      }
-    }
   }
 
   &__pdf {

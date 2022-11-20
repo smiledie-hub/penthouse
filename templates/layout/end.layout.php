@@ -15,7 +15,7 @@
 </div>
 
 
-<script type="text/javascript" src="/assets/js/main.bundle.js?1"></script>
+<script type="text/javascript" src="/assets/js/main.bundle.js?21"></script>
 <script>
     function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {

@@ -53,6 +53,11 @@
     position: absolute;
     top: 24px;
     right: 26px;
+    color: #3B3734;
+
+    &:hover, &:active, &:focus {
+      color: #3B3734;
+    }
 
     .icon-close {
       font-size: 24px;
@@ -102,6 +107,13 @@
       font-size: 20px;
       margin-bottom: 22px;
       margin-top: 0;
+    }
+
+    @include media-down(sm) {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 140%;
     }
   }
 
@@ -162,12 +174,23 @@
     font-weight: 500;
     font-size: 8px;
     line-height: 150%;
+
+    @include media-down(md) {
+      color: transparent;
+      width: 18px;
+      height: 18px;
+      top: -4px;
+    }
   }
 
   &__filter-btn {
     .icon-filters {
       position: relative;
       font-size: 20px;
+
+      @include media-down(sm) {
+        font-size: 26px;
+      }
     }
 
     @include media-down(sm) {
@@ -205,8 +228,10 @@
     }
 
     display: none;
+
     @include media-down(sm) {
       display: flex;
+      width: 140px;
     }
   }
 
@@ -237,6 +262,10 @@
 
     .icon-minmax {
       font-size: 15px;
+
+      @include media-down(sm) {
+        font-size: 21px;
+      }
     }
 
     .icon-arrow-down {

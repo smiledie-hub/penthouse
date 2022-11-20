@@ -135,156 +135,7 @@
   }
 }
 
-.btn-metering {
-  $root: &;
 
-  position: relative;
-  width: 70px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  z-index: 0;
-
-  @include media-down(md) {
-    width: 100%;
-  }
-
-  &__list {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    gap: 15px;
-    visibility: hidden;
-    padding-top: 15px;
-    width: 100%;
-
-    & > a {
-      opacity: 0;
-      position: relative;
-      top: -10px;
-    }
-  }
-
-  &__header {
-    color: #fff;
-    font-weight: 400;
-    width: 100%;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 200ms;
-    gap: 15px;
-
-    @include media-down(md) {
-      width: 100%;
-      border: 1px solid #FFFFFF;
-      border-radius: 142px;
-    }
-
-    .icon-arrow-down {
-      font-size: 5px;
-      transition: 300ms;
-
-      @include media-down(md) {
-        display: none;
-      }
-    }
-
-    .icon-sort {
-      font-size: 29px;
-
-      @include media-down(md) {
-        font-size: 17px;
-      }
-    }
-  }
-
-  &__item {
-    border: 1px solid #FFFFFF;
-    border-radius: 142px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 130%;
-    width: 100%;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 200ms;
-    background: #fff;
-    color: #3B3734;
-
-    &:hover {
-      background: #D0A966;
-      color: #fff;
-      border-color: #D0A966;
-      width: 110%;
-      height: 50px;
-    }
-  }
-
-  &:hover {
-    z-index: 10;
-
-    #{$root} {
-      &__list {
-        visibility: visible;
-
-        & > a {
-          &:nth-child(1) {
-            animation-delay: 0s;
-          }
-
-          &:nth-child(2) {
-            animation-delay: 100ms;
-          }
-
-          &:nth-child(3) {
-            animation-delay: 200ms;
-          }
-
-          &:nth-child(4) {
-            animation-delay: 300ms;
-          }
-
-          &:nth-child(5) {
-            animation-delay: 400ms;
-          }
-
-          &:nth-child(6) {
-            animation-delay: 500ms;
-          }
-
-          animation-delay: 0s;
-          animation-name: showAnim;
-          animation-duration: 600ms;
-          animation-direction: normal;
-          animation-fill-mode: forwards;
-        }
-      }
-
-      &__header {
-        color: #D0A966;
-
-        @include media-down(md) {
-          background: #FFFFFF;
-        }
-      }
-    }
-
-    .icon-arrow-down {
-      transform: scaleY(-1);
-    }
-  }
-}
 
 .btn-selects {
   $root: &;
@@ -362,6 +213,111 @@
       background: #fff;
       color: #D0A966;
       border-color: #FFFFFF;
+    }
+  }
+}
+
+.btn-metering {
+  $root: &;
+  position: relative;
+  display: table;
+
+  @include media-down(md) {
+    width: 100%;
+  }
+
+  &__header {
+    width: 112px;
+    height: 30px;
+    border-radius: 142px;
+    border: none;
+    background: none;
+
+    .icon-arrow-down {
+      font-size: 5px;
+      transition: 300ms;
+      margin-left: 20px;
+
+      @include media-down(md) {
+        display: none;
+      }
+    }
+
+    .icon-sort {
+      font-size: 29px;
+      margin-right: 15px;
+
+      @include media-down(md) {
+        font-size: 17px;
+      }
+    }
+
+    @include media-down(md) {
+      display: none;
+    }
+  }
+
+  &__items {
+    width: 100%;
+
+    @include media-down(md) {
+      position: static;
+      visibility: visible;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      transform: none;
+      padding-top: 0;
+    }
+  }
+
+  &__item {
+    border-radius: 142px;
+    width: 100%;
+    height: 45px;
+    gap: 10px;
+
+    &:hover {
+      width: 115%;
+      height: 53px;
+
+      @include media-down(md) {
+        width: 100%;
+        height: 45px;
+        background: #FFFFFF;
+        color: #D0A966;
+      }
+    }
+
+    .icon-sort {
+      display: none;
+
+      @include media-down(md) {
+        display: block;
+      }
+    }
+
+    @include media-down(md) {
+      top: 0;
+      opacity: 1;
+      visibility: visible;
+      background: none;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF;
+    }
+  }
+
+  &.btn-selects--hover {
+    .icon-arrow-down {
+      transform: scaleY(-1);
+    }
+
+    #{$root} {
+      &__header {
+        background: none;
+        border: none;
+      }
     }
   }
 }

@@ -58,11 +58,15 @@
     position: absolute;
     top: 50px;
     right: 50px;
+    color: #3B3734;
+
+    &:hover, &:active, &:focus {
+      color: #3B3734;
+    }
 
     @include media-down(md) {
       top: 20px;
       right: 20px;
-
     }
 
     .icon {

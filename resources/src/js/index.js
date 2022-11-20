@@ -19,11 +19,13 @@ import SimpleBar from "simplebar";
 import MicroModal from 'micromodal';
 import isInViewport from "./helpers/isInViewport";
 import {isDesktop} from "./helpers/isDevice";
+import choiceComponent from "./components/choice.component";
 
 window.addEventListener("DOMContentLoaded", () => {
     menuComponent()
     cookiesComponent()
     btnSelectsComponent()
+    choiceComponent()
 
     if(isDesktop) {
         selScrollComponent()

@@ -118,26 +118,15 @@
             </nav>
 
             <div class="menu__metering">
-                <div class="menu__metering-wrap">
-                    <div class="btn-metering menu__mt">
-                        <button class="btn-metering__header">
-                            <span>Sq.Mt</span>
-                        </button>
-                        <div class="btn-metering__list">
-                            <a href="#" class="btn-metering__item">Sq.Mt</a>
-                        </div>
-                    </div>
-
-                    <div class="btn-metering">
-                        <button class="btn-metering__header">
-                            <span class="icon icon-sort"></span>
-                            <span>Sq.Ft</span>
-                            <span class="icon icon-arrow-down"></span>
-                        </button>
-                        <div class="btn-metering__list">
-                            <a href="#" class="btn-metering__item">Sq.Ft</a>
-                            <a href="#" class="btn-metering__item">Sq.Mt</a>
-                        </div>
+                <div class="btn-metering btn-selects">
+                    <button class="btn-metering__header btn-selects__header">
+                        <span class="icon icon-sort"></span>
+                        <span>Sq.Ft</span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                    <div class="btn-metering__items btn-selects__items">
+                        <a href="#" class="btn-metering__item btn-selects__item"><span class="btn-metering__icon icon icon-sort"></span> Sq.Ft</a>
+                        <a href="#" class="btn-metering__item btn-selects__item">Sq.Mt</a>
                     </div>
                 </div>
             </div>

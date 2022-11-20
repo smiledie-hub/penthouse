@@ -14,7 +14,7 @@
 
             <div class="catalog-page__header">
                 <div class="container">
-                    <h2 class="catalog-page__title">LUXURY Properties FOR SALE IN DUBAI</h2>
+                    <h2 class="catalog-page__title">LUXURY Properties FOR <wbr>SALE IN DUBAI</h2>
                 </div>
 
                 <div class="catalog-page__panel-box">

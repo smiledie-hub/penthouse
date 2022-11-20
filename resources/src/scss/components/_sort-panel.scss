@@ -4,6 +4,10 @@
     justify-content: space-between;
     align-items: center;
 
+    @include media-down(smd) {
+      align-items: flex-end;
+    }
+
     @include media-down(sm) {
       flex-direction: column;
       align-items: flex-start;
@@ -16,7 +20,11 @@
     align-items: center;
     gap: 52px;
 
-    @include media-down(sm) {
+    @include media-down(md) {
+      gap: 20px;
+    }
+
+    @include media-down(smd) {
       flex-direction: column;
       align-items: flex-start;
       gap: 20px;

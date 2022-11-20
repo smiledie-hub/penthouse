@@ -30,7 +30,7 @@
             <input type="checkbox" name="privacy" class="checkbox__input" checked>
             <span class="checkbox__box"><span class="icon-check"></span></span>
             <span class="checkbox__text">I agree to <a href="#">Terms</a> of use and <a
-                    href="#">Privacy Policy</a></span>
+                        href="#">Privacy Policy</a></span>
         </label>
     </div>
 
