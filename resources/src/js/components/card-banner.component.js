@@ -1,14 +1,14 @@
 import Swiper, {Navigation, Pagination} from "swiper";
+import {isDesktop} from "../helpers/isDevice";
 
-export default function () {
-
-    const slider = new Swiper('.card-banner__swiper', {
+export default function CardBannerComponent() {
+    new Swiper('.card-banner__swiper', {
         speed: 800,
         spaceBetween: 0,
         slidesPerView: 1,
         navigation: {
             nextEl: document.querySelector('.card-banner__next'),
-            prevEl:  document.querySelector('.card-banner__prev'),
+            prevEl: document.querySelector('.card-banner__prev'),
         },
         pagination: {
             el: '.card-banner__pagination',
@@ -17,7 +17,7 @@ export default function () {
         modules: [Navigation, Pagination],
     });
 
-    const followCursor = () => { // объявляем функцию followCursor
+    const followCursor = () => {
         const cursor = document.querySelector('.card-page__cursor')
         const container = document.querySelector('.card-banner')
 
@@ -44,7 +44,7 @@ export default function () {
 
                 if (target.closest('a')) {
                     cursor.classList.add('card-page__cursor--link')
-                } else { // иначе
+                } else {
                     cursor.classList.remove('card-page__cursor--link')
                 }
 
@@ -64,7 +64,7 @@ export default function () {
         }
     }
 
-    if (window.innerWidth >= 1023) {
+    if (isDesktop) {
         followCursor()
     }
 }

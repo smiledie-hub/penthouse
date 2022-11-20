@@ -136,16 +136,27 @@
                 </div>
 
                 <div class="dubai-marina-location-block__content">
-                    <p class="dubai-marina-location-block__text">Dubai Marina is home to several grocery stores,
-                        nurseries, and medical centres, including:</p>
-                    <p class="dubai-marina-location-block__text2">Blossom Marina Nursery Dubai, Raffles Nursery Dubai
-                        Marina, and Willow Children's Nursery - Dubai Marina</p>
+                    <div class="swiper area-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="dubai-marina-location-block__text">Dubai Marina is home to several grocery stores,
+                                    nurseries, and medical centres, including:</p>
+                                <p class="dubai-marina-location-block__text2">Blossom Marina Nursery Dubai, Raffles Nursery Dubai
+                                    Marina, and Willow Children's Nursery - Dubai Marina</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <p class="dubai-marina-location-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, asperiores!</p>
+                                <p class="dubai-marina-location-block__text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa enim exercitationem ipsam iure, qui quisquam sunt. Pariatur, placeat rem.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="dubai-marina-location-block__navs">
-                        <a href="#" class="btn-icon btn-nav btn-nav--prev btn-icon--white"><span
-                                    class="icon-arrow-prev"></span></a>
-                        <a href="#" class="btn-icon btn-nav btn-nav--next btn-icon--white"><span
-                                    class="icon-arrow-next"></span></a>
+                        <button class="btn-icon btn-nav btn-nav--prev btn-icon--white area-slider__prev"><span
+                                    class="icon-arrow-prev"></span></button>
+                        <button class="btn-icon btn-nav btn-nav--next btn-icon--white area-slider__next"><span
+                                    class="icon-arrow-next"></span></button>
                     </div>
                 </div>
 
@@ -209,14 +220,25 @@
                 </div>
 
                 <div class="dubai-marina-promo__content">
-                    <p class="dubai-marina-promo__text">Dubai Marina Walk is a beautiful 22,965 ft. long palm-framed
-                        promenade, which features 305 retail outlets and 69 fine dining restaurants.</p>
+
+                    <div class="swiper area-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="dubai-marina-promo__text">Dubai Marina Walk is a beautiful 22,965 ft. long palm-framed
+                                    promenade, which features 305 retail outlets and 69 fine dining restaurants.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <p class="dubai-marina-promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam architecto consectetur deleniti dolorem earum iusto molestias ullam vel voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="dubai-marina-promo__navs">
-                        <a href="#" class="btn-icon btn-nav btn-nav--prev btn-icon--white"><span
-                                    class="icon-arrow-prev"></span></a>
-                        <a href="#" class="btn-icon btn-nav btn-nav--next btn-icon--white"><span
-                                    class="icon-arrow-next"></span></a>
+                        <button class="btn-icon btn-nav btn-nav--prev btn-icon--white area-slider__prev"><span
+                                    class="icon-arrow-prev"></span></button>
+                        <button class="btn-icon btn-nav btn-nav--next btn-icon--white area-slider__next"><span
+                                    class="icon-arrow-next"></span></button>
                     </div>
                 </div>
             </div>

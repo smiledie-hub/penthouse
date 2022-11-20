@@ -1,6 +1,6 @@
-window.addEventListener("DOMContentLoaded", () => {
+export default function CatalogComponent() {
     const catalog = document.querySelector('.catalog')
-    if(catalog) {
+    if (catalog) {
 
         const btnMapOpen = catalog.querySelector('.catalog-toggle__open')
         const btnMapClose = catalog.querySelector('.catalog-toggle__close')
@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
         btnMapOpen && btnMapOpen.addEventListener('click', (e) => {
             e.preventDefault()
 
-            if(catalog.classList.contains('catalog--open-map')) {
+            if (catalog.classList.contains('catalog--open-map')) {
                 catalog.classList.add('catalog--open-map-full')
             } else {
                 catalog.classList.add('catalog--open-map')
@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
         btnMapClose && btnMapClose.addEventListener('click', (e) => {
             e.preventDefault()
 
-            if(catalog.classList.contains('catalog--open-map-full')) {
+            if (catalog.classList.contains('catalog--open-map-full')) {
                 catalog.classList.remove('catalog--open-map-full')
             } else {
                 catalog.classList.remove('catalog--open-map')
@@ -53,4 +53,4 @@ window.addEventListener("DOMContentLoaded", () => {
             filterPanel.classList.remove('catalog-page__panel--active')
         })
     }
-})
+}

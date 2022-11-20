@@ -1,4 +1,4 @@
-export default function () {
+export default function BtnSelectsComponent() {
     const items = document.querySelectorAll('.btn-selects')
 
     items.forEach(item => {

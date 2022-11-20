@@ -284,7 +284,7 @@
 
                 <p class="card-detail-map card-map__label"><span class="icon-location"></span>Palm Jumeirah</p>
 
-                <div id="map"></div>
+                <div id="map" class="card-map__box" data-coords="25.183942,55.259319"></div>
             </div>
         </div>
         <div class="card-infrastructure">

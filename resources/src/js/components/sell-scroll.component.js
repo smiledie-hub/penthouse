@@ -1,6 +1,6 @@
 import throttle from "../helpers/throttle";
 
-export default function () {
+export default function SellScrollComponent() {
     function getOffset(el) {
         let _x = 0;
         let _y = 0;

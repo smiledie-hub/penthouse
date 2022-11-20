@@ -49,4 +49,23 @@
       margin-bottom: 0;
     }
   }
+
+  &__box {
+    height: 714px;
+
+    .gm-fullscreen-control,
+    .gm-style-mtc > div,
+    .gmnoprint > div,
+    .gm-svpc {
+      display: none;
+    }
+
+    @include media-down(md) {
+      height: 435px;
+    }
+
+    @include media-down(sm) {
+      height: 500px;
+    }
+  }
 }

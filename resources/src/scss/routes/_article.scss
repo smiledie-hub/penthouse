@@ -43,6 +43,10 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
+
+    @include media-down(sm) {
+      font-size: 16px;
+    }
   }
 
   &__section {
@@ -52,6 +56,10 @@
       @include media-down(md) {
         margin-bottom: 53px;
       }
+
+      @include media-down(sm) {
+        margin-bottom: 34px;
+      }
     }
 
     &--mb-100 {
@@ -60,6 +68,10 @@
 
         @include media-down(md) {
           margin-bottom: 36px;
+        }
+
+        @include media-down(sm) {
+          margin-bottom: 0;
         }
       }
     }

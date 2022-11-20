@@ -1,6 +1,7 @@
 import Swiper from "swiper";
 import calcOffsetContainer from "../helpers/calcOffsetContainer";
 import {isDesktop} from "../helpers/isDevice";
+import getOffset from "../helpers/getOffset";
 
 window.addEventListener("DOMContentLoaded", () => {
     const offset = calcOffsetContainer();
@@ -31,31 +32,17 @@ window.addEventListener("DOMContentLoaded", () => {
         },
     });
 
-
     if(isDesktop) {
-        function getOffset(el) {
-            let _x = 0;
-            let _y = 0;
-            while (el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop)) {
-                _x += el.offsetLeft - el.scrollLeft;
-                _y += el.offsetTop - el.scrollTop;
-                el = el.offsetParent;
-            }
-            return {top: _y, left: _x};
-        }
-
         const containerEl = document.querySelector('.about-company-scroll')
         const containerStickyEl = document.querySelector('.about-company-scroll__sticky')
 
-        containerEl.style.height = slider.width + (window.innerWidth - (calcOffsetContainer() * 2)) + "px"
-
         if (containerEl && containerStickyEl && slider) {
+            containerEl.style.height = slider.width + (window.innerWidth - (calcOffsetContainer() * 2)) + "px"
+
             const cTop = getOffset(containerEl).top
             const topStart = slider.getTranslate()
 
             window.addEventListener('scroll', () => {
-                const top = containerStickyEl.getBoundingClientRect().top
-
                 const offsetX = cTop - ((window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0))
                 slider.setTranslate(topStart + offsetX)
             })

@@ -321,10 +321,25 @@
   }
 
   &__map {
-    position: relative;
     background: #fff;
     transition: 400ms;
     width: 0;
+
+    top: 0;
+    position: sticky;
+    height: 100vh;
+  }
+
+  &__map-box {
+    width: 100%;
+    height: 100%;
+
+    .gm-fullscreen-control,
+    .gm-style-mtc > div,
+    .gmnoprint > div,
+    .gm-svpc {
+      display: none;
+    }
   }
 
   &--open-map {
@@ -365,13 +380,14 @@
   }
 
   &--open-map-full {
-    height: 100vh;
-    overflow: hidden;
+    @include media-down(sm) {
+      height: 100vh;
+      overflow: hidden;
+    }
 
     #{$root} {
       &__map {
         width: 100%;
-        height: 100vh;
       }
 
       &__main {
@@ -638,6 +654,7 @@
   position: absolute;
   top: 28px;
   left: -45px;
+  z-index: 10;
 
   @include media-down(md) {
     top: 16px;

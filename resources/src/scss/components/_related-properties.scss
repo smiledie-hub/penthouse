@@ -14,10 +14,10 @@
   }
 
   &__navigation {
-    display: none;
+    display: none !important;
 
     @include media-down(sm) {
-      display: flex;
+      display: flex !important;
       margin-top: 19px;
     }
   }

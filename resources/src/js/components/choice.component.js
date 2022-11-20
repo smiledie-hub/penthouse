@@ -1,6 +1,6 @@
 import SimpleBar from "simplebar";
 
-export default function choiceComponent() {
+export default function ChoiceComponent() {
     const choices = document.querySelectorAll('.choice')
 
     document.addEventListener('click', (e) => {

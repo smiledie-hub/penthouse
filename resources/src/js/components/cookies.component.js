@@ -1,6 +1,6 @@
 import {deleteCookie, getCookie, setCookie} from "../helpers/cookies";
 
-export default function () {
+export default function CookiesComponent() {
     const cookieEl = document.querySelector('.cookies')
 
     if (cookieEl) {
