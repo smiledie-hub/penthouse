@@ -142,6 +142,22 @@
       }
     }
   }
+
+  &--full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 145px + 80px;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    max-height: 1114px;
+
+    #{$root} {
+      &__content {
+        padding: 0;
+      }
+    }
+  }
 }
 
 .banner-smoke {

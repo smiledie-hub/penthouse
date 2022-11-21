@@ -1,0 +1,146 @@
+.services-page {
+  &__title {
+    height: 295px;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 46px;
+  }
+
+  &__text {
+    max-width: 710px;
+  }
+
+  &__sg {
+    position: relative;
+    bottom: 130px;
+    right: -120px;
+    left: auto;
+    transform: none;
+  }
+}
+
+.services {
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__items {
+
+  }
+
+  &__sticky {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #AA9F8D;
+    transition: background-color 1s;
+  }
+
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    //gap: 137px;
+    width: max-content;
+    //padding: 0 137px;
+  }
+}
+
+.services-item {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 100px var(--cp);
+
+  &__content {
+    max-width: 415px;
+    min-height: 614px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__icon {
+    background: #8F8175;
+    border: 1px solid #8F8175;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F0EF;
+    width: 137px;
+    height: 137px;
+
+    .icon {
+      font-size: 67px;
+    }
+
+    .icon-home {
+      font-size: 53px;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    height: 150px;
+    margin-bottom: 45px;
+  }
+
+  &__title-text {
+    position: relative;
+    top: 21px;
+  }
+
+  &__title-sg {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #D0A966;
+    position: absolute;
+    top: 0;
+    left: 48px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+  }
+
+  &__number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3B3734;
+  }
+}
+
+.service-image {
+  width: 100vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 1028px;
+    height: 578px;
+
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain;
+  }
+}

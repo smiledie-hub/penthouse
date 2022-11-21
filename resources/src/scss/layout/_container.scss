@@ -5,6 +5,7 @@
   padding: 0 30px;
   max-width: 1620px;
   box-sizing: content-box;
+  width: 100%;
 
   @include media-down(md) {
     padding: 0 40px;

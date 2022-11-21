@@ -21,6 +21,7 @@ import CatalogComponent from "./components/catalog.component";
 import MapComponent from "./components/map.component";
 import SliderProjectComponent from "./components/slider-project.component";
 import SellScrollMobileComponent from "./components/sell-scroll-mobile.component";
+import ScrollServicesComponent from "./components/scroll-services.component";
 
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -42,6 +43,8 @@ window.addEventListener("DOMContentLoaded", () => {
     CatalogComponent()
     MapComponent()
     SliderProjectComponent()
+
+    ScrollServicesComponent()
 
     if (isDesktop) {
         SellScrollComponent()
