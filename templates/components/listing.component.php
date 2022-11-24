@@ -1,4 +1,4 @@
-<div class="listing">
+<div class="listing" data-aos="fade-up" data-aos-duration="1000">
     <div class="listing__header">
 
         <div class="swiper listing__slider">

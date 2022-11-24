@@ -1,4 +1,4 @@
-<div class="catalog-item">
+<div class="catalog-item" data-aos="fade-up" data-aos-duration="1000">
     <div class="catalog-item__header">
         <div class="swiper catalog-item__slider">
             <div class="swiper-wrapper">

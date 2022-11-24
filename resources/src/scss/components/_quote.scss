@@ -45,6 +45,7 @@
   &__icon {
     color: #D0A966;
     font-size: 156px;
+    display: block;
 
     @include media-down(md) {
       font-size: 59px;

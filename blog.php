@@ -4,7 +4,7 @@
         <?php HeaderComponent("header--dark"); ?>
 
         <div class="container">
-            <div class="breadcrumbs">
+            <div class="breadcrumbs" data-aos="fade-down" data-aos-duration="1000">
                 <a href="/">Home</a>
                 <span class="icon-arrow-next"></span>
                 <span>Blog</span>
@@ -15,9 +15,9 @@
             <div class="container">
 
                 <div class="blog__wrapper">
-                    <h2 class="blog__title blog__title--page">Blog</h2>
+                    <h2 class="blog__title blog__title--page" data-aos="fade-right" data-aos-duration="1000">Blog</h2>
                     <div class="blog__categories">
-                        <div class="swiper blog__slider">
+                        <div class="swiper blog__slider" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                             <div class="swiper-wrapper">
                                 <a href="#" class="swiper-slide btn-category btn-category--active"><span>Lifestyle/Trends</span></a>
                                 <a href="#" class="swiper-slide btn-category"><span>News</span></a>
@@ -32,12 +32,12 @@
         <div class="blog__body">
             <div class="container">
                 <div class="blog__headers blog__headers--line-gray">
-                    <p class="blog__header">Article</p>
-                    <p class="blog__header">Date</p>
+                    <p class="blog__header" data-aos="fade-right" data-aos-duration="1000">Article</p>
+                    <p class="blog__header" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Date</p>
                 </div>
                 <div class="blog__items blog__items--line-gray">
                     <?php for ($i = 1; $i <= 5; $i++): ?>
-                        <article class="blog-item">
+                        <article class="blog-item" data-aos="fade-up" data-aos-duration="1000">
                             <a href="#" class="blog-item__link"></a>
                             <div class="blog-item__start">
                                 <img class="blog-item__image" src="/public/images/article-1.jpg" alt="">
@@ -53,7 +53,7 @@
                                 <a class="blog-item__button btn btn--primary-outline" href="#">Learn more</a>
                             </div>
                         </article>
-                        <article class="blog-item">
+                        <article class="blog-item" data-aos="fade-up" data-aos-duration="1000">
                             <a href="#" class="blog-item__link"></a>
                             <div class="blog-item__start">
                                 <img class="blog-item__image" src="/public/images/article-2.jpg" alt="">
@@ -69,7 +69,7 @@
                                 <a class="blog-item__button btn btn--primary-outline" href="#">Learn more</a>
                             </div>
                         </article>
-                        <article class="blog-item">
+                        <article class="blog-item" data-aos="fade-up" data-aos-duration="1000">
                             <a href="#" class="blog-item__link"></a>
                             <div class="blog-item__start">
                                 <img class="blog-item__image" src="/public/images/article-3.jpg" alt="">
@@ -88,7 +88,7 @@
                     <?php endfor; ?>
                 </div>
 
-                <div class="blog__pagination pagination">
+                <div class="blog__pagination pagination" data-aos="fade-up" data-aos-duration="1000">
                     <a href="#" class="btn-icon btn-nav btn-nav--prev pagination__prev"><span class="icon-arrow-prev"></span></a>
                     <div class="pagination__numbers">
                         <a href="#" class="pagination__number">1</a>

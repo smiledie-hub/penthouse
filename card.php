@@ -3,7 +3,7 @@
         <div class="bg-second">
             <?php HeaderComponent("header--dark"); ?>
             <div class="container">
-                <div class="breadcrumbs">
+                <div class="breadcrumbs" data-aos="fade-down" data-aos-duration="1000">
                     <a href="/">Home</a>
                     <span class="icon-arrow-next"></span>
                     <a href="/">Areas</a>
@@ -24,7 +24,7 @@
                 <div class="card-banner__prev">
                     <span class="card-banner__icon icon-arrow-prev"></span>
                 </div>
-                <div class="card-banner__buttons">
+                <div class="card-banner__buttons" data-aos="fade-down" data-aos-duration="1000">
                     <a href="#" class="btn--primary card-banner__play"><span class="play"><span
                                     class="icon-play"></span></span> Video</a>
                     <a href="#" class="btn--primary card-banner__cube"><span class="icon-cube"></span> 3D tour</a>
@@ -48,33 +48,33 @@
                 <div class="container">
                     <div class="card-detail__wrapper">
                         <div class="card-detail__section">
-                            <p class="card-detail__price card-detail-price">AED 24.000.000</p>
-                            <h1 class="card-detail__title">Jumeirah Tower | Elite penthouse with private swimming
+                            <p class="card-detail__price card-detail-price" data-aos="fade-right" data-aos-duration="1000">AED 24.000.000</p>
+                            <h1 class="card-detail__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Jumeirah Tower | Elite penthouse with private swimming
                                 pool</h1>
-                            <p class="card-detail-category card-detail__category">The Royal Residences</p>
-                            <a href="#" class="card-detail-map card-detail__map"><span class="icon-location"></span>Palm
+                            <p class="card-detail-category card-detail__category" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">The Royal Residences</p>
+                            <a href="#" class="card-detail-map card-detail__map" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"><span class="icon-location"></span>Palm
                                 Jumeirah
                             </a>
                             <p class="card-detail__sea">Sea view</p>
 
                             <div class="card-detail__items">
-                                <div class="card-detail__item"><span class="icon-beds"></span> 4 <span
+                                <div class="card-detail__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0"><span class="icon-beds"></span> 4 <span
                                             class="card-detail__span">Bedrooms</span></div>
-                                <div class="card-detail__item"><span class="icon-baths"></span> 4 <span
+                                <div class="card-detail__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"><span class="icon-baths"></span> 4 <span
                                             class="card-detail__span">Bathrooms</span></div>
-                                <div class="card-detail__item"><span class="icon-cars"></span> 3 <span
+                                <div class="card-detail__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"><span class="icon-cars"></span> 3 <span
                                             class="card-detail__span">Parking</span></div>
-                                <div class="card-detail__item card-detail__item--sea"><span class="icon-sea"></span> Sea
+                                <div class="card-detail__item card-detail__item--sea" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><span class="icon-sea"></span> Sea
                                     view
                                 </div>
-                                <div class="card-detail__item"><span class="icon-sort-fill"></span> 5678.78 sq.ft.</div>
+                                <div class="card-detail__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"><span class="icon-sort-fill"></span> 5678.78 sq.ft.</div>
                             </div>
 
-                            <a href="#plan" class="btn btn--primary-outline card-detail__plan js-smooth"><span
+                            <a href="#plan" class="btn btn--primary-outline card-detail__plan js-smooth" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0"><span
                                         class="icon-plain"></span> Plan</a>
                         </div>
                         <div class="card-detail__section">
-                            <div class="card-detail-profile">
+                            <div class="card-detail-profile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                                 <img class="card-detail-profile__image" src="/public/images/card-profile.jpg"
                                      alt="profile">
                                 <div>
@@ -102,33 +102,33 @@
 
         <div class="card-description">
             <div class="container">
-                <p class="card-description__subtitle">Description</p>
-                <h2 class="card-description__title">Atlantis The Royal Residences by Kerzner International is a
+                <p class="card-description__subtitle" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">Description</p>
+                <h2 class="card-description__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Atlantis The Royal Residences by Kerzner International is a
                     super-elite development</h2>
             </div>
 
             <div class="card-description__wrapper card-description__wrapper--first">
                 <div class="card-description__items">
                     <div class="card-description__item">
-                        <p class="card-description__number">795</p>
-                        <p class="card-description__label">Rooms</p>
+                        <p class="card-description__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">795</p>
+                        <p class="card-description__label" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Rooms</p>
                     </div>
                     <div class="card-description__item">
-                        <p class="card-description__number">102</p>
-                        <p class="card-description__label">Suites</p>
+                        <p class="card-description__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">102</p>
+                        <p class="card-description__label" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Suites</p>
                     </div>
                     <div class="card-description__item">
-                        <p class="card-description__number">44</p>
-                        <p class="card-description__label">Suites come with their own private pool</p>
+                        <p class="card-description__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">44</p>
+                        <p class="card-description__label" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Suites come with their own private pool</p>
                     </div>
                 </div>
 
-                <p class="card-description__text">There are ready to move-in Sky Courts, Garden Suites and
+                <p class="card-description__text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">There are ready to move-in Sky Courts, Garden Suites and
                     Penthouses available for sale.</p>
             </div>
             <div class="card-description__wrapper card-description__wrapper--end">
-                <img class="card-description__image" src="/public/images/card-description.jpg" alt="card-description">
-                <div class="card-description__content">
+                <img class="card-description__image" src="/public/images/card-description.jpg" alt="card-description" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
+                <div class="card-description__content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0">
                     <p>Penthouses feature 3-5 bedroom layouts, alongside a terrace with a stunning pool and
                         exclusive dining and living spaces. The size of these residences varies between 3,015 sq. ft
                         and 25,206 sq. ft, with the initial cost amounting to AED 24M (USD 6.5M).</p>
@@ -142,87 +142,87 @@
         <div class="card-more">
             <div class="card-more__wrapper">
                 <div class="card-more__section">
-                    <h2 class="card-more__title">Features and Amenities</h2>
+                    <h2 class="card-more__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">Features and Amenities</h2>
                     <div class="card-more__items">
                         <div class="card-more__item">
-                            <span class="card-more__icon"><span class="icon-home"></span></span>
-                            <p class="card-more__text">Indoor</p>
+                            <span class="card-more__icon" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0"><span class="icon-home"></span></span>
+                            <p class="card-more__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Indoor</p>
                             <ul class="card-more__ul">
-                                <li>Terrassa</li>
-                                <li>Pool</li>
-                                <li>Air Conditioning</li>
-                                <li>Smart Home System</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Terrassa</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Pool</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Air Conditioning</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Smart Home System</li>
                             </ul>
                         </div>
                         <div class="card-more__item">
-                            <span class="card-more__icon"><span class="icon-leaf"></span></span>
-                            <p class="card-more__text">Outdoor</p>
+                            <span class="card-more__icon" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0"><span class="icon-leaf"></span></span>
+                            <p class="card-more__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Outdoor</p>
                             <ul class="card-more__ul">
-                                <li>Shopping mall</li>
-                                <li>Restaurant</li>
-                                <li>Beach club</li>
-                                <li>Concierge</li>
-                                <li>Private garage</li>
-                                <li>Golf club</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Shopping mall</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Restaurant</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Beach club</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Concierge</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1200">Private garage</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1400">Golf club</li>
                             </ul>
                         </div>
                         <div class="card-more__item">
-                            <span class="card-more__icon"><span class="icon-city"></span></span>
-                            <p class="card-more__text">Lot</p>
+                            <span class="card-more__icon" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0"><span class="icon-city"></span></span>
+                            <p class="card-more__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Lot</p>
                             <ul class="card-more__ul">
-                                <li>Sea view</li>
-                                <li>City view</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Sea view</li>
+                                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">City view</li>
                             </ul>
                         </div>
                     </div>
 
                 </div>
                 <div class="card-more__section">
-                    <h2 class="card-more__title">Project Details</h2>
+                    <h2 class="card-more__title" data-aos="fade-right" data-aos-duration="1000">Project Details</h2>
                     <div class="card-more__lists">
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Unit Reference</p>
-                            <p class="card-more-list__value">MP-S-31858</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Unit Reference</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">MP-S-31858</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Parking Slot</p>
-                            <p class="card-more-list__value">1</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Parking Slot</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">1</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Property Name</p>
-                            <p class="card-more-list__value">Jumeirah Gate Tower 1</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Property Name</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Jumeirah Gate Tower 1</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Permit Number</p>
-                            <p class="card-more-list__value">71383570558</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Permit Number</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">71383570558</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Emirate</p>
-                            <p class="card-more-list__value">Dubai</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Emirate</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Dubai</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Status</p>
-                            <p class="card-more-list__value">Completed</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Status</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Completed</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Purpose</p>
-                            <p class="card-more-list__value">For sale</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Purpose</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">For sale</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Addeed on</p>
-                            <p class="card-more-list__value">23 April 2022</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Addeed on</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">23 April 2022</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Year Built</p>
-                            <p class="card-more-list__value">2021</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Year Built</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">2021</p>
                         </div>
                         <div class="card-more-list">
-                            <p class="card-more-list__title">Outdoor</p>
-                            <p class="card-more-list__value">No</p>
+                            <p class="card-more-list__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Outdoor</p>
+                            <p class="card-more-list__value" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">No</p>
                         </div>
                     </div>
 
-                    <a href="#" class="btn btn--primary-outline">Show more about project</a>
+                    <a href="#" class="btn btn--primary-outline" data-aos="fade-dwon" data-aos-duration="1000" data-aos-delay="200">Show more about project</a>
                 </div>
             </div>
         </div>
@@ -230,28 +230,28 @@
             <div class="container">
                 <div class="card-schema__wrapper">
                     <div class="card-schema__section">
-                        <p class="card-schema__price card-detail-price">AED 24.000.000</p>
-                        <p class="card-schema__text">Jumeirah Tower | Elite penthouse with private swimming pool</p>
+                        <p class="card-schema__price card-detail-price" data-aos="fade-right" data-aos-duration="1000">AED 24.000.000</p>
+                        <p class="card-schema__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Jumeirah Tower | Elite penthouse with private swimming pool</p>
 
-                        <p class="card-detail-category card-schema__category">The Royal Residences</p>
-                        <p class="card-detail-map card-schema__map"><span class="icon-location"></span>Palm Jumeirah</p>
+                        <p class="card-detail-category card-schema__category" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">The Royal Residences</p>
+                        <p class="card-detail-map card-schema__map" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"><span class="icon-location"></span>Palm Jumeirah</p>
 
                         <div class="card-schema__items">
-                            <div class="card-schema__item"><span><span class="icon-beds"></span></span> 4 Bedrooms</div>
-                            <div class="card-schema__item"><span><span class="icon-baths"></span></span> 4 Bathrooms
+                            <div class="card-schema__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"><span><span class="icon-beds"></span></span> 4 Bedrooms</div>
+                            <div class="card-schema__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span><span class="icon-baths"></span></span> 4 Bathrooms
                             </div>
-                            <div class="card-schema__item"><span><span class="icon-cars"></span></span> 3 Parking</div>
-                            <div class="card-schema__item"><span><span class="icon-sort-fill"></span></span> 5678.78
+                            <div class="card-schema__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1200"><span><span class="icon-cars"></span></span> 3 Parking</div>
+                            <div class="card-schema__item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1400"><span><span class="icon-sort-fill"></span></span> 5678.78
                                 sq.ft.
                             </div>
                         </div>
 
                         <div class="card-schema__icons">
-                            <div class="card-schema__icon tippy" data-text="Leaf"><span class="icon-leaf"></span></div>
-                            <div class="card-schema__icon tippy" data-text="Pool"><span class="icon-pool"></span></div>
+                            <div class="card-schema__icon tippy" data-text="Leaf" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1600"><span class="icon-leaf"></span></div>
+                            <div class="card-schema__icon tippy" data-text="Pool" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1800"><span class="icon-pool"></span></div>
                         </div>
 
-                        <div class="card-schema__navs">
+                        <div class="card-schema__navs" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000">
                             <button class="btn-icon btn-nav btn-nav--prev card-schema-prev"><span
                                         class="icon-arrow-prev"></span>
                             </button>
@@ -261,7 +261,7 @@
                         </div>
                     </div>
                     <div class="card-schema__section">
-                        <div class="swiper slider-schema">
+                        <div class="swiper slider-schema" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                             <div class="swiper-wrapper slider-schema__wrapper">
                                 <div class="swiper-slide slider-schema__slide">
                                     <img class="slider-schema__image" src="/public/images/schema.jpg" alt="">
@@ -278,34 +278,34 @@
         <div class="card-map">
             <div class="container">
                 <div class="card-map__title-box">
-                    <h2 class="card-map__title">Explore the Area</h2>
-                    <a href="#" class="btn btn--primary-outline">Show more about area</a>
+                    <h2 class="card-map__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">Explore the Area</h2>
+                    <a href="#" class="btn btn--primary-outline" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Show more about area</a>
                 </div>
 
-                <p class="card-detail-map card-map__label"><span class="icon-location"></span>Palm Jumeirah</p>
+                <p class="card-detail-map card-map__label" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"><span class="icon-location"></span>Palm Jumeirah</p>
 
-                <div id="map" class="card-map__box" data-coords="25.183942,55.259319"></div>
+                <div id="map" class="card-map__box" data-coords="25.183942,55.259319" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"></div>
             </div>
         </div>
         <div class="card-infrastructure">
 
             <div class="card-infrastructure__wrapper">
                 <div class="card-infrastructure__image">
-                    <img src="/public/images/infrastructure-1.jpg" alt="infrastructure"/>
+                    <img src="/public/images/infrastructure-1.jpg" alt="infrastructure" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"/>
                 </div>
                 <div class="card-infrastructure__section">
                     <h2 class="card-infrastructure__title"><span
-                                class="card-infrastructure__first">infrastructure</span> <span
+                                class="card-infrastructure__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">infrastructure</span> <span
                                 class="fn-sg card-infrastructure__sg">Infrastructure</span>
                     </h2>
-                    <p class="card-infrastructure__text">The island boasts excellent transport connectivity thanks to
+                    <p class="card-infrastructure__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">The island boasts excellent transport connectivity thanks to
                         the
                         adjacent King Salman Bin Abdulaziz Al
                         Saud Street, which leads directly to the Sheikh Zayed Road and other essential arteries nearby.
                         On the
                         other 3 sides, Palm Jumeirah is bounded by the Arabian Gulf, offering an unparalleled sea
                         view.</p>
-                    <p class="card-infrastructure__text">It is worth noting that the island provides easy access to the
+                    <p class="card-infrastructure__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">It is worth noting that the island provides easy access to the
                         mainland
                         of Dubai due to the
                         first-of-its-kind system in the Middle East - The Palm Monorail. </p>
@@ -315,33 +315,33 @@
             <div class="card-infrastructure__background">
                 <div class="card-infrastructure__wrapper-2">
                     <div class="card-infrastructure__section-2">
-                        <p class="card-infrastructure__text card-infrastructure__text--2">Although there are no schools
+                        <p class="card-infrastructure__text card-infrastructure__text--2"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Although there are no schools
                             on
                             Palm Jumeirah, it houses a range of private international establishments that enroll
                             students in
                             pre-kindergarten or kindergarten (Redwood Montessori Nursery, Blossom Palm Jumeirah Nursery,
                             etc.) through to high school. </p>
-                        <a href="#" class="btn btn--primary-outline card-infrastructure__btn">Find out more about Dubai
+                        <a href="#" class="btn btn--primary-outline card-infrastructure__btn" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Find out more about Dubai
                             areas</a>
                     </div>
 
-                    <img class="card-infrastructure__image-2" src="/public/images/infrastructure-2.jpg"
+                    <img  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="card-infrastructure__image-2" src="/public/images/infrastructure-2.jpg"
                          alt="infrastructure">
                 </div>
 
                 <div class="box-image box-image--right card-infrastructure__image-3">
                     <div class="box-image__content box-image__content--p250">
-                        <img class="box-image__image" src="/public/images/infrastructure-3.jpg" alt="">
+                        <img  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image" src="/public/images/infrastructure-3.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <div class="card-lifestyle">
             <div class="container">
-                <h2 class="card-lifestyle__title"><span class="card-lifestyle__first">Lifestyle</span> <span
+                <h2 class="card-lifestyle__title"><span class="card-lifestyle__first" data-aos="fade-right" data-aos-duration="1000">Lifestyle</span> <span
                             class="fn-sg card-lifestyle__sg">Lifestyle</span></h2>
                 <div class="card-lifestyle__content">
-                    <p class="card-lifestyle__text">Bringing a world-class resort lifestyle, Palm Jumeirah houses many
+                    <p class="card-lifestyle__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Bringing a world-class resort lifestyle, Palm Jumeirah houses many
                         luxury hotels, including Atlantis Dubai, W Dubai and FIVE Palm Jumeirah, where each location has
                         a private beach club and a modern lounge.</p>
                 </div>
@@ -349,26 +349,26 @@
 
             <div class="box-image box-image--left card-lifestyle__image-1">
                 <div class="box-image__content box-image__content--p250">
-                    <img class="box-image__image" src="/public/images/lifestyle-1.jpg" alt="">
+                    <img  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image" src="/public/images/lifestyle-1.jpg" alt="">
                 </div>
             </div>
 
             <div class="container">
                 <div class="card-lifestyle__content card-lifestyle__content--2">
-                    <p class="card-lifestyle__text">Not forgetting the ultimate dining destinations scattered across the
+                    <p class="card-lifestyle__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Not forgetting the ultimate dining destinations scattered across the
                         island, including Nobu, Gordon Ramsay’s Bread Street Kitchen & Bar, Akira Back and Ossiano,
                         among a
                         long list of others.</p>
-                    <a href="#" class="btn btn--primary-outline">Discover more of our projects</a>
+                    <a href="#" class="btn btn--primary-outline" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Discover more of our projects</a>
                 </div>
             </div>
 
             <div class="card-lifestyle__images row-images row-images--g50 row-images--right row-images--670-960">
                 <div class="row-images__item">
-                    <img class="row-images__img row-images__img--h670" src="/public/images/lifestyle-2.jpg" alt="">
+                    <img class="row-images__img row-images__img--h670" src="/public/images/lifestyle-2.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 </div>
                 <div class="row-images__item">
-                    <img class="row-images__img row-images__img--h850" src="/public/images/lifestyle-3.jpg" alt="">
+                    <img class="row-images__img row-images__img--h850" src="/public/images/lifestyle-3.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 </div>
             </div>
 

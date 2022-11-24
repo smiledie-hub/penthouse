@@ -4,7 +4,7 @@
     <div class="x-fix">
         <div class="absolute-breadcrumps breadcrumps-not-tablet">
             <div class="container">
-                <div class="breadcrumbs">
+                <div class="breadcrumbs" data-aos="fade-down" data-aos-duration="1000">
                     <a href="/">Home</a>
                     <span class="icon-arrow-next"></span>
                     <span>Sell</span>
@@ -19,9 +19,9 @@
                     <div class="container">
                         <h1 class="banner__title sell-page__title">
                             <span class="banner__sg fn-sg sell-page__sg">Sell</span>
-                            <span class="banner__first">Selling a dream</span>
+                            <span class="banner__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Selling a dream</span>
                         </h1>
-                        <p class="banner__text">Let professionals of Penthouse.ae powered by Metropolitan to sell your
+                        <p class="banner__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Let professionals of Penthouse.ae powered by Metropolitan to sell your
                             luxurious
                             real estate in Dubai and we will find the right buyer quickly, due to our effective marketing
                             campaign and extensive customer base.</p>
@@ -38,10 +38,10 @@
                     <div class="quote__inner">
                         <div class="quote__wrapper">
                             <div class="quote__item">
-                                <span class="quote__icon"><span class="icon-quote"></span></span>
+                                <span class="quote__icon" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"><span class="icon-quote"></span></span>
 
                                 <div class="quote__content">
-                                    <p class="quote__text">
+                                    <p class="quote__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                                         «As a head of sales department in Penthouse.ae powered by Metropolitan, I can
                                         safely say that our
                                         company provides the highest quality of service to clients from all over the
@@ -55,13 +55,13 @@
                                         client.»
                                     </p>
                                     <div class="quote__author">
-                                        <p class="quote__name">Petri Mannila</p>
-                                        <p class="quote__spec">Luxury Property Specialist</p>
+                                        <p class="quote__name" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Petri Mannila</p>
+                                        <p class="quote__spec" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Luxury Property Specialist</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="quote__item">
-                                <img class="quote__image" src="/public/images/quote.jpg" alt="">
+                                <img data-aos="fade-left" data-aos-duration="600" data-aos-delay="600" class="quote__image" src="/public/images/quote.jpg" alt="">
                                 <p class="quote__sg fn-sg">Petri</p>
                             </div>
                         </div>
@@ -246,24 +246,24 @@
     <div class="x-fix">
         <div class="sell-advantages">
             <div class="container">
-                <h2 class="sell-advantages__title"><span class="sell-advantages__start">advantages</span> <span
+                <h2 class="sell-advantages__title"><span class="sell-advantages__start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">advantages</span> <span
                             class="sell-advantages__sg fn-sg">Advantages</span></h2>
             </div>
 
             <div class="sell-advantages__row-images row-images row-images--items-end row-images--right mb-100">
                 <div class="row-images__item sell-advantages__item">
-                    <p class="sell-page__text">Extensive online marketing campaigns</p>
-                    <img class="sell-advantages__img row-images__img row-images__img--h710"
+                    <p class="sell-page__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Extensive online marketing campaigns</p>
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="sell-advantages__img row-images__img row-images__img--h710"
                          src="/public/images/sell-1.jpg" alt="">
                 </div>
                 <div class="row-images__item">
-                    <img class="sell-advantages__img row-images__img row-images__img--h1080"
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="sell-advantages__img row-images__img row-images__img--h1080"
                          src="/public/images/sell-2.jpg" alt="">
                 </div>
             </div>
 
             <div class="container">
-                <p class="sell-page__text sell-page__text--2">Modern reporting system for real estate value analysis and
+                <p class="sell-page__text sell-page__text--2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Modern reporting system for real estate value analysis and
                     cost control </p>
             </div>
         </div>
@@ -271,9 +271,9 @@
         <div class="bg-second">
             <div class="sell-page__box-image box-image box-image--left">
                 <div class="box-image__content">
-                    <img class="box-image__image" src="/public/images/self-page-1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image" src="/public/images/self-page-1.jpg" alt="">
                     <div class="sell-page__end">
-                        <p class="sell-page__text sell-page__text--3">Promotion through social networks for a wide
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="sell-page__text sell-page__text--3">Promotion through social networks for a wide
                             audience coverage </p>
                     </div>
                 </div>
@@ -281,11 +281,11 @@
 
             <div class="sell-page__row-images row-images row-images--items-end row-images--right">
                 <div class="row-images__item">
-                    <p class="sell-page__text sell-page__text--4">Own database of high net worth individuals</p>
-                    <img class="row-images__img row-images__img--h710" src="/public/images/sell-3.jpg" alt="">
+                    <p class="sell-page__text sell-page__text--4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Own database of high net worth individuals</p>
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710" src="/public/images/sell-3.jpg" alt="">
                 </div>
                 <div class="row-images__item">
-                    <img class="row-images__img row-images__img--h1080" src="/public/images/sell-4.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row-images__img row-images__img--h1080" src="/public/images/sell-4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -293,15 +293,15 @@
         <div class="row-images row-images--items-end row-images--right row-images--text sell-page__bg-mobile">
             <div class="row-images__item"></div>
             <div class="row-images__item">
-                <p class="sell-page__text sell-page__text--5">Promotion of real estate through our extensive network of
+                <p class="sell-page__text sell-page__text--5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Promotion of real estate through our extensive network of
                     banking contacts</p>
             </div>
         </div>
 
         <div class="box-image box-image--right sell-page__box-image2 sell-page__bg-mobile">
-            <p class="sell-page__text sell-page__text--6">Creation of high-quality photos, videos and presentations </p>
+            <p class="sell-page__text sell-page__text--6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Creation of high-quality photos, videos and presentations </p>
             <div class="box-image__content box-image__content--p550">
-                <img class="box-image__image" src="/public/images/self-page-1.jpg" alt="">
+                <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="box-image__image" src="/public/images/self-page-1.jpg" alt="">
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
         <?php HeaderComponent("header--dark"); ?>
 
         <div class="container">
-            <div class="breadcrumbs">
+            <div class="breadcrumbs" data-aos="fade-down" data-aos-duration="1000">
                 <a href="/">Home</a>
                 <span class="icon-arrow-next"></span>
                 <span>Catalog</span>
@@ -13,10 +13,10 @@
 
         <div class="catalog-page__header">
             <div class="container">
-                <h2 class="catalog-page__title">LUXURY Properties FOR <wbr>SALE IN DUBAI</h2>
+                <h2 class="catalog-page__title" data-aos="fade-right" data-aos-duration="1000">LUXURY Properties FOR <wbr>SALE IN DUBAI</h2>
             </div>
 
-            <div class="catalog-page__panel-box">
+            <div class="catalog-page__panel-box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                 <div class="container">
 
                     <label class="search-field catalog-page__search">
@@ -102,7 +102,7 @@
     <div class="catalog">
         <div class="catalog__main">
             <div class="catalog__content">
-                <p class="catalog__result">160 results find</p>
+                <p class="catalog__result" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">160 results find</p>
 
                 <div class="catalog__items">
                     <?php
@@ -112,9 +112,9 @@
                     ?>
                 </div>
                 <div class="catalog-footer">
-                    <p class="catalog-footer__text">1 – 40 of 120 objects</p>
+                    <p class="catalog-footer__text" data-aos="fade-right" data-aos-duration="1000">1 – 40 of 120 objects</p>
 
-                    <div class="pagination catalog-footer__navs">
+                    <div class="pagination catalog-footer__navs" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                         <a href="#" class="btn-icon btn-nav btn-nav--prev pagination__prev"><span class="icon-arrow-prev"></span></a>
                         <div class="pagination__numbers catalog-footer__numbers">
                             <a href="#" class="pagination__number">1</a>

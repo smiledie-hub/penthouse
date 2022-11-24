@@ -30,7 +30,7 @@
 
         <div class="absolute-breadcrumps breadcrumps-not-tablet">
             <div class="container">
-                <div class="breadcrumbs">
+                <div class="breadcrumbs" data-aos="fade-down" data-aos-duration="1000">
                     <a href="/">Home</a>
                     <span class="icon-arrow-next"></span>
                     <span>Services</span>
