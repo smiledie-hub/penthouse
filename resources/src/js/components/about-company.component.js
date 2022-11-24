@@ -15,12 +15,14 @@ export default function AboutCompanyComponent() {
             slideToClickedSlide: true,
             freeMode: false,
             grabCursor: true,
-            slidesOffsetBefore: offset,
-            slidesOffsetAfter: offset,
+            slidesOffsetBefore: 0,
+            slidesOffsetAfter: 0,
             centeredSlides: true,
             allowTouchMove: true,
             breakpoints: {
                 1023: {
+                    slidesOffsetBefore: offset,
+                    slidesOffsetAfter: offset,
                     initialSlide: 0,
                     spaceBetween: 40,
                     slideToClickedSlide: false,
@@ -42,27 +44,11 @@ export default function AboutCompanyComponent() {
         if (containerEl && containerStickyEl) {
             const slider = document.querySelector('.about-company-scroll__wrapper')
 
-            // let modificator = 0
-            //
-            // if (window.innerWidth <= 1600) {
-            //     modificator = window.innerWidth / 2
-            // }
-            //
-            // if (window.innerWidth <= 1300) {
-            //     modificator = window.innerWidth
-            // }
-            //
-            // if (window.innerWidth <= 1100) {
-            //     modificator = window.innerWidth + (window.innerWidth / 2)
-            // }
-            // //
-            // containerEl.style.height = slider.getBoundingClientRect().width + (window.innerWidth - (calcOffsetContainer() * 2)) + modificator + "px"
             const itemsEl = containerEl.querySelectorAll('.about-company-item')
 
             const maxScroll = (itemsEl[0].clientWidth * itemsEl.length) - (calcOffsetContainer() / 2)
             containerEl.style.height = maxScroll + "px"
 
-            // containerEl.style.height = slider.clientWidth + (calcOffsetContainer() * 2) + "px"
             const cTop = getOffset(containerEl).top
 
             throttle("scroll", "optimizedScroll");

@@ -5,8 +5,6 @@
   background: transparent;
   display: flex;
   align-items: center;
-  overflow: hidden;
-
 
   &__icon {
     color: #000;
@@ -26,6 +24,10 @@
 
     &::placeholder {
       color: #000000;
+    }
+
+    &:focus {
+      background: #F5F2ED;
     }
 
     @include media-down(md) {

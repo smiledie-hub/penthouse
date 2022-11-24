@@ -180,15 +180,15 @@
         height: 45px;
         background: #FFFFFF;
         color: #D0A966;
+
+        .icon-sort {
+          display: block;
+        }
       }
     }
 
     .icon-sort {
       display: none;
-
-      @include media-down(md) {
-        display: block;
-      }
     }
 
     @include media-down(md) {
@@ -210,6 +210,12 @@
       &__header {
         background: none;
         border: none;
+      }
+
+      &__item {
+        @include media-down(md) {
+          animation: none !important;
+        }
       }
     }
   }

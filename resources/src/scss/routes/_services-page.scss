@@ -242,8 +242,10 @@
     display: none;
 
     @include media-down(sm) {
+      height: 157px;
       display: block;
-      height: auto;
+      object-fit: cover;
+      border-radius: 20px;
     }
   }
 

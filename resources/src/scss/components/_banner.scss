@@ -37,6 +37,7 @@
     padding-top: 375px;
     padding-bottom: 548px;
     text-align: center;
+    width: 100%;
 
     @include media-down(md) {
       padding-top: 171px;

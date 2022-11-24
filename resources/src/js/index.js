@@ -23,6 +23,7 @@ import SliderProjectComponent from "./components/slider-project.component";
 import SellScrollMobileComponent from "./components/sell-scroll-mobile.component";
 import ScrollServicesComponent from "./components/scroll-services.component";
 import AboutCompanyComponent from "./components/about-company.component";
+import PromptComponent from "./components/prompt.component";
 
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -45,6 +46,7 @@ window.addEventListener("DOMContentLoaded", () => {
     MapComponent()
     SliderProjectComponent()
     AboutCompanyComponent()
+    PromptComponent()
 
     ScrollServicesComponent()
 

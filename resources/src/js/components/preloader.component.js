@@ -65,9 +65,9 @@ export default function PreloaderComponent () {
             }, 1000)
         }, 1200)
     } else {
+        checkVisibleAnimationTitlle()
         document.body.classList.remove('lock')
         AOS.init({
-            disable: true,
             once: true,
         });
     }

@@ -36,13 +36,11 @@
                     <div class="choice__items"></div>
                 </div>
             </div>
-            <label class="search-field search-filter__search">
+            <label class="search-field search-filter__search prompt" data-prompt="Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina, Dubai Marina">
                 <span class="icon-search search-field__icon"></span>
-                <input type="text" name="search" placeholder="Location, Community, City..."
-                       class="search-field__input">
+                <input type="text" name="search" placeholder="Location, Community, City..." class="search-field__input prompt__input">
             </label>
             <button type="submit" class="search-filter__find btn btn--primary">Find</button>
-
             <div class="search-filter__property">
                 <div class="choice">
                     <label class="choice__label">

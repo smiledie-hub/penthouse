@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
         spaceBetween: 0,
         initialSlide: 1,
         watchOverflow: true,
-        centeredSlides: true,
+        // centeredSlides: true,
         roundLengths: true,
         grabCursor: true,
         navigation: {

@@ -50,7 +50,7 @@
 
                             <p class="services-item__number">01 / 05</p>
 
-                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-1.png" alt="">
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-1.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#3B3734" class="services-item">
@@ -70,7 +70,7 @@
 
                             <p class="services-item__number">02 / 05</p>
 
-                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-2.png" alt="">
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-2.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#E8E4DD" class="services-item">
@@ -90,7 +90,7 @@
 
                             <p class="services-item__number">03 / 05</p>
 
-                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-3.png" alt="">
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-3.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#3B3734" class="services-item">
@@ -110,7 +110,7 @@
 
                             <p class="services-item__number">04 / 05</p>
 
-                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-4.png" alt="">
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-4.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#AA9F8D" class="services-item">
@@ -130,7 +130,7 @@
 
                             <p class="services-item__number">05 / 05</p>
 
-                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-5.png" alt="">
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-5.jpg" alt="">
                         </div>
                     </div>
                 </div>

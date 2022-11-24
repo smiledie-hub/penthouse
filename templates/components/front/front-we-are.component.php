@@ -16,7 +16,7 @@
             </h2>
         </div>
 
-        <div class="slider-default">
+        <div class="slider-default" data-aos="fade-up" data-aos-duration="1200">
             <div class="swiper slider-default__el front-we-are__slider">
                 <div class="swiper-wrapper slider-default__wrapper">
                     <div class="swiper-slide slider-default__slide">

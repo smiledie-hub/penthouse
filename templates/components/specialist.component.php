@@ -1,4 +1,4 @@
-<div class="specialist">
+<div class="specialist" data-aos="fade-up" data-aos-duration="1000">
     <div class="specialist__header">
         <img src="/public/images/spec-1.jpg" alt="" class="specialist__image">
     </div>

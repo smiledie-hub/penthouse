@@ -1,0 +1,42 @@
+.prompt {
+  position: relative;
+  z-index: 40;
+
+  &__list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    outline: 1px solid rgba(59, 55, 52, 0.3);
+    border-radius: 0 0 6px 6px;
+    max-height: 200px;
+  }
+
+  &__item {
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #3B3734;
+    transition: 400ms;
+    background: #F5F2ED;
+    padding: 0 20px;
+
+    &:hover {
+      color: #FFFFFF;
+      background: #8F8175;
+    }
+
+    &:active {
+      color: #FFFFFF;
+      background: #8F8175;
+    }
+
+    &:last-child {
+      border-radius: 0 0 6px 6px;
+    }
+  }
+}

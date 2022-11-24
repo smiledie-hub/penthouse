@@ -1,5 +1,5 @@
 <div class="front-banner">
-    <img class="front-banner__image no-select lazy" data-src="/public/images/banner.jpg" alt="banner"/>
+<!--    <img class="front-banner__image no-select lazy" data-src="/public/images/banner.jpg" alt="banner"/>-->
 
     <video id="front-banner-video" playsinline autoplay muted loop poster="/public/images/banner.jpg" class="front-banner__video no-select lazy" preload="auto">
         <source data-src="/public/videos/banner-mobile.webm" type="video/webm" media="(max-width: 1023px)">

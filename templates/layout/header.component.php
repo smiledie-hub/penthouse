@@ -125,8 +125,14 @@
                         <span class="icon icon-arrow-down"></span>
                     </button>
                     <div class="btn-metering__items btn-selects__items">
-                        <a href="#" class="btn-metering__item btn-selects__item"><span class="btn-metering__icon icon icon-sort"></span> Sq.Ft</a>
-                        <a href="#" class="btn-metering__item btn-selects__item">Sq.Mt</a>
+                        <a href="#" class="btn-metering__item btn-selects__item">
+                            <span class="btn-metering__icon icon icon-sort"></span>
+                            Sq.Ft
+                        </a>
+                        <a href="#" class="btn-metering__item btn-selects__item">
+                            <span class="btn-metering__icon icon icon-sort"></span>
+                            Sq.Mt
+                        </a>
                     </div>
                 </div>
             </div>
