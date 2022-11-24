@@ -33,11 +33,7 @@
   }
 
   &__residence {
-    margin-bottom: 335px;
 
-    @include media-down(md) {
-      margin-bottom: 0;
-    }
   }
 
   &__we-are {
@@ -61,6 +57,7 @@
   }
 
   &__services {
+    padding-top: 335px;
     margin-bottom: 150px;
 
     @include media-down(md) {

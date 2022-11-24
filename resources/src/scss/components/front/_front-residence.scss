@@ -323,12 +323,14 @@
       visibility: hidden;
       height: 0;
       overflow: hidden;
-      transition: opacity 1500ms;
+      transition: opacity 2000ms, transform 1000ms;
+      transform: translateY(-30px);
 
       &.active {
         opacity: 1;
         visibility: visible;
         height: auto;
+        transform: translateY(0);
       }
     }
 
@@ -343,7 +345,7 @@
     [data-animation="image"] {
       position: absolute;
       overflow: hidden;
-      transition: height 1500ms;
+      transition: height 2000ms;
       visibility: visible;
       height: 100%;
       top: 0;

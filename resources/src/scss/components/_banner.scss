@@ -152,6 +152,18 @@
     min-height: 100vh;
     max-height: 1114px;
 
+    @include media-down(md) {
+      min-height: auto;
+      max-height: none;
+      padding-top: 155px;
+      padding-bottom: 81px;
+    }
+
+    @include media-down(sm) {
+      padding-top: 176px;
+      padding-bottom: 113px;
+    }
+
     #{$root} {
       &__content {
         padding: 0;

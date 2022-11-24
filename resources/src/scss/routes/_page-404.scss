@@ -18,6 +18,10 @@
     }
   }
 
+  &__content {
+    padding: 100px 0;
+  }
+
   &__title {
     user-select: none;
     pointer-events: none;

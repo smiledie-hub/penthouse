@@ -15,7 +15,7 @@
   &__bg {
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url("/public/images/about-bg.svg");
+    //background-image: url("/public/images/about-bg.svg");
     background-size: cover;
     margin-bottom: 368px;
 
@@ -23,10 +23,6 @@
       margin-bottom: 54px;
     }
 
-    @include media-up(lg) {
-      background-attachment: fixed;
-
-    }
   }
 
   &__title {

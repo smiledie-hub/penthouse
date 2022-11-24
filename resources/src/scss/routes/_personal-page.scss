@@ -272,10 +272,6 @@
   transition: 300ms;
   user-select: none;
 
-  &:hover {
-    opacity: 0.7;
-  }
-
   &--active {
     background: #D0A966;
     color: #FFFFFF;

@@ -1,11 +1,10 @@
+import {isDesktop, isMobile, isTable} from "../helpers/isDevice";
 import Swiper from "swiper";
 import calcOffsetContainer from "../helpers/calcOffsetContainer";
-import {isDesktop, isMobile, isTable} from "../helpers/isDevice";
-import getOffset from "../helpers/getOffset";
 import throttle from "../helpers/throttle";
+import getOffset from "../helpers/getOffset";
 
-window.addEventListener("DOMContentLoaded", () => {
-
+export default function AboutCompanyComponent() {
     if (isTable || isMobile) {
         const offset = calcOffsetContainer();
 
@@ -43,28 +42,38 @@ window.addEventListener("DOMContentLoaded", () => {
         if (containerEl && containerStickyEl) {
             const slider = document.querySelector('.about-company-scroll__wrapper')
 
-            let modificator = 0
+            // let modificator = 0
+            //
+            // if (window.innerWidth <= 1600) {
+            //     modificator = window.innerWidth / 2
+            // }
+            //
+            // if (window.innerWidth <= 1300) {
+            //     modificator = window.innerWidth
+            // }
+            //
+            // if (window.innerWidth <= 1100) {
+            //     modificator = window.innerWidth + (window.innerWidth / 2)
+            // }
+            // //
+            // containerEl.style.height = slider.getBoundingClientRect().width + (window.innerWidth - (calcOffsetContainer() * 2)) + modificator + "px"
+            const itemsEl = containerEl.querySelectorAll('.about-company-item')
 
-            if(window.innerWidth <= 1600) {
-                modificator = window.innerWidth / 2
-            }
+            const maxScroll = (itemsEl[0].clientWidth * itemsEl.length) - (calcOffsetContainer() / 2)
+            containerEl.style.height = maxScroll + "px"
 
-            if(window.innerWidth <= 1300) {
-                modificator = window.innerWidth
-            }
-
-            if(window.innerWidth <= 1100) {
-                modificator = window.innerWidth + (window.innerWidth / 2)
-            }
-
-            containerEl.style.height = slider.getBoundingClientRect().width + (window.innerWidth - (calcOffsetContainer() * 2)) + modificator + "px"
+            // containerEl.style.height = slider.clientWidth + (calcOffsetContainer() * 2) + "px"
             const cTop = getOffset(containerEl).top
 
             throttle("scroll", "optimizedScroll");
             window.addEventListener('optimizedScroll', () => {
-                const offsetX = cTop - ((window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0))
-                slider.style.transform = `translateX(${offsetX}px)`
+                const top = containerStickyEl.getBoundingClientRect().top
+
+                if (top === 0) {
+                    const offsetX = cTop - ((window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0)) + 120
+                    slider.style.transform = `translateX(${offsetX}px)`
+                }
             })
         }
     }
-})
+}

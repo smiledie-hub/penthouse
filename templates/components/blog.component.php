@@ -59,8 +59,8 @@
             </article>
         </div>
 
-        <div class="blog__more">
-            <a class="blog__button btn btn--primary" href="#" data-aos="slide-up" data-aos-duration="1000">Read more articles</a>
+        <div class="blog__more" data-aos="slide-up" data-aos-duration="1000">
+            <a class="blog__button btn btn--primary" href="#">Read more articles</a>
         </div>
     </div>
 </div>

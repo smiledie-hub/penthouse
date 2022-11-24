@@ -119,6 +119,10 @@
 
     @include media-down(sm) {
       margin-top: 22px;
+
+      .row-images__item {
+        flex-direction: column;
+      }
     }
   }
 
@@ -226,7 +230,7 @@
 
   @include media-down(sm) {
     margin-top: 0;
-
+    margin-bottom: 170px;
   }
 
   &__el {
@@ -234,12 +238,21 @@
     max-width: 1630px;
     width: 100%;
 
-    @media (max-width: 1690px) {
-      width: 90%;
+    @include media-down(sm) {
+      max-width: 220px;
     }
+  }
 
-    @include media-down(md) {
-      max-width: 374px;
+  &__slide {
+    @include media-down(sm) {
+      width: 220px;
+    }
+  }
+
+  &__image {
+    @include media-down(sm) {
+      height: 243px;
+      object-fit: cover;
     }
   }
 }
@@ -377,7 +390,7 @@
     margin-bottom: 150px;
 
     @include media-down(md) {
-      margin-bottom: 220px;
+      margin-bottom: 260px;
       padding: 0 var(--cp);
       max-width: 100%;
     }

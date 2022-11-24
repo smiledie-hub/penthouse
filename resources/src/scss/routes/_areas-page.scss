@@ -93,6 +93,13 @@
   .bg-gray {
     position: relative;
     top: -2px;
+
+    @include media-down(md) {
+      position: relative;
+      z-index: 3;
+      background: none;
+      top: 0;
+    }
   }
 
   .bg-second {
@@ -103,6 +110,7 @@
   @include media-down(md) {
     position: relative;
     z-index: 3;
+    background: #E8E4DD;
   }
 
   &__end {

@@ -49,6 +49,8 @@
                             </div>
 
                             <p class="services-item__number">01 / 05</p>
+
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-1.png" alt="">
                         </div>
                     </div>
                     <div data-color="#3B3734" class="services-item">
@@ -67,6 +69,8 @@
                             </div>
 
                             <p class="services-item__number">02 / 05</p>
+
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-2.png" alt="">
                         </div>
                     </div>
                     <div data-color="#E8E4DD" class="services-item">
@@ -85,6 +89,8 @@
                             </div>
 
                             <p class="services-item__number">03 / 05</p>
+
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-3.png" alt="">
                         </div>
                     </div>
                     <div data-color="#3B3734" class="services-item">
@@ -103,6 +109,8 @@
                             </div>
 
                             <p class="services-item__number">04 / 05</p>
+
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-4.png" alt="">
                         </div>
                     </div>
                     <div data-color="#AA9F8D" class="services-item">
@@ -121,32 +129,36 @@
                             </div>
 
                             <p class="services-item__number">05 / 05</p>
+
+                            <img class="services-item__image lazy" data-src="/public/images/service-mobile-5.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="services__sticky">
                     <div class="services__wrapper">
-                        <div class="service-image">
-                            <img src="/public/images/service-1.png" alt="">
+                        <div class="service-image service-image--color-primary">
+                            <img class="lazy" data-src="/public/images/service-1.png" alt="">
                         </div>
-                        <div class="service-image">
-                            <img src="/public/images/service-2.png" alt="">
+                        <div class="service-image service-image--center service-image--color-second">
+                            <img class="lazy" data-src="/public/images/service-2.png" alt="">
                         </div>
-                        <div class="service-image">
-                            <img src="/public/images/service-3.png" alt="">
+                        <div class="service-image service-image--center service-image--color-ternary">
+                            <img class="lazy" data-src="/public/images/service-3.png" alt="">
                         </div>
-                        <div class="service-image">
-                            <img src="/public/images/service-4.png" alt="">
+                        <div class="service-image service-image--color-second">
+                            <img class="lazy" data-src="/public/images/service-4.png" alt="">
                         </div>
-                        <div class="service-image">
-                            <img src="/public/images/service-5.png" alt="">
+                        <div class="service-image service-image--color-primary">
+                            <img class="lazy" data-src="/public/images/service-5.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg"); ?>
+        <div class="services-page__contact">
+            <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg"); ?>
+        </div>
     </div>
 
 <?php include_once "./templates/layout/footer.component.php"; ?>

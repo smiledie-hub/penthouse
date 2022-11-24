@@ -6,8 +6,17 @@ body {
   //height: 100vh;
 }
 
+.main {
+  overflow: hidden;
+
+  @include media-down(md) {
+    flex-grow: 1;
+    width: 100%;
+  }
+}
+
 .x-fix {
-  overflow: unset;
+  overflow: hidden;
   width: 100%;
   max-width: 100vw;
 }

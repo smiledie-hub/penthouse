@@ -9,7 +9,7 @@
     margin-bottom: 16px;
     display: none;
 
-    @include media-down(sm) {
+    @include media-down(md) {
       display: flex;
     }
   }
@@ -83,6 +83,12 @@
       .search-filter {
         margin-bottom: 0;
         padding-top: 66px;
+
+        &__find {
+          @include media-down(md) {
+            display: none !important;
+          }
+        }
       }
 
       &--active {
@@ -123,6 +129,14 @@
     @include media-down(md) {
       padding-bottom: 23px;
     }
+
+    .search-filter {
+      &__findm, &__search {
+        @include media-down(md) {
+          display: none !important;
+        }
+      }
+    }
   }
 
   &__sort-panel {
@@ -144,6 +158,9 @@
       padding-bottom: 25px;
     }
 
+    @include media-down(sm) {
+      padding-bottom: 20px;
+    }
 
     &-items {
       display: flex;
@@ -276,7 +293,6 @@
 
 .catalog {
   $root: &;
-
   display: flex;
 
   &__result {
@@ -299,8 +315,10 @@
   }
 
   &__main {
-    width: 100%;
+    width: 100vw;
     transition: 400ms;
+    position: relative;
+    z-index: 1;
   }
 
   &__items {
@@ -328,6 +346,7 @@
     top: 0;
     position: sticky;
     height: 100vh;
+    z-index: 2;
   }
 
   &__map-box {
@@ -350,11 +369,11 @@
 
     #{$root} {
       &__map {
-        width: 50%;
+        width: 50vw;
       }
 
       &__main {
-        width: 50%;
+        width: 50vw;
       }
 
       &__items {
@@ -380,8 +399,9 @@
   }
 
   &--open-map-full {
+    height: 100vh;
+
     @include media-down(sm) {
-      height: 100vh;
       overflow: hidden;
     }
 

@@ -142,6 +142,7 @@
 
   &--1 {
     min-width: 50vw;
+    max-width: 50vw;
 
     @include media-down(md) {
       display: none;
@@ -150,20 +151,24 @@
 
   &--2 {
     min-width: 100vw;
+    max-width: 100vw;
     background: #AA9F8D;
   }
 
   &--3 {
     min-width: 100vw;
+    max-width: 100vw;
   }
 
   &--4 {
     min-width: 100vw;
+    max-width: 100vw;
     color: #F2F0EF;
   }
 
   &--5 {
     min-width: 100vw;
+    max-width: 100vw;
   }
 
   &__wrapper {

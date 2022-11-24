@@ -83,16 +83,19 @@
 
   &:hover {
     z-index: 10;
+
     #{$root} {
       &__items {
         visibility: visible;
         height: auto;
       }
+
       &__header {
         background: #fff;
         color: #D0A966;
         border-color: #FFFFFF;
       }
+
       &__item {
         @for $i from 1 through 9 {
           &:nth-child(#{$i}) {
@@ -147,6 +150,7 @@
 
   &__items {
     width: 100%;
+    overflow: visible;
 
     @include media-down(md) {
       position: static;
@@ -157,6 +161,7 @@
       flex-direction: row;
       transform: none;
       padding-top: 0;
+      height: auto;
     }
   }
 
@@ -187,7 +192,7 @@
     }
 
     @include media-down(md) {
-      top: 0;
+      transform: none;
       opacity: 1;
       visibility: visible;
       background: none;
@@ -196,7 +201,7 @@
     }
   }
 
-  &.btn-selects--hover {
+  &:hover {
     .icon-arrow-down {
       transform: scaleY(-1);
     }

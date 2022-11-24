@@ -32,8 +32,15 @@ export default function SellScrollComponent() {
 
         if (itemsEl.length > 0) {
             const maxScroll = containerWrapperEl.clientWidth
+            let modificator = 100
 
-            containerEl.style.height = maxScroll - (window.innerWidth / 2) + "px"
+            if (window.innerWidth <= 1600 && window.innerWidth > 1400) {
+                modificator = window.innerWidth / items.length + 40
+            } else if (window.innerWidth <= 1400) {
+                modificator = window.innerWidth / items.length + 80
+            }
+
+            containerEl.style.height = maxScroll - (items[items.length - 1].el.clientWidth / 2) + modificator + "px"
 
             window.addEventListener('optimizedScroll', () => {
                 const top = containerStickyEl.getBoundingClientRect().top

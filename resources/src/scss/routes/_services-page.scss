@@ -5,10 +5,35 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 46px;
+
+    @include media-down(md) {
+      margin-left: -47px;
+      font-size: 32px;
+      height: auto;
+      margin-bottom: 27px;
+      position: relative;
+    }
+
+    @include media-down(sm) {
+      text-align: left;
+      margin-left: 0;
+      margin-bottom: 40px;
+    }
   }
 
   &__text {
     max-width: 710px;
+
+    @include media-down(md) {
+      max-width: 429px;
+      font-size: 16px;
+      position: relative;
+      z-index: 1;
+    }
+
+    @include media-down(sm) {
+      max-width: 280px;
+    }
   }
 
   &__sg {
@@ -17,6 +42,26 @@
     right: -120px;
     left: auto;
     transform: none;
+
+    @include media-down(md) {
+      font-size: 96px;
+      position: absolute;
+      top: -21px;
+      left: 62px;
+    }
+
+    @include media-down(sm) {
+      top: -22px;
+      left: 0;
+    }
+  }
+
+  &__contact {
+    @include media-down(sm) {
+      .contact-send__section:last-child {
+        display: none;
+      }
+    }
   }
 }
 
@@ -24,10 +69,10 @@
   &__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
 
-  &__items {
-
+    @include media-down(sm) {
+      display: block;
+    }
   }
 
   &__sticky {
@@ -38,23 +83,48 @@
     width: 100%;
     background-color: #AA9F8D;
     transition: background-color 1s;
+
+    @include media-down(md) {
+      position: static;
+      height: auto;
+    }
+
+    @include media-down(sm) {
+      display: none;
+    }
   }
 
   &__wrapper {
     height: 100%;
     display: flex;
     flex-direction: row;
-    //gap: 137px;
     width: max-content;
-    //padding: 0 137px;
+    overflow: hidden;
+
+    @include media-down(md) {
+      flex-direction: column;
+      align-items: flex-end;
+      width: auto;
+    }
   }
 }
 
 .services-item {
+  $root: &;
   min-height: 100vh;
   display: flex;
   align-items: center;
   padding: 100px 0 100px var(--cp);
+
+  @include media-down(md) {
+    min-height: 465px;
+    padding: 0 20px 0 var(--cp);
+  }
+
+  @include media-down(sm) {
+    margin-bottom: 45px;
+    margin-top: 35px;
+  }
 
   &__content {
     max-width: 415px;
@@ -63,6 +133,10 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 20px;
+
+    @include media-down(md) {
+      min-height: 384px;
+    }
   }
 
   &__icon {
@@ -76,12 +150,25 @@
     width: 137px;
     height: 137px;
 
+    @include media-down(md) {
+      width: 73px;
+      height: 73px;
+    }
+
     .icon {
       font-size: 67px;
+
+      @include media-down(md) {
+        font-size: 35px;
+      }
     }
 
     .icon-home {
       font-size: 53px;
+
+      @include media-down(md) {
+        font-size: 28px;
+      }
     }
   }
 
@@ -94,11 +181,21 @@
     position: relative;
     height: 150px;
     margin-bottom: 45px;
+
+    @include media-down(md) {
+      height: 111px;
+      margin-bottom: 0;
+    }
   }
 
   &__title-text {
     position: relative;
     top: 21px;
+
+    @include media-down(md) {
+      top: 7px;
+      font-size: 20px;
+    }
   }
 
   &__title-sg {
@@ -110,6 +207,15 @@
     position: absolute;
     top: 0;
     left: 48px;
+
+    @include media-down(md) {
+      left: 0;
+      font-size: 74px;
+    }
+
+    @include media-down(sm) {
+      left: 45px;
+    }
   }
 
   &__text {
@@ -118,6 +224,11 @@
     line-height: 150%;
     color: #000000;
     opacity: 0.6;
+
+    @include media-down(md) {
+      position: relative;
+      top: -15px;
+    }
   }
 
   &__number {
@@ -125,6 +236,25 @@
     font-size: 16px;
     line-height: 150%;
     color: #3B3734;
+  }
+
+  &__image {
+    display: none;
+
+    @include media-down(sm) {
+      display: block;
+      height: auto;
+    }
+  }
+
+  @include media-down(sm) {
+    &:nth-child(2) {
+      #{$root}__title-sg {
+        @include media-down(sm) {
+          left: 11px;
+        }
+      }
+    }
   }
 }
 
@@ -135,12 +265,43 @@
   align-items: center;
   justify-content: center;
 
+  @include media-down(md) {
+    width: max-content;
+    height: 465px;
+    padding: 40px;
+
+    &--center {
+      width: 100%;
+      padding: 75px 50px;
+    }
+  }
+
   img {
     width: 1028px;
     height: 578px;
 
+    @include media-down(md) {
+      width: 562px;
+      max-width: none;
+      max-height: 100%;
+    }
+
     max-height: 90%;
     max-width: 90%;
     object-fit: contain;
+  }
+
+  @include media-down(sm) {
+    &--color-primary {
+      background-color: #AA9F8D;
+    }
+
+    &--color-second {
+      background-color: #3B3734;
+    }
+
+    &--color-ternary {
+      background-color: #E8E4DD;
+    }
   }
 }

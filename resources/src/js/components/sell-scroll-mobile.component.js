@@ -5,5 +5,6 @@ export default function SellScrollMobileComponent() {
         speed: 1000,
         slidesPerView: 1,
         spaceBetween: 0,
+        followFinger: false
     });
 }

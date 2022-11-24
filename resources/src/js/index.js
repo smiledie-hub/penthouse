@@ -22,6 +22,7 @@ import MapComponent from "./components/map.component";
 import SliderProjectComponent from "./components/slider-project.component";
 import SellScrollMobileComponent from "./components/sell-scroll-mobile.component";
 import ScrollServicesComponent from "./components/scroll-services.component";
+import AboutCompanyComponent from "./components/about-company.component";
 
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -43,6 +44,7 @@ window.addEventListener("DOMContentLoaded", () => {
     CatalogComponent()
     MapComponent()
     SliderProjectComponent()
+    AboutCompanyComponent()
 
     ScrollServicesComponent()
 
@@ -55,16 +57,16 @@ window.addEventListener("DOMContentLoaded", () => {
         SellScrollMobileComponent()
     }
 
-    // SmoothScroll({
-    //     animationTime    : 1000,
-    //     stepSize         : 65,
-    //     accelerationDelta : 30,
-    //     accelerationMax   : 2,
-    //     keyboardSupport   : true,
-    //     arrowScroll       : 50,
-    //     pulseAlgorithm   : true,
-    //     pulseScale       : 4,
-    //     pulseNormalize   : 1,
-    //     touchpadSupport   : true,
-    // })
+    SmoothScroll({
+        animationTime    : 1000,
+        stepSize         : 65,
+        accelerationDelta : 30,
+        accelerationMax   : 2,
+        keyboardSupport   : true,
+        arrowScroll       : 50,
+        pulseAlgorithm   : true,
+        pulseScale       : 4,
+        pulseNormalize   : 1,
+        touchpadSupport   : true,
+    })
 })

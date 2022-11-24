@@ -22,7 +22,7 @@ export default function ScrollServicesComponent() {
                 itemEls.forEach(item => {
                     const rect = item.getBoundingClientRect()
 
-                    if(rect.top <= 0 && (rect.top + rect.height) >= 0) {
+                    if(rect.top <= 300 && (rect.top + rect.height) >= 300) {
                         containerStickyEl.style.backgroundColor = item.dataset.color
                     }
                 })

@@ -15,7 +15,7 @@
                         </div>
 
 
-                        <div class="btn-lang btn-selects">
+                        <div class="header__langs btn-lang btn-selects">
                             <button class="btn-lang__header btn-selects__header">En</button>
                             <div class="btn-lang__items btn-selects__items">
                                 <a href="#!" class="btn-lang__item btn-selects__item">Ru</a>
@@ -23,7 +23,7 @@
                             </div>
                         </div>
 
-                        <div class="btn-currency btn-selects">
+                        <div class="header__currency btn-currency btn-selects">
                             <button class="btn-currency__header btn-selects__header">AED</button>
                             <div class="btn-currency__items btn-selects__items">
                                 <a href="#!" class="btn-currency__item btn-selects__item">USD</a>
