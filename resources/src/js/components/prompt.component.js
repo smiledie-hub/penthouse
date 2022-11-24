@@ -64,6 +64,12 @@ class DropDownList {
 
     bind() {
         this.input.addEventListener('input', this._onElementInput);
+        this.input.addEventListener('focusin', () => {
+            this.container.classList.add('prompt--focus')
+        });
+        this.input.addEventListener('focusout', () => {
+            this.container.classList.remove('prompt--focus')
+        });
 
         document.addEventListener('click', (e) => {
             const withinBoundaries = e.composedPath().includes(this.container);

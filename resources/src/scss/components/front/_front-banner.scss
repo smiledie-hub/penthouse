@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  max-width: 100vw;
+  width: 100%;
 
   @include media-down(md) {
     overflow: unset;

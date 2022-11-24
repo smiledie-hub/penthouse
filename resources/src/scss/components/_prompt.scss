@@ -1,6 +1,11 @@
 .prompt {
   position: relative;
   z-index: 40;
+  transition: background 300ms;
+
+  &--focus {
+    background: #F5F2ED;
+  }
 
   &__list {
     position: absolute;

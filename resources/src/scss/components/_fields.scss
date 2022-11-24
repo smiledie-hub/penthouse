@@ -26,10 +26,6 @@
       color: #000000;
     }
 
-    &:focus {
-      background: #F5F2ED;
-    }
-
     @include media-down(md) {
       padding: 0 11px;
     }
