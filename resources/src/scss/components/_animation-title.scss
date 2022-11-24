@@ -6,10 +6,21 @@
     transform: translateX(-100%);
   }
 
+
   &--animate {
     #{$root} {
       &__mask {
         transform: translateX(0)
+      }
+    }
+  }
+
+  &--only-tablet {
+    #{$root} {
+      &__mask {
+        @include media-up(lg) {
+          transform: none !important;
+        }
       }
     }
   }
