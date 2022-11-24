@@ -24,8 +24,12 @@
         <div class="dubai-marina-about">
             <div class="container">
                 <div class="dubai-marina-about__content">
-                    <h2 class="dubai-marina-about__title fn-sg">About</h2>
-                    <p class="dubai-marina-about__desc" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">With an area of 50 million sq. ft., Dubai Marina is one of the
+                    <h2>
+                        <?php AboutTitleRender('dubai-marina-about__title'); ?>
+                    </h2>
+
+                    <p class="dubai-marina-about__desc" data-aos="fade-right" data-aos-duration="1000"
+                       data-aos-delay="200">With an area of 50 million sq. ft., Dubai Marina is one of the
                         first and biggest real estate projects of its kind in the Middle East. The entire neighbourhood
                         was developed by Dubai's best-selling developer Emaar Properties.</p>
                 </div>
@@ -33,14 +37,17 @@
 
             <div class="dubai-marina-about__images row-images row-images--items-end row-images--right">
                 <div class="row-images__item">
-                    <p class="dubai-marina-about__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">One of the community’s key features is a water canal with a
+                    <p class="dubai-marina-about__text" data-aos="fade-right" data-aos-duration="1000"
+                       data-aos-delay="400">One of the community’s key features is a water canal with a
                         length of 11,482 ft. that provides access to the waterfront from both sides, which makes Dubai
                         Marina one of the most sought-after modern sailing locations in the emirate.</p>
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710" src="/public/images/dubai-marina-1.jpg"
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
+                         class="row-images__img row-images__img--h710" src="/public/images/dubai-marina-1.jpg"
                          alt="">
                 </div>
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row-images__img row-images__img--h1080" src="/public/images/dubai-marina-2.jpg"
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
+                         class="row-images__img row-images__img--h1080" src="/public/images/dubai-marina-2.jpg"
                          alt="">
                 </div>
             </div>
@@ -48,13 +55,15 @@
             <div class="dubai-marina-about__sect bg-second">
                 <div class="dubai-marina-about__wrapper row-images row-images--right">
                     <div class="row-images__item">
-                        <div class="dubai-marina-about__text-box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="dubai-marina-about__text-box" data-aos="fade-right" data-aos-duration="1000"
+                             data-aos-delay="400">
                             <p>The beautiful waterfront area houses more than 200 super-tall skyscrapers, including the
                                 101-storey Princess Tower, which is the world's second-highest residential building.</p>
                         </div>
                     </div>
                     <div class="row-images__item">
-                        <div class="dubai-marina-about__text-box2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="dubai-marina-about__text-box2" data-aos="fade-right" data-aos-duration="1000"
+                             data-aos-delay="600">
                             <p>Dubai Marina was designed to accommodate roughly 120,000 people and is considered to be
                                 one
                                 of the biggest freehold areas in Dubai, in terms of buildings and population.</p>
@@ -91,11 +100,13 @@
                 <div class="dubai-marina-location__content">
                     <h2 class="dubai-marina-location__title">
                         <span class="dubai-marina-location__start" data-aos="fade-right" data-aos-duration="1000">Location</span>
-                        <span class="dubai-marina-location__sg fn-sg">&</span>
-                        <span class="dubai-marina-location__end" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Infrastructure</span>
+                        <?php AmpersandTitleRender('dubai-marina-location__sg'); ?>
+                        <span class="dubai-marina-location__end" data-aos="fade-right" data-aos-duration="1000"
+                              data-aos-delay="400">Infrastructure</span>
                     </h2>
 
-                    <p class="dubai-marina-location__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Dubai Marina is conveniently located along Sheikh Zayed Road,
+                    <p class="dubai-marina-location__text" data-aos="fade-right" data-aos-duration="1000"
+                       data-aos-delay="600">Dubai Marina is conveniently located along Sheikh Zayed Road,
                         one of the city's key highways, which provides easy access to other parts of the emirate.
                         Business Bay, Downtown Dubai, and Dubai International Airport can be reached within a 25-minute
                         drive of the neighbourhood.</p>
@@ -104,12 +115,14 @@
 
             <div class="row-images row-images--items-end row-images--left row-images--960-710">
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="row-images__img row-images__img--h1080"
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
+                         class="row-images__img row-images__img--h1080"
                          src="/public/images/dubai-marina-location-1.jpg"
                          alt="">
                 </div>
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710"
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
+                         class="row-images__img row-images__img--h710"
                          src="/public/images/dubai-marina-location-2.jpg"
                          alt="">
                 </div>
@@ -119,7 +132,8 @@
 
                 <div class="dubai-marina-location-block__image-box">
                     <div class="dubai-marina-location-block__wrapper">
-                        <div class="dubai-marina-location-block__text-box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="dubai-marina-location-block__text-box" data-aos="fade-right"
+                             data-aos-duration="1000" data-aos-delay="400">
                             <p>The area houses plenty of bus stations, as well as its own dedicated Metro station, Sobha
                                 Realty, formerly known as Dubai Marina Metro Station, and the DMCC Metro Station can
                                 also be reached a short distance away.</p>
@@ -129,25 +143,32 @@
                         </div>
 
                         <div class="dubai-marina-location-block__image">
-                            <img data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" src="/public/images/dubai-marina-location-3.jpg"
+                            <img data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
+                                 src="/public/images/dubai-marina-location-3.jpg"
                                  alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="dubai-marina-location-block__content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="dubai-marina-location-block__content" data-aos="fade-right" data-aos-duration="1000"
+                     data-aos-delay="400">
                     <div class="swiper area-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <p class="dubai-marina-location-block__text">Dubai Marina is home to several grocery stores,
+                                <p class="dubai-marina-location-block__text">Dubai Marina is home to several grocery
+                                    stores,
                                     nurseries, and medical centres, including:</p>
-                                <p class="dubai-marina-location-block__text2">Blossom Marina Nursery Dubai, Raffles Nursery Dubai
+                                <p class="dubai-marina-location-block__text2">Blossom Marina Nursery Dubai, Raffles
+                                    Nursery Dubai
                                     Marina, and Willow Children's Nursery - Dubai Marina</p>
                             </div>
 
                             <div class="swiper-slide">
-                                <p class="dubai-marina-location-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, asperiores!</p>
-                                <p class="dubai-marina-location-block__text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa enim exercitationem ipsam iure, qui quisquam sunt. Pariatur, placeat rem.</p>
+                                <p class="dubai-marina-location-block__text">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Accusantium, asperiores!</p>
+                                <p class="dubai-marina-location-block__text2">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Beatae culpa enim exercitationem ipsam iure, qui quisquam sunt.
+                                    Pariatur, placeat rem.</p>
                             </div>
                         </div>
                     </div>
@@ -165,10 +186,13 @@
             <div class="dubai-marina-economic">
                 <div class="container">
                     <div class="dubai-marina-economic__content">
-                        <h2 class="dubai-marina-economic__title"><span
-                                    class="fn-sg dubai-marina-economic__sg">Economic</span> <span
-                                    class="dubai-marina-economic__end" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Appeal</span></h2>
-                        <p class="dubai-marina-economic__text dubai-marina-economic__text--1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">As of Q3 2022, the entire
+                        <h2 class="dubai-marina-economic__title">
+                            <?php EconomicTitleRender('dubai-marina-economic__sg'); ?>
+                            <span class="dubai-marina-economic__end" data-aos="fade-right" data-aos-duration="1000"
+                                  data-aos-delay="400">Appeal</span>
+                        </h2>
+                        <p class="dubai-marina-economic__text dubai-marina-economic__text--1"
+                           data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">As of Q3 2022, the entire
                             area of Dubai Marina has been
                             developed, leaving only a few options for off-plan properties. The latest real estate
                             launches in the neighbourhood include LIV Marina by LIV Real Estate Development LLC and
@@ -179,13 +203,15 @@
                 <div class="dubai-marina-economic__box">
                     <div class="dubai-marina-economic__box-image box-image box-image--left">
                         <div class="box-image__content">
-                            <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="box-image__image" src="/public/images/dubai-marina-economic-1.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
+                                 class="box-image__image" src="/public/images/dubai-marina-economic-1.jpg" alt="">
                         </div>
                     </div>
 
                     <div class="container">
                         <div class="dubai-marina-economic__box-text">
-                            <p class="dubai-marina-economic__text dubai-marina-economic__text--2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">According to Bayut and
+                            <p class="dubai-marina-economic__text dubai-marina-economic__text--2" data-aos="fade-right"
+                               data-aos-duration="1000" data-aos-delay="400">According to Bayut and
                                 dubizzle’s H1 2022 Dubai Property Sales Market Report, Dubai Marina was
                                 the most popular area in H1 2022 in terms of upscale apartment acquisition. That being
                                 said, the
@@ -193,7 +219,8 @@
                                 amounts to
                                 AED 1,459 (USD 397).</p>
 
-                            <p class="dubai-marina-economic__text dubai-marina-economic__text--3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Also, in line with the
+                            <p class="dubai-marina-economic__text dubai-marina-economic__text--3" data-aos="fade-right"
+                               data-aos-duration="1000" data-aos-delay="600">Also, in line with the
                                 Dubai 2040 Urban Master Plan, Dubai Marina, alongside Jumeirah Beach
                                 Residence, is set to become a thriving leisure, hospitality, and tourism hub, which will
                                 drive
@@ -209,27 +236,33 @@
 
         <div class="dubai-marina-promo">
             <div class="container">
-                <p class="dubai-marina-promo__desc" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Dubai Marina offers an abundance of exclusive leisure facilities,
+                <p class="dubai-marina-promo__desc" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                    Dubai Marina offers an abundance of exclusive leisure facilities,
                     which serve as a major driving force behind strong demand for properties in this area. A few popular
                     attractions include the following sites.</p>
             </div>
 
             <div class="dubai-marina-promo__image-box">
-                <div class="dubai-marina-promo__image" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="dubai-marina-promo__image" data-aos="fade-right" data-aos-duration="1000"
+                     data-aos-delay="200">
                     <img src="/public/images/dubai-marina-promo-1.jpg" alt="">
                 </div>
 
-                <div class="dubai-marina-promo__content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="dubai-marina-promo__content" data-aos="fade-left" data-aos-duration="1000"
+                     data-aos-delay="400">
 
                     <div class="swiper area-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <p class="dubai-marina-promo__text">Dubai Marina Walk is a beautiful 22,965 ft. long palm-framed
+                                <p class="dubai-marina-promo__text">Dubai Marina Walk is a beautiful 22,965 ft. long
+                                    palm-framed
                                     promenade, which features 305 retail outlets and 69 fine dining restaurants.</p>
                             </div>
 
                             <div class="swiper-slide">
-                                <p class="dubai-marina-promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam architecto consectetur deleniti dolorem earum iusto molestias ullam vel voluptate.</p>
+                                <p class="dubai-marina-promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ab aperiam architecto consectetur deleniti dolorem earum iusto molestias ullam
+                                    vel voluptate.</p>
                             </div>
                         </div>
                     </div>
@@ -246,12 +279,16 @@
 
         <div class="dubai-marina-popular">
             <div class="container">
-                <h2 class="dubai-marina-popular__title"><span class="dubai-marina-popular__start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Popular</span> <span
-                            class="fn-sg dubai-marina-popular__sg">properties</span></h2>
+                <h2 class="dubai-marina-popular__title">
+                    <span class="dubai-marina-popular__start" data-aos="fade-right" data-aos-duration="1000"
+                          data-aos-delay="400">Popular</span>
+                    <?php PropertiesTitleRender('dubai-marina-popular__sg'); ?>
+                </h2>
             </div>
 
             <div class="dubai-marina-popular-block dubai-marina-popular-block--1">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"
+                     class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
                     <div>
                         <p class="dubai-marina-popular-block__subtitle">Developed by DAMAC Properties,</p>
                         <p class="dubai-marina-popular-block__dev">Cavalli Tower</p>
@@ -279,13 +316,15 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
+                     class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
                     <img class="dubai-marina-popular-block__img-1" src="/public/images/dubai-marina-popular-block-1.jpg"
                          alt="">
                 </div>
             </div>
             <div class="dubai-marina-popular-block dubai-marina-popular-block--2">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" class="dubai-marina-popular-block__content dubai-marina-popular-block__content--right">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"
+                     class="dubai-marina-popular-block__content dubai-marina-popular-block__content--right">
                     <div>
                         <p class="dubai-marina-popular-block__subtitle">Developed by Verve Developments</p>
                         <p class="dubai-marina-popular-block__dev">Le Reve</p>
@@ -310,13 +349,15 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="dubai-marina-popular-block__image dubai-marina-popular-block__image--left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
+                     class="dubai-marina-popular-block__image dubai-marina-popular-block__image--left">
                     <img class="dubai-marina-popular-block__img-1" src="/public/images/dubai-marina-popular-block-2.jpg"
                          alt="">
                 </div>
             </div>
             <div class="dubai-marina-popular-block dubai-marina-popular-block--3">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"
+                     class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
                     <div>
                         <p class="dubai-marina-popular-block__subtitle">Developed by Real Estate Development LLC</p>
                         <p class="dubai-marina-popular-block__dev">LIV Marina</p>
@@ -344,7 +385,8 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
+                     class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
                     <img class="dubai-marina-popular-block__img-1" src="/public/images/dubai-marina-popular-block-3.jpg"
                          alt="">
                 </div>

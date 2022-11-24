@@ -88,17 +88,16 @@
   }
 
   &__sg {
-    font-weight: 400;
-    font-size: 160px;
-    line-height: 140%;
-    color: #D0A966;
+    width: 698px;
+    height: 209px;
     position: absolute;
     top: -16px;
     right: 0;
     z-index: 0;
 
     @include media-down(md) {
-      font-size: 64px;
+      width: 280px;
+      height: 90px;
       top: 10px;
       left: 0;
       right: auto;

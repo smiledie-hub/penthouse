@@ -24,7 +24,7 @@
                 <div class="card-banner__prev">
                     <span class="card-banner__icon icon-arrow-prev"></span>
                 </div>
-                <div class="card-banner__buttons" data-aos="fade-down" data-aos-duration="1000">
+                <div class="card-banner__buttons">
                     <a href="#" class="btn--primary card-banner__play"><span class="play"><span
                                     class="icon-play"></span></span> Video</a>
                     <a href="#" class="btn--primary card-banner__cube"><span class="icon-cube"></span> 3D tour</a>
@@ -294,9 +294,9 @@
                     <img src="/public/images/infrastructure-1.jpg" alt="infrastructure" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"/>
                 </div>
                 <div class="card-infrastructure__section">
-                    <h2 class="card-infrastructure__title"><span
-                                class="card-infrastructure__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">infrastructure</span> <span
-                                class="fn-sg card-infrastructure__sg">Infrastructure</span>
+                    <h2 class="card-infrastructure__title">
+                        <span class="card-infrastructure__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">infrastructure</span>
+                        <?php InfrastructureTitleRender('card-infrastructure__sg'); ?>
                     </h2>
                     <p class="card-infrastructure__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">The island boasts excellent transport connectivity thanks to
                         the
@@ -338,8 +338,10 @@
         </div>
         <div class="card-lifestyle">
             <div class="container">
-                <h2 class="card-lifestyle__title"><span class="card-lifestyle__first" data-aos="fade-right" data-aos-duration="1000">Lifestyle</span> <span
-                            class="fn-sg card-lifestyle__sg">Lifestyle</span></h2>
+                <h2 class="card-lifestyle__title">
+                    <span class="card-lifestyle__first" data-aos="fade-right" data-aos-duration="1000">Lifestyle</span>
+                    <?php LifestyleTitleRender('card-lifestyle__sg'); ?>
+                </h2>
                 <div class="card-lifestyle__content">
                     <p class="card-lifestyle__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Bringing a world-class resort lifestyle, Palm Jumeirah houses many
                         luxury hotels, including Atlantis Dubai, W Dubai and FIVE Palm Jumeirah, where each location has

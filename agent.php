@@ -35,7 +35,7 @@
                             <img class="agent-page__image" src="/public/images/agent-page.jpg" alt="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
 
                             <div class="agent-page__content">
-                                <p class="fn-sg agent-page__sg">Oybek</p>
+                                <?php OybekTitleRender('agent-page__sg'); ?>
                             </div>
                         </div>
                         <div class="agent-page__sect">

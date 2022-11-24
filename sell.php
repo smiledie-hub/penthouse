@@ -18,7 +18,7 @@
                 <div class="banner__content">
                     <div class="container">
                         <h1 class="banner__title sell-page__title">
-                            <span class="banner__sg fn-sg sell-page__sg">Sell</span>
+                            <?php SellTitleRender('sell-page__sg'); ?>
                             <span class="banner__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Selling a dream</span>
                         </h1>
                         <p class="banner__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Let professionals of Penthouse.ae powered by Metropolitan to sell your
@@ -62,7 +62,7 @@
                             </div>
                             <div class="quote__item">
                                 <img data-aos="fade-left" data-aos-duration="600" data-aos-delay="600" class="quote__image" src="/public/images/quote.jpg" alt="">
-                                <p class="quote__sg fn-sg">Petri</p>
+                                <?php PetriTitleRender('quote__sg'); ?>
                             </div>
                         </div>
                     </div>
@@ -246,8 +246,10 @@
     <div class="x-fix">
         <div class="sell-advantages">
             <div class="container">
-                <h2 class="sell-advantages__title"><span class="sell-advantages__start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">advantages</span> <span
-                            class="sell-advantages__sg fn-sg">Advantages</span></h2>
+                <h2 class="sell-advantages__title">
+                    <span class="sell-advantages__start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">advantages</span>
+                    <?php AdvantagesTitleRender('sell-advantages__sg'); ?>
+                </h2>
             </div>
 
             <div class="sell-advantages__row-images row-images row-images--items-end row-images--right mb-100">

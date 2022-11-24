@@ -13,6 +13,35 @@
     }
   }
 
+  &__first {
+    @include media-down(sm) {
+      text-align: left;
+    }
+  }
+
+  &__sg {
+    width: 425px;
+    height: 269px;
+    position: absolute;
+    bottom: -189px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @include media-down(md) {
+      width: 251px;
+      height: 176px;
+      bottom: -116px;
+    }
+
+    @include media-down(sm) {
+      width: 221px;
+      height: 155px;
+      bottom: -108px;
+      left: 0;
+      transform: none;
+    }
+  }
+
   &__text {
     font-weight: 400;
     font-size: 20px;

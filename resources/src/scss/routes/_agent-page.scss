@@ -85,16 +85,15 @@
 
   &__sg {
     position: absolute;
-    font-weight: 400;
-    font-size: 210px;
-    line-height: 140.62%;
-    color: #D0A966;
+    width: 406px;
+    height: 325px;
     top: -140px;
     left: 50%;
     transform: translateX(-50%);
 
     @include media-down(md) {
-      font-size: 74px;
+      width: 137px;
+      height: 104px;
       left: 0;
       transform: none;
       top: -37px;

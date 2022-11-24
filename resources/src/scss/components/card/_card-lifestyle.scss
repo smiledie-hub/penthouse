@@ -47,17 +47,16 @@
   }
 
   &__sg {
-    font-weight: 400;
-    font-size: 210px;
-    line-height: 140%;
-    color: #D0A966;
     position: absolute;
     z-index: 0;
     top: -45px;
     left: 109px;
+    width: 594px;
+    height: 331px;
 
     @include media-down(md) {
-      font-size: 74px;
+      width: 209px;
+      height: 104px;
       top: 0;
       left: 71px;
     }

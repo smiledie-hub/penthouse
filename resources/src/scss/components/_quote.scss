@@ -117,10 +117,8 @@
   }
 
   &__sg {
-    font-weight: 400;
-    font-size: 210px;
-    line-height: 140.62%;
-    color: #D0A966;
+    width: 409px;
+    height: 273px;
     position: absolute;
     right: -53px;
     bottom: -193px;
@@ -130,9 +128,10 @@
     }
 
     @include media-down(md) {
-      font-size: 96px;
       right: 0;
       bottom: -94px;
+      width: 175px;
+      height: 135px;
     }
   }
 }
