@@ -13,7 +13,10 @@
 
         <div class="catalog-page__header">
             <div class="container">
-                <h2 class="catalog-page__title" data-aos="fade-right" data-aos-duration="1000">LUXURY Properties FOR <wbr>SALE IN DUBAI</h2>
+                <h2 class="catalog-page__title" data-aos="fade-right" data-aos-duration="1000">LUXURY Properties FOR
+                    <wbr>
+                    SALE IN DUBAI
+                </h2>
             </div>
 
             <div class="catalog-page__panel-box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
@@ -21,15 +24,22 @@
 
                     <label class="search-field catalog-page__search">
                         <span class="icon-search search-field__icon"></span>
-                        <input type="text" name="search" placeholder="Location, Community, City..." class="search-field__input">
+                        <input type="text" name="search" placeholder="Location, Community, City..."
+                               class="search-field__input">
                     </label>
 
                     <div class="catalog-page__buttons">
-                        <button class="btn btn--primary-outline catalog-page__plain-btn"><span class="icon-plain"></span> View map</button>
+                        <button class="btn btn--primary-outline catalog-page__plain-btn"><span
+                                    class="icon-plain"></span> View map
+                        </button>
                         <div class="catalog-page__buttons-items">
-                            <button class="btn btn--primary-outline catalog-page__filter-btn"><span class="icon-filters"><span class="catalog-page__badge">3</span></span> <span class="catalog-page__filter-btn-text">Filters</span></button>
+                            <button class="btn btn--primary-outline catalog-page__filter-btn"><span
+                                        class="icon-filters"><span class="catalog-page__badge">3</span></span> <span
+                                        class="catalog-page__filter-btn-text">Filters</span></button>
                             <div class="catalog-page__minmax-box">
-                                <button class="btn btn--primary-outline catalog-page__minmax-btn"><span class="icon-minmax"></span> <span class="catalog-page__minmax-btn-text">For the price of min</span></button>
+                                <button class="btn btn--primary-outline catalog-page__minmax-btn"><span
+                                            class="icon-minmax"></span> <span class="catalog-page__minmax-btn-text">For the price of min</span>
+                                </button>
                                 <form class="catalog-page__minmax-panel">
                                     <label class="field-radio">
                                         <input type="radio" value="price-min" name="sort" checked>
@@ -85,7 +95,8 @@
                                         </div>
                                     </div>
                                     <div class="sort-panel__section">
-                                        <a href="#" class="sort-panel__reset"><span class="icon-reset"></span> Reset filter</a>
+                                        <a href="#" class="sort-panel__reset"><span class="icon-reset"></span> Reset
+                                            filter</a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +113,8 @@
     <div class="catalog">
         <div class="catalog__main">
             <div class="catalog__content">
-                <p class="catalog__result" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">160 results find</p>
+                <p class="catalog__result" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">160
+                    results find</p>
 
                 <div class="catalog__items">
                     <?php
@@ -112,10 +124,13 @@
                     ?>
                 </div>
                 <div class="catalog-footer">
-                    <p class="catalog-footer__text" data-aos="fade-right" data-aos-duration="1000">1 – 40 of 120 objects</p>
+                    <p class="catalog-footer__text" data-aos="fade-right" data-aos-duration="1000">1 – 40 of 120
+                        objects</p>
 
-                    <div class="pagination catalog-footer__navs" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                        <a href="#" class="btn-icon btn-nav btn-nav--prev pagination__prev"><span class="icon-arrow-prev"></span></a>
+                    <div class="pagination catalog-footer__navs" data-aos="fade-left" data-aos-duration="1000"
+                         data-aos-delay="200">
+                        <a href="#" class="btn-icon btn-nav btn-nav--prev pagination__prev"><span
+                                    class="icon-arrow-prev"></span></a>
                         <div class="pagination__numbers catalog-footer__numbers">
                             <a href="#" class="pagination__number">1</a>
                             <a href="#" class="pagination__number">2</a>
@@ -127,7 +142,8 @@
                             <span class="pagination__dots">...</span>
                             <a href="#" class="pagination__number">40</a>
                         </div>
-                        <a href="#" class="btn-icon btn-nav btn-nav--next pagination__next"><span class="icon-arrow-next"></span></a>
+                        <a href="#" class="btn-icon btn-nav btn-nav--next pagination__next"><span
+                                    class="icon-arrow-next"></span></a>
                     </div>
                 </div>
             </div>
@@ -141,6 +157,25 @@
                 <button class="catalog-toggle__close"><span class="icon-arrow-next"></span></button>
             </p>
             <div id="map-catalog" class="catalog__map-box"></div>
+
+            <script>
+                const catalogMapData = [
+                    {
+                        lat: [25.183942, 55.259319],
+                        title: "Dream Palm Residence",
+                        text: "4BR Penthouse",
+                        link: "#!",
+                        images: ['/public/images/article-1.jpg', '/public/images/article-2.jpg', '/public/images/article-3.jpg']
+                    },
+                    {
+                        lat: [25.183952, 55.265000],
+                        title: "Dream Palm Residence 2",
+                        text: "4BR Penthouse 2",
+                        link: "#!",
+                        images: ['/public/images/article-1.jpg', '/public/images/article-3.jpg']
+                    }
+                ]
+            </script>
         </div>
     </div>
 <?php include_once "./templates/layout/footer.component.php"; ?>
