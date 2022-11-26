@@ -12,7 +12,7 @@
         </div>
 
         <div class="dubai-marina-banner">
-            <img class="dubai-marina-banner__image" src="/public/images/dubai-banner.jpg" alt="Banner">
+            <img class="dubai-marina-banner__image lazy" src="/public/images/lazy/dubai-banner.jpg" data-src="/public/images/dubai-banner.jpg" alt="Banner">
 
             <div class="dubai-marina-banner__content">
                 <h1 class="dubai-marina-banner__title" data-aos="fade-right" data-aos-duration="1000">Dubai Marina</h1>
@@ -42,12 +42,12 @@
                         length of 11,482 ft. that provides access to the waterfront from both sides, which makes Dubai
                         Marina one of the most sought-after modern sailing locations in the emirate.</p>
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
-                         class="row-images__img row-images__img--h710" src="/public/images/dubai-marina-1.jpg"
+                         class="row-images__img row-images__img--h710 lazy" src="/public/images/lazy/dubai-marina-1.jpg" data-src="/public/images/dubai-marina-1.jpg"
                          alt="">
                 </div>
                 <div class="row-images__item">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
-                         class="row-images__img row-images__img--h1080" src="/public/images/dubai-marina-2.jpg"
+                         class="row-images__img row-images__img--h1080 lazy" src="/public/images/lazy/dubai-marina-2.jpg" data-src="/public/images/dubai-marina-2.jpg"
                          alt="">
                 </div>
             </div>
@@ -83,13 +83,13 @@
             <div class="swiper dubai-marina-slider__el">
                 <div class="swiper-wrapper dubai-marina-slider__wrapper">
                     <div class="swiper-slide dubai-marina-slider__slide">
-                        <img class="dubai-marina-slider__image" src="/public/images/dubai-marina-slider-1.jpg" alt="">
+                        <img class="dubai-marina-slider__image lazy" src="/public/images/lazy/dubai-marina-slider-1.jpg" data-src="/public/images/dubai-marina-slider-1.jpg" alt="">
                     </div>
                     <div class="swiper-slide dubai-marina-slider__slide">
-                        <img class="dubai-marina-slider__image" src="/public/images/dubai-marina-slider-1.jpg" alt="">
+                        <img class="dubai-marina-slider__image lazy" src="/public/images/lazy/dubai-marina-slider-1.jpg" data-src="/public/images/dubai-marina-slider-1.jpg" alt="">
                     </div>
                     <div class="swiper-slide dubai-marina-slider__slide">
-                        <img class="dubai-marina-slider__image" src="/public/images/dubai-marina-slider-1.jpg" alt="">
+                        <img class="dubai-marina-slider__image lazy" src="/public/images/lazy/dubai-marina-slider-1.jpg" data-src="/public/images/dubai-marina-slider-1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -116,14 +116,16 @@
             <div class="row-images row-images--items-end row-images--left row-images--960-710">
                 <div class="row-images__item">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                         class="row-images__img row-images__img--h1080"
-                         src="/public/images/dubai-marina-location-1.jpg"
+                         class="row-images__img row-images__img--h1080 lazy"
+                         src="/public/images/lazy/dubai-marina-location-1.jpg"
+                         data-src="/public/images/dubai-marina-location-1.jpg"
                          alt="">
                 </div>
                 <div class="row-images__item">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
-                         class="row-images__img row-images__img--h710"
-                         src="/public/images/dubai-marina-location-2.jpg"
+                         class="row-images__img row-images__img--h710 lazy"
+                         src="/public/images/lazy/dubai-marina-location-2.jpg"
+                         data-src="/public/images/dubai-marina-location-2.jpg"
                          alt="">
                 </div>
             </div>
@@ -143,8 +145,9 @@
                         </div>
 
                         <div class="dubai-marina-location-block__image">
-                            <img data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-                                 src="/public/images/dubai-marina-location-3.jpg"
+                            <img class="lazy" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
+                                 data-src="/public/images/dubai-marina-location-3.jpg"
+                                 src="/public/images/lazy/dubai-marina-location-3.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -204,7 +207,7 @@
                     <div class="dubai-marina-economic__box-image box-image box-image--left">
                         <div class="box-image__content">
                             <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
-                                 class="box-image__image" src="/public/images/dubai-marina-economic-1.jpg" alt="">
+                                 class="box-image__image lazy" src="/public/images/lazy/dubai-marina-economic-1.jpg" data-src="/public/images/dubai-marina-economic-1.jpg" alt="">
                         </div>
                     </div>
 
@@ -245,7 +248,7 @@
             <div class="dubai-marina-promo__image-box">
                 <div class="dubai-marina-promo__image" data-aos="fade-right" data-aos-duration="1000"
                      data-aos-delay="200">
-                    <img src="/public/images/dubai-marina-promo-1.jpg" alt="">
+                    <img class="lazy" src="/public/images/lazy/dubai-marina-promo-1.jpg" data-src="/public/images/dubai-marina-promo-1.jpg" alt="">
                 </div>
 
                 <div class="dubai-marina-promo__content" data-aos="fade-left" data-aos-duration="1000"
@@ -318,7 +321,7 @@
 
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
                      class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
-                    <img class="dubai-marina-popular-block__img-1" src="/public/images/dubai-marina-popular-block-1.jpg"
+                    <img class="dubai-marina-popular-block__img-1 lazy" src="/public/images/lazy/dubai-marina-popular-block-1.jpg" data-src="/public/images/dubai-marina-popular-block-1.jpg"
                          alt="">
                 </div>
             </div>
@@ -351,7 +354,7 @@
 
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
                      class="dubai-marina-popular-block__image dubai-marina-popular-block__image--left">
-                    <img class="dubai-marina-popular-block__img-1" src="/public/images/dubai-marina-popular-block-2.jpg"
+                    <img class="dubai-marina-popular-block__img-1 lazy" src="/public/images/lazy/dubai-marina-popular-block-2.jpg" data-src="/public/images/dubai-marina-popular-block-2.jpg"
                          alt="">
                 </div>
             </div>
@@ -387,7 +390,7 @@
 
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
                      class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
-                    <img class="dubai-marina-popular-block__img-1" src="/public/images/dubai-marina-popular-block-3.jpg"
+                    <img class="dubai-marina-popular-block__img-1 lazy" src="/public/images/lazy/dubai-marina-popular-block-3.jpg" data-src="/public/images/dubai-marina-popular-block-3.jpg"
                          alt="">
                 </div>
             </div>

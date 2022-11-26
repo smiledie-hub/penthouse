@@ -10,7 +10,7 @@
                     <div class="swiper-slide slider-projects__slide">
                         <a href="#" class="slider-projects__link"></a>
                         <div class="slider-projects__image">
-                            <img class="lazy" data-src="/public/images/projects-1.jpg"
+                            <img class="lazy" src="/public/images/lazy/projects-1.jpg" data-src="/public/images/projects-1.jpg"
                                  alt="projects">
                         </div>
                         <h3 class="slider-projects__title">Al Bateen Residences</h3>
@@ -19,7 +19,7 @@
                     <div class="swiper-slide slider-projects__slide">
                         <a href="#" class="slider-projects__link"></a>
                         <div class="slider-projects__image">
-                            <img class="lazy" data-src="/public/images/projects-2.jpg"
+                            <img class="lazy" src="/public/images/lazy/projects-2.jpg" data-src="/public/images/projects-2.jpg"
                                  alt="projects">
                         </div>
                         <h3 class="slider-projects__title">Ocean Heights</h3>
@@ -28,7 +28,7 @@
                     <div class="swiper-slide slider-projects__slide">
                         <a href="#" class="slider-projects__link"></a>
                         <div class="slider-projects__image">
-                            <img class="lazy" data-src="/public/images/projects-1.jpg"
+                            <img class="lazy" src="/public/images/lazy/projects-1.jpg" data-src="/public/images/projects-1.jpg"
                                  alt="projects">
                         </div>
                         <h3 class="slider-projects__title">Al Bateen Residences</h3>
@@ -37,7 +37,7 @@
                     <div class="swiper-slide slider-projects__slide">
                         <a href="#" class="slider-projects__link"></a>
                         <div class="slider-projects__image">
-                            <img class="lazy" data-src="/public/images/projects-2.jpg"
+                            <img class="lazy" src="/public/images/lazy/projects-2.jpg" data-src="/public/images/projects-2.jpg"
                                  alt="projects">
                         </div>
                         <h3 class="slider-projects__title">Ocean Heights</h3>

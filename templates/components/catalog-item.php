@@ -4,11 +4,11 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide catalog-item__slide">
                     <a href="#" class="catalog-item__link"></a>
-                    <img class="catalog-item__image" src="/public/images/catalog-item.jpg" alt="catalog">
+                    <img class="catalog-item__image lazy" src="/public/images/lazy/catalog-item.jpg" data-src="/public/images/catalog-item.jpg" alt="catalog">
                 </div>
                 <div class="swiper-slide catalog-item__slide">
                     <a href="#" class="catalog-item__link"></a>
-                    <img class="catalog-item__image" src="/public/images/card-image.jpg" alt="catalog">
+                    <img class="catalog-item__image lazy" src="/public/images/lazy/catalog-item.jpg" data-src="/public/images/catalog-item.jpg" alt="catalog">
                 </div>
             </div>
             <div class="catalog-item__pagination">

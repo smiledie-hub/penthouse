@@ -34,8 +34,12 @@
                     power of our network make Penthouse.ae powered by Metropolitan different from other real
                     estate agencies in Dubai. </p>
                 <div class="front-about__buttons">
-                    <a href="#" class="btn btn--primary-outline" data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">Get to know us</a>
-                    <a href="#" class="btn btn--primary" data-aos="fade-left" data-aos-duration="600" data-aos-delay="1000">Find your agent</a>
+                    <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">
+                        <a href="#" class="btn btn--primary-outline">Get to know us</a>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="1000">
+                        <a href="#" class="btn btn--primary">Find your agent</a>
+                    </div>
                 </div>
             </div>
         </div>

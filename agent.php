@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="agent-page__sect">
-                            <img class="agent-page__image" src="/public/images/agent-page.jpg" alt="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                            <img class="agent-page__image lazy" src="/public/images/lazy/agent-page.jpg" data-src="/public/images/agent-page.jpg" alt="" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
 
                             <div class="agent-page__content">
                                 <?php OybekTitleRender('agent-page__sg'); ?>
@@ -95,7 +95,7 @@
         </div>
 
         <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg", '<div class="contact-send-profile">
-                    <img class="contact-send-profile__image" src="/public/images/card-profile.jpg" alt="">
+                    <img class="contact-send-profile__image lazy" src="/public/images/lazy/card-profile.jpg" data-src="/public/images/card-profile.jpg" alt="">
                     <p class="contact-send-profile__text">Contact<br>Oybek Shamsiddinov</p>
                 </div>
                 <div class="contact-send__socials">

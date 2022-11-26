@@ -2,7 +2,7 @@
 <?php HeaderComponent("header--absolute"); ?>
 
     <main class="something-page fullpage">
-        <img class="fullpage__backgrond lazy" data-src="/public/images/something-page.jpg" alt="">
+        <img class="fullpage__backgrond lazy" src="/public/images/lazy/something-page.jpg" data-src="/public/images/something-page.jpg" alt="">
 
         <div class="something-page__container">
             <div class="something-page__content">

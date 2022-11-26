@@ -255,12 +255,13 @@
             <div class="sell-advantages__row-images row-images row-images--items-end row-images--right mb-100">
                 <div class="row-images__item sell-advantages__item">
                     <p class="sell-page__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Extensive online marketing campaigns</p>
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="sell-advantages__img row-images__img row-images__img--h710"
-                         src="/public/images/sell-1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="sell-advantages__img row-images__img row-images__img--h710 lazy"
+                         src="/public/images/lazy/sell-1.jpg" data-src="/public/images/sell-1.jpg" alt="">
                 </div>
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="sell-advantages__img row-images__img row-images__img--h1080"
-                         src="/public/images/sell-2.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="sell-advantages__img row-images__img row-images__img--h1080 lazy"
+                         src="/public/images/lazy/sell-2.jpg"
+                         data-src="/public/images/sell-2.jpg" alt="">
                 </div>
             </div>
 
@@ -273,7 +274,7 @@
         <div class="bg-second">
             <div class="sell-page__box-image box-image box-image--left">
                 <div class="box-image__content">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image" src="/public/images/self-page-1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/public/images/lazy/self-page-1.jpg" data-src="/public/images/self-page-1.jpg" alt="">
                     <div class="sell-page__end">
                         <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="sell-page__text sell-page__text--3">Promotion through social networks for a wide
                             audience coverage </p>
@@ -284,10 +285,10 @@
             <div class="sell-page__row-images row-images row-images--items-end row-images--right">
                 <div class="row-images__item">
                     <p class="sell-page__text sell-page__text--4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Own database of high net worth individuals</p>
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710" src="/public/images/sell-3.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710 lazy" src="/public/images/lazy/sell-3.jpg" data-src="/public/images/sell-3.jpg" alt="">
                 </div>
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row-images__img row-images__img--h1080" src="/public/images/sell-4.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row-images__img row-images__img--h1080 lazy" src="/public/images/lazy/sell-4.jpg" data-src="/public/images/sell-4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -303,7 +304,7 @@
         <div class="box-image box-image--right sell-page__box-image2 sell-page__bg-mobile">
             <p class="sell-page__text sell-page__text--6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Creation of high-quality photos, videos and presentations </p>
             <div class="box-image__content box-image__content--p550">
-                <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="box-image__image" src="/public/images/self-page-1.jpg" alt="">
+                <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="box-image__image lazy" src="/public/images/lazy/self-page-1.jpg" data-src="/public/images/self-page-1.jpg" alt="">
             </div>
         </div>
     </div>

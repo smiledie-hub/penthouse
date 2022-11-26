@@ -12,7 +12,7 @@
         </div>
 
         <div class="banner">
-            <img class="banner__image" src="/public/images/areas-banner.jpg" alt="Banner">
+            <img class="banner__image lazy" src="/public/images/lazy/areas-banner.jpg" data-src="/public/images/areas-banner.jpg" alt="Banner">
 
             <div class="banner__content">
                 <div class="container">
@@ -42,12 +42,13 @@
 
             <div class="areas-palm__row-images row-images row-images--items-end row-images--right">
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" class="row-images__img row-images__img--h710"
-                         src="/public/images/palm_jumeirah_1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" class="row-images__img row-images__img--h710 lazy"
+                         src="/public/images/lazy/palm_jumeirah_1.jpg"
+                         data-src="/public/images/palm_jumeirah_1.jpg" alt="">
                 </div>
                 <div class="row-images__item">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                         class="row-images__img row-images__img--h1080" src="/public/images/palm_jumeirah_2.jpg" alt="">
+                         class="row-images__img row-images__img--h1080 lazy" src="/public/images/lazy/palm_jumeirah_2.jpg" data-src="/public/images/palm_jumeirah_2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -82,7 +83,7 @@
 
             <div class="box-image box-image--left areas-beachfront__box-image">
                 <div class="box-image__content">
-                    <img class="box-image__image" src="/public/images/emaar_beachfront_1.jpg" alt="" data-aos="fade-up"
+                    <img class="box-image__image lazy" src="/public/images/lazy/emaar_beachfront_1.jpg" data-src="/public/images/emaar_beachfront_1.jpg" alt="" data-aos="fade-up"
                          data-aos-duration="1000">
                 </div>
             </div>
@@ -110,12 +111,13 @@
 
             <div class="areas-jumeirah__images row-images row-images--items-end row-images--left row-images--960-710">
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" class="row-images__img row-images__img--h1080"
-                         src="/public/images/madinat_jumeirah_1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" class="row-images__img row-images__img--h1080 lazy"
+                         src="/public/images/lazy/madinat_jumeirah_1.jpg"
+                         data-src="/public/images/madinat_jumeirah_1.jpg" alt="">
                 </div>
                 <div class="row-images__item">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                         class="row-images__img row-images__img--h710" src="/public/images/madinat_jumeirah_2.jpg"
+                         class="row-images__img row-images__img--h710 lazy" src="/public/images/lazy/madinat_jumeirah_2.jpg" data-src="/public/images/madinat_jumeirah_2.jpg"
                          alt="">
                 </div>
             </div>
@@ -139,7 +141,7 @@
             <div class="areas-dubai__box-image box-image box-image--right">
                 <div class="box-image__content box-image__content--p250">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
-                         class="box-image__image box-image__image--h930" src="/public/images/dubai_marina_1.jpg" alt="">
+                         class="box-image__image box-image__image--h930 lazy" src="/public/images/lazy/dubai-marina-1.jpg" data-src="/public/images/dubai_marina_1.jpg" alt="">
                 </div>
             </div>
         </div>

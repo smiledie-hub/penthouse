@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
         roundLengths: true,
         loop: true,
         loopAdditionalSlides: 30,
-        slidesPerView: 1,
+        slidesPerView: 0,
         breakpoints: {
             1023: {
                 spaceBetween: 50,
