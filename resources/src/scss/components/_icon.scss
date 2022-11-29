@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bell:before {
+  content: "\e92e";
+}
+.icon-download:before {
+  content: "\e92f";
+}
+.icon-time:before {
+  content: "\e930";
+}
 .icon-filters:before {
   content: "\e92c";
 }

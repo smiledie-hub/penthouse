@@ -40,7 +40,10 @@ export default function SellScrollComponent() {
                 modificator = window.innerWidth / items.length + 80
             }
 
-            containerEl.style.height = maxScroll - (items[items.length - 1].el.clientWidth / 2) + modificator + "px"
+            // const ms = maxScroll - (items[items.length - 1].el.clientWidth / 2) + modificator
+            const ms = maxScroll + modificator
+
+            containerEl.style.height = ms + "px"
 
             window.addEventListener('optimizedScroll', () => {
                 const top = containerStickyEl.getBoundingClientRect().top
@@ -106,7 +109,9 @@ export default function SellScrollComponent() {
                         }
                     })
 
-                    setTranslate(offsetX)
+                    if(!((offsetX * -1) >= maxScroll - window.innerWidth)) {
+                        setTranslate(offsetX)
+                    }
                 }
             })
         }

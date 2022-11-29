@@ -251,7 +251,7 @@
                             <div class="card-schema__icon tippy" data-text="Pool" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1800"><span class="icon-pool"></span></div>
                         </div>
 
-                        <div class="card-schema__navs" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000">
+                        <div class="card-schema__navs" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-anchor="#plan">
                             <button class="btn-icon btn-nav btn-nav--prev card-schema-prev"><span
                                         class="icon-arrow-prev"></span>
                             </button>

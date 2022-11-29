@@ -15,3 +15,5 @@ include_once 'templates/titles/lifestyle.title.php';
 include_once 'templates/titles/sell.title.php';
 include_once 'templates/titles/petri.title.php';
 include_once 'templates/titles/advantages.title.php';
+include_once 'templates/titles/projects.title.php';
+include_once 'templates/titles/address.title.php';

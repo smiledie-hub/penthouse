@@ -1,4 +1,3 @@
-import './custom-select'
 import './tippy'
 import './slider-palms'
 import './slider-default'

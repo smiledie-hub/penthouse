@@ -56,3 +56,35 @@
         @include media-down($name)
     }
 }
+
+@mixin flex-gap($row-gap, $column-gap: $row-gap) {
+    display: flex;
+    & > * {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -$column-gap;
+    }
+
+    & > * > * {
+        display: flex;
+        margin-top: $column-gap;
+    }
+
+    &:not([dir='rtl']) {
+        & > * {
+            margin-left: -$row-gap;
+        }
+        & > * > * {
+            margin-left: $row-gap;
+        }
+    }
+
+    &[dir='rtl'] {
+        & > * {
+            margin-right: -$row-gap;
+        }
+        & > * > * {
+            margin-right: $row-gap;
+        }
+    }
+}

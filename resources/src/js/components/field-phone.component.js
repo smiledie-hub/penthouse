@@ -57,11 +57,34 @@ export default function FieldPhoneComponent() {
             }
         }
 
-        countries.forEach(({code, flag, mask, iso}) => {
-            itemsContainer.append(getPhoneComponent(code, flag, mask, iso))
+        const _c = countries
 
-            if (code === defaultIso) {
-                setItem(code, flag, mask, iso, false)
+
+        let ARE = countries.find(c => c?.name === "United Arab Emirates") || {},
+            RUS = countries.find(c => c?.name === "Russia") || {},
+            DEU = countries.find(c => c?.name === "Germany") || {},
+            FRA = countries.find(c => c?.name === "France") || {},
+            GBR = countries.find(c => c?.name === "United Kingdom") || {},
+            USA = countries.find(c => c?.name === "United States") || {}
+
+
+        for (let i = 0; i < _c.length; i++) {
+            const county = _c[i]
+
+            if(county && county?.code && (county.code === ARE.code || county.code === RUS.code || county.code === DEU.code || county.code === FRA.code || county.code === GBR.code || county.code === USA.code)) {
+                delete _c[i];
+            }
+        }
+
+        const _countries = [ARE, RUS, DEU, FRA, GBR, USA, ..._c]
+
+        _countries.forEach((county) => {
+            if(county && county?.code && county?.flag && county?.mask && county?.iso) {
+                itemsContainer.append(getPhoneComponent(county.code, county.flag, county.mask, county.iso))
+
+                if (county.code === defaultIso) {
+                    setItem(county.code, county.flag, county.mask, county.iso, false)
+                }
             }
         })
 

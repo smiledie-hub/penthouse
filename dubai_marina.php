@@ -130,12 +130,11 @@
                 </div>
             </div>
 
-            <div class="dubai-marina-location-block">
+            <div class="dubai-marina-location-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 
-                <div class="dubai-marina-location-block__image-box">
+                <div class="dubai-marina-location-block__image-box" >
                     <div class="dubai-marina-location-block__wrapper">
-                        <div class="dubai-marina-location-block__text-box" data-aos="fade-right"
-                             data-aos-duration="1000" data-aos-delay="400">
+                        <div class="dubai-marina-location-block__text-box">
                             <p>The area houses plenty of bus stations, as well as its own dedicated Metro station, Sobha
                                 Realty, formerly known as Dubai Marina Metro Station, and the DMCC Metro Station can
                                 also be reached a short distance away.</p>
@@ -145,7 +144,7 @@
                         </div>
 
                         <div class="dubai-marina-location-block__image">
-                            <img class="lazy" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
+                            <img class="lazy"
                                  data-src="/public/images/dubai-marina-location-3.jpg"
                                  src="/public/images/lazy/dubai-marina-location-3.jpg"
                                  alt="">
@@ -153,8 +152,7 @@
                     </div>
                 </div>
 
-                <div class="dubai-marina-location-block__content" data-aos="fade-right" data-aos-duration="1000"
-                     data-aos-delay="400">
+                <div class="dubai-marina-location-block__content">
                     <div class="swiper area-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -245,14 +243,12 @@
                     attractions include the following sites.</p>
             </div>
 
-            <div class="dubai-marina-promo__image-box">
-                <div class="dubai-marina-promo__image" data-aos="fade-right" data-aos-duration="1000"
-                     data-aos-delay="200">
+            <div class="dubai-marina-promo__image-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="dubai-marina-promo__image">
                     <img class="lazy" src="/public/images/lazy/dubai-marina-promo-1.jpg" data-src="/public/images/dubai-marina-promo-1.jpg" alt="">
                 </div>
 
-                <div class="dubai-marina-promo__content" data-aos="fade-left" data-aos-duration="1000"
-                     data-aos-delay="400">
+                <div class="dubai-marina-promo__content" >
 
                     <div class="swiper area-slider">
                         <div class="swiper-wrapper">
@@ -289,9 +285,8 @@
                 </h2>
             </div>
 
-            <div class="dubai-marina-popular-block dubai-marina-popular-block--1">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"
-                     class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
+            <div class="dubai-marina-popular-block dubai-marina-popular-block--1" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="200">
+                <div class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
                     <div>
                         <p class="dubai-marina-popular-block__subtitle">Developed by DAMAC Properties,</p>
                         <p class="dubai-marina-popular-block__dev">Cavalli Tower</p>
@@ -318,16 +313,13 @@
                         </div>
                     </div>
                 </div>
-
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
-                     class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
+                <div class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
                     <img class="dubai-marina-popular-block__img-1 lazy" src="/public/images/lazy/dubai-marina-popular-block-1.jpg" data-src="/public/images/dubai-marina-popular-block-1.jpg"
                          alt="">
                 </div>
             </div>
-            <div class="dubai-marina-popular-block dubai-marina-popular-block--2">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"
-                     class="dubai-marina-popular-block__content dubai-marina-popular-block__content--right">
+            <div class="dubai-marina-popular-block dubai-marina-popular-block--2" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="200">
+                <div class="dubai-marina-popular-block__content dubai-marina-popular-block__content--right">
                     <div>
                         <p class="dubai-marina-popular-block__subtitle">Developed by Verve Developments</p>
                         <p class="dubai-marina-popular-block__dev">Le Reve</p>
@@ -352,15 +344,13 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
-                     class="dubai-marina-popular-block__image dubai-marina-popular-block__image--left">
+                <div class="dubai-marina-popular-block__image dubai-marina-popular-block__image--left">
                     <img class="dubai-marina-popular-block__img-1 lazy" src="/public/images/lazy/dubai-marina-popular-block-2.jpg" data-src="/public/images/dubai-marina-popular-block-2.jpg"
                          alt="">
                 </div>
             </div>
-            <div class="dubai-marina-popular-block dubai-marina-popular-block--3">
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"
-                     class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
+            <div class="dubai-marina-popular-block dubai-marina-popular-block--3" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="200">
+                <div class="dubai-marina-popular-block__content dubai-marina-popular-block__content--left">
                     <div>
                         <p class="dubai-marina-popular-block__subtitle">Developed by Real Estate Development LLC</p>
                         <p class="dubai-marina-popular-block__dev">LIV Marina</p>
@@ -388,8 +378,7 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
-                     class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
+                <div class="dubai-marina-popular-block__image dubai-marina-popular-block__image--right">
                     <img class="dubai-marina-popular-block__img-1 lazy" src="/public/images/lazy/dubai-marina-popular-block-3.jpg" data-src="/public/images/dubai-marina-popular-block-3.jpg"
                          alt="">
                 </div>

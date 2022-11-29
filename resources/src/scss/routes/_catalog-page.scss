@@ -669,7 +669,6 @@
 .catalog-toggle {
   display: flex;
   align-items: center;
-  border-radius: 22px;
   overflow: hidden;
   position: absolute;
   top: 28px;
@@ -701,6 +700,7 @@
   &__open {
     background: #8F8175;
     color: #fff;
+    border-radius: 22px 0 0 22px;
 
     &:hover {
       background: #7D7166;
@@ -709,9 +709,28 @@
 
   &__close {
     background: #F2F0EF;
+    display: none;
+    border-radius: 0 22px 22px 0;
 
     &:hover {
       background: #E7E7E7;
+    }
+  }
+}
+
+.catalog--open-map {
+  .catalog-toggle {
+    &__close {
+      display: block;
+    }
+  }
+}
+
+.catalog--open-map-full {
+  .catalog-toggle {
+    left: 0;
+    &__open {
+      display: none;
     }
   }
 }

@@ -21,4 +21,10 @@
     border-radius: 11px;
     margin-bottom: 20px;
   }
+
+  &__accept {
+    &:hover {
+      background: #FFFFFF;
+    }
+  }
 }

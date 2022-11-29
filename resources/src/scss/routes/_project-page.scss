@@ -1,0 +1,301 @@
+.project-page {
+
+}
+
+.project-banner {
+  &__title {
+    position: relative;
+    max-width: 1029px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__first {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+  }
+
+  &__content {
+    padding-top: 474px;
+    padding-bottom: 339px;
+  }
+
+  &__sg {
+    width: 576px;
+    height: 342px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+  }
+}
+
+.project-description {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 130px;
+
+  &__container {
+    max-width: 1029px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3B3734;
+    margin-bottom: 50px;
+    max-width: 847px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+}
+
+.project-items {
+  position: relative;
+  z-index: 1;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+
+  &__title {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #3B3734;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3B3734;
+  }
+}
+
+.project-address {
+  position: relative;
+  z-index: 1;
+  margin-top: 363px;
+  margin-bottom: 126px;
+
+  &__sg {
+    width: 559px;
+    height: 270px;
+    position: absolute;
+    left: -130px;
+    bottom: 26px;
+    z-index: 1;
+  }
+
+  &__first {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__title {
+    margin-bottom: 85px;
+    position: relative;
+  }
+
+  &__content {
+    max-width: 945px;
+    margin: 100px auto 0 auto;
+    width: 100%;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #3B3734;
+    margin-bottom: 47px;
+  }
+}
+
+.project-slider {
+  margin-top: 126px;
+  margin-bottom: 226px;
+
+  &__container {
+    position: relative;
+  }
+
+  &__slide {
+    height: 845px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__items {
+    height: 180px;
+
+    img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      transition: 300ms;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.project-slider-prev, .project-slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-color: #fff;
+  color: #fff;
+}
+
+.project-slider-prev {
+  left: var(--cp);
+}
+
+.project-slider-next {
+  right: var(--cp);
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+
+  &__sect {
+    position: relative;
+    width: 50%;
+  }
+
+  &__content {
+    padding-right: var(--cp);
+    margin-bottom: 162px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #3B3734;
+    margin-bottom: 32px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3B3734;
+
+    &:not(:last-child) {
+      margin-bottom: 44px;
+    }
+  }
+
+  &__image {
+    max-width: 823px;
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+
+    margin-left: calc(var(--cp) - 150px);
+  }
+
+  &__image-2 {
+    max-width: 661px;
+    width: 100%;
+    height: 661px;
+    object-fit: cover;
+
+    margin-right: calc(var(--cp) - 150px);
+    margin-left: auto;
+  }
+}
+
+.project-info-2 {
+  padding: 370px var(--cp) 160px;
+  margin-top: -490px;
+
+  &__content {
+    max-width: 709px;
+    margin-left: 185px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3B3734;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__btn {
+    margin-top: 60px;
+  }
+}
+
+.project-marks {
+  height: 800px;
+  position: relative;
+
+  &__image {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123.5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    z-index: 1;
+    position: absolute;
+    background: #231F20;
+    border-radius: 1px;
+
+    &--large {
+      font-size: 22px;
+    }
+  }
+}
