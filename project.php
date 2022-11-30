@@ -20,8 +20,7 @@
                 <div class="container">
                     <h1 class="project-banner__title">
                         <?php ProjectsTitleRender('project-banner__sg'); ?>
-                        <span class="project-banner__first" data-aos="fade-right" data-aos-duration="1000"
-                              data-aos-delay="400">1, 2 & 3BR Branded Apartments by Emaar Beachfront x Address Hotel</span>
+                        <span class="project-banner__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">1, 2 & 3BR Branded Apartments by Emaar Beachfront x Address Hotel</span>
                     </h1>
                 </div>
             </div>
@@ -33,7 +32,7 @@
 
         <div class="project-description">
             <div class="container project-description__container">
-                <p class="project-description__text">Address Residences The Bay at Emaar Beachfront blends beachfront
+                <p class="project-description__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">Address Residences The Bay at Emaar Beachfront blends beachfront
                     living andexcellent design flair
                     surrounded by unmatched views of the gulf's blue watersand superyachts, with direct access to the
                     beach
@@ -41,7 +40,7 @@
                     for
                     sale</p>
 
-                <div class="project-description__buttons">
+                <div class="project-description__buttons" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                     <a href="#!" class="btn btn--primary">Discover more</a>
                     <a href="#!" class="btn btn--primary-outline">Get Project Brochure</a>
                 </div>
@@ -51,7 +50,7 @@
         <div class="project-items">
             <div class="container">
                 <div class="project-items__wrapper">
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="project-item">
                         <div class="project-item__left">
                             <svg width="53" height="45" viewBox="0 0 53 45" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +66,7 @@
                             <p class="project-item__text">Starting Price</p>
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="project-item">
                         <div class="project-item__left">
                             <svg width="63" height="59" viewBox="0 0 63 59" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +83,7 @@
                             <p class="project-item__text">SPayment Plan</p>
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="project-item">
                         <div class="project-item__left">
                             <svg width="49" height="51" viewBox="0 0 49 51" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -97,7 +96,7 @@
                             <p class="project-item__text">Completion</p>
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="project-item">
                         <div class="project-item__left">
                             <svg width="57" height="57" viewBox="0 0 57 57" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -119,7 +118,7 @@
             <div class="container">
                 <h2 class="project-address__title">
                     <?php AddressTitleRender('project-address__sg'); ?>
-                    <span class="project-address__first">Residences The Bay at Emaar Beachfront</span>
+                    <span class="project-address__first" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Residences The Bay at Emaar Beachfront</span>
                 </h2>
             </div>
 
@@ -132,7 +131,7 @@
 
             <div class="container">
                 <div class="project-address__content">
-                    <p class="project-address__text">Address The Bay in Emaar Beachfront is an ultra-luxury residential
+                    <p class="project-address__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Address The Bay in Emaar Beachfront is an ultra-luxury residential
                         project from the leading developer in the UAE, Emaar Properties. The complex features a
                         collection of luxurious branded apartments, which comprise 1 to 3 bedrooms with areas ranging
                         from 803 to 1970 sqft. Residences will be 4 two-bedroom back side apartments on the upper
@@ -146,7 +145,7 @@
                         5-star hotel will be located on the podium level of the Address The Bay complex.
                         Request Available Units & Prices</p>
 
-                    <a href="#!" class="btn btn--primary">Request Available Units & Prices</a>
+                    <a href="#!" class="btn btn--primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Request Available Units & Prices</a>
                 </div>
             </div>
         </div>
@@ -154,7 +153,7 @@
         <div class="project-items">
             <div class="container">
                 <div class="project-items__wrapper">
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="project-item">
                         <div class="project-item__left">
                             <svg width="51" height="51" viewBox="0 0 51 51" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +177,7 @@
                             <p class="project-item__text">Apartments</p>
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="project-item">
                         <div class="project-item__left">
                             <svg width="60" height="63" viewBox="0 0 60 63" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +213,7 @@
                             <p class="project-item__text">Beach</p>
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="project-item">
                         <div class="project-item__left">
                             <svg width="49" height="50" viewBox="0 0 49 50" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +245,7 @@
                             <p class="project-item__text">Pool</p>
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="project-item">
                         <div class="project-item__left">
                             <svg width="57" height="55" viewBox="0 0 57 55" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -386,32 +385,32 @@
 
         <div class="project-info">
             <div class="project-info__sect">
-                <img class="project-info__image lazy" data-src="/public/images/project-page-2.jpg" alt="">
+                <img class="project-info__image lazy" data-src="/public/images/project-page-2.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             </div>
 
             <div class="project-info__sect">
                 <div class="project-info__content">
-                    <h2 class="project-info__title">he Pinnacle of Seaside Living in Emaar Beachfront</h2>
-                    <p class="project-info__text">Address The Bay has a prime beachfront location on the best plot in
+                    <h2 class="project-info__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">he Pinnacle of Seaside Living in Emaar Beachfront</h2>
+                    <p class="project-info__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Address The Bay has a prime beachfront location on the best plot in
                         Emaar Beachfront, where there will be plenty of Michelin star restaurants around the complex.
                         The building will be surrounded by Grand Bleu Tower Interiors by Elie Saab, Palace Beach
                         Residence and Beach Mansion.</p>
-                    <p class="project-info__text">Residents of Address The Bay will easily be able to reach the main
+                    <p class="project-info__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Residents of Address The Bay will easily be able to reach the main
                         highway of the emirate of Dubai - Sheikh Zayed Road, by car, and will take about a 10-minute
                         drive. Neighbouring districts of the new residential and hotel complex include Palm Jumeirah,
                         Dubai Marina and Dubai Media City.</p>
                 </div>
-                <img class="project-info__image-2 lazy" data-src="/public/images/project-page-3.jpg" alt="">
+                <img class="project-info__image-2 lazy" data-src="/public/images/project-page-3.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             </div>
         </div>
 
         <div class="project-info-2 bg-second">
             <div class="project-info-2__content">
-                <p class="project-info-2__text">Emaar Beachfront, where Address The Bay is located, was launched back in
+                <p class="project-info-2__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Emaar Beachfront, where Address The Bay is located, was launched back in
                     2018 and is the number one
                     selling location in the emirate of Dubai. Upon its completion, the district will offer world-class
                     leisure, sports and wellness facilities, as well as a marina and two cruise terminals.</p>
-                <p class="project-info-2__text">Branded residences in Address The Bay will be a profitable investment
+                <p class="project-info-2__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Branded residences in Address The Bay will be a profitable investment
                     with an ROI rate of 5%. The minimum
                     price for a 1-bedroom residence in similar projects in Emaar Beachfront constitutes about AED
                     110,000
@@ -423,40 +422,38 @@
                     by
                     foreigners on the UAE’s mainland.</p>
 
-                <a href="#!" class="btn btn--primary-outline project-info-2__btn">Find out more about Dubai areas</a>
+                <a href="#!" class="btn btn--primary-outline project-info-2__btn" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Find out more about Dubai areas</a>
             </div>
         </div>
 
-        <div class="project-marks">
-            <img class="project-marks__image lazy" data-src="/public/images/project-marks.jpg" alt="">
-            <div class="project-marks__items">
-                <p class="project-marks__item project-marks__item--large" style="top: 8.63%; right: 37%;">the palm <br>island</p>
-                <p class="project-marks__item" style="top: 34.38%; right: 50.05%;">Beach <br>Vista</p>
-                <p class="project-marks__item" style="top: 34.38%; right: 41.04%;">Beach <br>isle</p>
-                <p class="project-marks__item" style="top: 34.38%; right: 23.59%;">grand bleu tower <br>interiors by elie saab</p>
-                <p class="project-marks__item" style="top: 34.88%; right: 7%;">Address <br>residences - the bay</p>
-                <p class="project-marks__item" style="top: 84.88%; right: 55.63%;">sunrise <br>bay</p>
-                <p class="project-marks__item" style="top: 84.88%; right: 47.76%;">south <br>beach</p>
-                <p class="project-marks__item" style="top: 84.88%; right: 40.89%;">marina <br>vista</p>
-                <p class="project-marks__item" style="top: 84.88%; right: 32.29%;">Beach <br>mansion</p>
-                <p class="project-marks__item" style="top: 84.88%; right: 19.27%;">palace beach <br>residence</p>
+        <div class="project-marks bg-second" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="project-marks__wrapper">
+                <img class="project-marks__image lazy" data-src="/public/images/project-marks.jpg" alt="">
             </div>
         </div>
 
-        <div class="card-schema" id="plan">
+        <div class="card-schema project-schema" id="plan">
             <div class="container">
-                <div class="card-schema__wrapper">
+                <div class="card-schema__wrapper project-schema__wrapper">
                     <div class="card-schema__section">
-                        <p class="card-schema__price card-detail-price" data-aos="fade-right" data-aos-duration="1000">1-bedroom units</p>
-                        <p class="card-detail-category card-schema__category" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">The Royal Residences</p>
-                        <p class="card-detail-map card-schema__map" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"><span class="icon-location"></span>Palm Jumeirah</p>
+                        <p class="card-schema__price card-detail-price" data-aos="fade-right" data-aos-duration="1000">
+                            1-bedroom units</p>
+                        <p class="card-detail-category card-schema__category" data-aos="fade-right"
+                           data-aos-duration="1000" data-aos-delay="400">The Royal Residences</p>
+                        <p class="card-detail-map card-schema__map" data-aos="fade-right" data-aos-duration="1000"
+                           data-aos-delay="600"><span class="icon-location"></span>Palm Jumeirah</p>
 
-                        <div class="card-schema__item-icon" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1400"><span class="icon-sort-fill"></span><b>Total Area:</b> 758 sqft</div>
+                        <div class="card-schema__item-icon" data-aos="fade-right" data-aos-duration="1000"
+                             data-aos-delay="900"><span class="icon-sort-fill"></span><b>Total Area:</b> 758 sqft
+                        </div>
 
-                        <a href="#!" class="card-schema__btn btn btn--primary"><span class="icon icon-download"></span>Get All Floor Plans</a>
-                        <a href="#!" class="card-schema__btn btn btn--primary-outline"><span class="icon icon-download"></span>Download Brochure</a>
+                        <a href="#!" class="card-schema__btn btn btn--primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span class="icon icon-download"></span>Get
+                            All Floor Plans</a>
+                        <a href="#!" class="card-schema__btn btn btn--primary-outline" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100"><span
+                                    class="icon icon-download"></span>Download Brochure</a>
 
-                        <div class="card-schema__navs" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000">
+                        <div class="card-schema__navs" data-aos="fade-down" data-aos-duration="1000"
+                             data-aos-delay="200">
                             <button class="btn-icon btn-nav btn-nav--prev card-schema-prev"><span
                                         class="icon-arrow-prev"></span>
                             </button>
@@ -466,13 +463,21 @@
                         </div>
                     </div>
                     <div class="card-schema__section">
-                        <div class="swiper slider-schema" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="card-schema__brs">
+                            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="card-schema__br card-schema__br--orange"><span>1</span> BR</div>
+                            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="card-schema__br"><span>2</span> BR</div>
+                            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="card-schema__br"><span>3</span> BR</div>
+                        </div>
+                        <div class="swiper slider-schema" data-aos="fade-left" data-aos-duration="1000"
+                             data-aos-delay="200">
                             <div class="swiper-wrapper slider-schema__wrapper">
                                 <div class="swiper-slide slider-schema__slide">
-                                    <img class="slider-schema__image lazy" src="/public/images/lazy/schema.jpg" data-src="/public/images/schema.jpg" alt="">
+                                    <img class="slider-schema__image lazy" src="/public/images/lazy/schema.jpg"
+                                         data-src="/public/images/schema.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide slider-schema__slide">
-                                    <img class="slider-schema__image lazy" src="/public/images/lazy/scroll-3.jpg" data-src="/public/images/scroll-3.jpg" alt="">
+                                    <img class="slider-schema__image lazy" src="/public/images/lazy/scroll-3.jpg"
+                                         data-src="/public/images/scroll-3.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -480,6 +485,150 @@
                 </div>
             </div>
         </div>
+
+        <img class="project-image lazy" data-src="/public/images/project-marks-2.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+
+        <div class="project-properties">
+            <div class="container">
+                <h2 class="project-properties__title" data-aos="fade-right" data-aos-duration="1000">Easy 50/50 Payment Plan from Emaar Properties</h2>
+                <div class="project-properties__items">
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">On Booking</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">July 2022</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">January 2023</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">July 2023</span>
+                        <span class="project-properties__percent">5%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">April 2024</span>
+                        <span class="project-properties__percent">5%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">October 2024</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">May 2025</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">November 2025</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">May 2026</span>
+                        <span class="project-properties__percent">10%</span>
+                    </div>
+                    <div class="project-properties__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span class="project-properties__text">December 2026</span>
+                        <span class="project-properties__percent">20%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-offers">
+            <div class="project-offers__section">
+                <img class="project-offers__image lazy" data-src="/public/images/project-offers.jpg" alt="" data-aos="fade-up" data-aos-duration="1000">
+            </div>
+            <div class="project-offers__section">
+                <h2 class="project-offers__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Got Confused? Complete A Quiz & Get The Best Offers</h2>
+                <p class="project-offers__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Being qualified property experts with years of experience, we realize
+                    how confusing Dubai’s off-plan
+                    property market could be for new buyers, as well as for professional investors. Especially when
+                    there are thousands of off-plan properties in Dubai.You won’t need to look through countless
+                    listings on other the UAE's property websites. We have gathered all available information about
+                    off-plan property in one place and created a short quiz for you to find your perfect home in less
+                    than two minutes.</p>
+                <p class="project-offers__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Follow simple steps on the screen to get your personal selection of
+                    projects that meet all your requirements. Explore any project in Dubai relevant to you and contact
+                    us!</p>
+                <div class="project-offers__buttons" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                    <a href="#!" class="btn btn--primary">Take A Quick Test</a>
+                    <div class="project-offers__time">
+                        <span class="icon icon-time"></span>
+                        <p class="project-offers__time-text">It takes less than 2 minutes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-form">
+            <div class="container">
+                <div class="project-form__title"><span class="icon icon-bell"></span> Notify Me About New Projects</div>
+                <p class="project-form__text">Be the first to hear about new off-plan projects and getaccess to VIP
+                    pre-launch bookings with special offers</p>
+
+                <form class="project-form__items">
+                    <div class="project-form__item">
+                        <label>
+                            <input class="field-line" type="text" placeholder="Name: " name="name">
+                        </label>
+                    </div>
+                    <div class="project-form__item">
+                        <label>
+                            <input class="field-line" type="text" placeholder="E-mail: " name="email">
+                        </label>
+                    </div>
+                    <div class="project-form__item">
+                        <p class="project-form__caption">Zero spam. Unsubscribe at any time</p>
+                        <div class="project-form__btn">
+                            <button type="submit" class="btn btn--primary">Subscribe Now</button>
+                        </div>
+
+                        <label class="checkbox project-form__checkbox">
+                            <input type="checkbox" name="privacy" class="checkbox__input" checked>
+                            <span class="checkbox__box"><span class="icon-check"></span></span>
+                            <span class="checkbox__text">I agree to <a href="#">Terms</a> of use and <a
+                                        href="#">Privacy Policy</a></span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="project-trending">
+            <div class="container">
+                <h2 class="project-trending__title">Trending off-plan properties in dubai</h2>
+
+                <div class="project-trending__items">
+                    <?php
+                    for ($i = 1; $i <= 10; $i++) {
+                        include "./templates/components/catalog-item.php";
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+
+        <?php contactSendComponent("Our Expert Will Help You Buy", "/public/images/contact-2.jpg", '<div class="contact-send-profile">
+                    <img class="contact-send-profile__image lazy" src="/public/images/lazy/card-profile.jpg" data-src="/public/images/card-profile.jpg" alt="">
+                    <p class="contact-send-profile__text">Contact<br>Oybek Shamsiddinov</p>
+                </div>
+                <div class="contact-send__socials">
+                    <a href="#" class="contact-send__social">
+                        <span class="btn-icon btn-icon--white"><span class="icon-whatsapp-thin"></span></span>
+                        Whatsapp
+                    </a>
+                    <a href="#" class="contact-send__social">
+                        <span class="btn-icon btn-icon--white"><span class="icon-phone"></span></span>
+                        +971 58 648 8888
+                    </a>
+                    <a href="#" class="contact-send__social">
+                        <span class="btn-icon btn-icon--white"><span class="icon-mail"></span></span>
+                        example@gmail.com
+                    </a>
+                </div>', "The Best Home in Emaar Beachfront"); ?>
+
     </main>
 
 <?php include_once "./templates/layout/footer.component.php"; ?>

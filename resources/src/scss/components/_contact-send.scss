@@ -16,10 +16,27 @@
     color: #3B3734;
     margin-bottom: 100px;
 
+    &--mb-text {
+      margin-bottom: 15px;
+    }
+
     @include media-down(md) {
       font-size: 20px;
       margin-bottom: 32px;
       max-width: 280px;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #332E2A;
+    margin-bottom: 90px;
+
+    @include media-down(md) {
+      margin-bottom: 32px;
     }
   }
 
