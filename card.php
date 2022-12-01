@@ -17,33 +17,45 @@
                 <span class="icon-arrow-prev"></span>
                 <span class="icon-arrow-next"></span>
             </div>
-            <section class="card-banner">
-                <div class="card-banner__next">
-                    <span class="card-banner__icon icon-arrow-next"></span>
+
+            <div class="card-page__banner">
+                <div class="card-video">
+                    <button class="card-video__close">
+                        <span class="icon icon-close"></span>
+                    </button>
+                    <video id="card-video" controls class="card-video__video video-js" preload="auto">
+                        <source src="/public/videos/banner.webm" type="video/webm">
+                    </video>
                 </div>
-                <div class="card-banner__prev">
-                    <span class="card-banner__icon icon-arrow-prev"></span>
-                </div>
-                <div class="card-banner__buttons">
-                    <a href="#" class="btn--primary card-banner__play"><span class="play"><span
-                                    class="icon-play"></span></span> Video</a>
-                    <a href="#" class="btn--primary card-banner__cube"><span class="icon-cube"></span> 3D tour</a>
-                </div>
-                <div class="swiper card-banner__swiper">
-                    <div class="swiper-wrapper card-banner__wrapper">
-                        <div class="card-banner__slide swiper-slide">
-                            <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
-                        </div>
-                        <div class="card-banner__slide swiper-slide">
-                            <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
-                        </div>
-                        <div class="card-banner__slide swiper-slide">
-                            <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
-                        </div>
+
+                <section class="card-banner">
+                    <div class="card-banner__next">
+                        <span class="card-banner__icon icon-arrow-next"></span>
                     </div>
-                    <div class="card-banner__pagination"></div>
-                </div>
-            </section>
+                    <div class="card-banner__prev">
+                        <span class="card-banner__icon icon-arrow-prev"></span>
+                    </div>
+                    <div class="card-banner__buttons">
+                        <a href="#" class="btn--primary card-banner__play card-video-open"><span class="play"><span
+                                        class="icon-play"></span></span> Video</a>
+                        <a href="#" class="btn--primary card-banner__cube"><span class="icon-cube"></span> 3D tour</a>
+                    </div>
+                    <div class="swiper card-banner__swiper">
+                        <div class="swiper-wrapper card-banner__wrapper">
+                            <div class="card-banner__slide swiper-slide">
+                                <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
+                            </div>
+                            <div class="card-banner__slide swiper-slide">
+                                <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
+                            </div>
+                            <div class="card-banner__slide swiper-slide">
+                                <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-banner__pagination"></div>
+                    </div>
+                </section>
+            </div>
             <div class="card-detail">
                 <div class="container">
                     <div class="card-detail__wrapper">
