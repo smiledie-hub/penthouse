@@ -75,7 +75,8 @@ export default function CardBannerComponent() {
         }
     }
 
-    const player = videojs('card-video', {});
+    if(document.getElementById('card-video'))
+        videojs('card-video', {});
 
     if (isDesktop) {
         followCursor()
