@@ -21,18 +21,16 @@ export default function ProjectSliderComponent() {
         speed: 1000,
         slidesPerView: 3,
         spaceBetween: 0,
-        slideToClickedSlide: true,
+        slideToClickedSlide: false,
         slidesPerGroup: 1,
         on: {
             init: (s) => {
-
                 s.slides.forEach((slide, i) => {
-                    function funcEvent() {
+                    slide.addEventListener('click', (e) => {
+                        e.preventDefault()
                         slider.slideTo(i)
-                    }
-
-                    // slide.addEventListener('click', funcEvent)
-                    slide.addEventListener('touchstart', funcEvent)
+                        s.slideTo(i)
+                    })
                 })
             }
         },
