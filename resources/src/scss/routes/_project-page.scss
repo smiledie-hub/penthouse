@@ -591,6 +591,7 @@
   .card-schema__navs {
     @include media-down(md) {
       position: absolute;
+      bottom: 64px;
     }
     @include media-down(sm) {
       bottom: 40px;
