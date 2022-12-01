@@ -25,10 +25,14 @@ export default function ProjectSliderComponent() {
         slidesPerGroup: 1,
         on: {
             init: (s) => {
+
                 s.slides.forEach((slide, i) => {
-                    slide.addEventListener('click', () => {
+                    function funcEvent() {
                         slider.slideTo(i)
-                    })
+                    }
+
+                    // slide.addEventListener('click', funcEvent)
+                    slide.addEventListener('touchstart', funcEvent)
                 })
             }
         },

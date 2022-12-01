@@ -140,6 +140,13 @@
     @include media-down(sm) {
       grid-template-columns: 1fr;
     }
+
+    svg {
+      @include media-down(md) {
+        max-width: 38px;
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -201,6 +208,11 @@
     left: -130px;
     bottom: 26px;
     z-index: 1;
+
+    @media (max-width: 1880px) {
+      left: 0;
+      bottom: 100px;
+    }
 
     @include media-down(md) {
       left: 0;
@@ -303,30 +315,34 @@
   }
 
   &__items {
-    height: 180px;
+    //max-height: 180px;
 
-    @include media-down(md) {
-      height: 152px;
+    .project-slider__slide {
+      height: auto;
     }
 
-    @include media-down(sm) {
-      height: 62px;
-    }
+    //@include media-down(md) {
+    //  max-height: 152px;
+    //}
+    //
+    //@include media-down(sm) {
+    //  max-height: 62px;
+    //}
 
     img {
       width: 100%;
-      height: 180px;
+      //max-height: 180px;
       object-fit: cover;
       transition: 300ms;
       cursor: pointer;
 
-      @include media-down(md) {
-        height: 152px;
-      }
-
-      @include media-down(sm) {
-        height: 62px;
-      }
+      //@include media-down(md) {
+      //  max-height: 152px;
+      //}
+      //
+      //@include media-down(sm) {
+      //  max-height: 62px;
+      //}
 
       &:hover {
         opacity: 0.7;
@@ -492,6 +508,11 @@
     max-width: 709px;
     margin-left: 185px;
 
+    @media (max-width: 1500px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     @include media-down(md) {
       margin-left: 0;
       padding: 0 var(--cp);
@@ -556,18 +577,23 @@
 }
 
 .project-schema {
+  height: auto;
+
   &__wrapper {
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 120px;
 
     @include media-down(md) {
-      padding-bottom: 52px;
+      padding-bottom: 40px;
     }
   }
 
-  @include media-down(md) {
-    .card-schema__navs {
+  .card-schema__navs {
+    @include media-down(md) {
       position: absolute;
+    }
+    @include media-down(sm) {
+      bottom: 40px;
     }
   }
 }
@@ -902,8 +928,11 @@
     }
 
     &:nth-child(3) {
+      min-width: 300px;
+
       @include media-down(md) {
         grid-area: item_3;
+        min-width: auto;
 
         display: grid;
         grid-template-columns: 1fr 1fr;

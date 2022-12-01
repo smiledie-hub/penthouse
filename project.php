@@ -145,7 +145,7 @@
                         5-star hotel will be located on the podium level of the Address The Bay complex.
                         Request Available Units & Prices</p>
 
-                    <a href="#!" class="btn btn--primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Request Available Units & Prices</a>
+                    <a href="#!" class="btn btn--primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Request Available Units & Prices</a>
                 </div>
             </div>
         </div>
@@ -344,7 +344,6 @@
                 </button>
             </div>
 
-            <!--            <div class="project-slider__items"></div>-->
             <div class="swiper project-slider__items">
                 <div class="swiper-wrapper">
                     <div class="project-slider__slide swiper-slide">
@@ -447,7 +446,7 @@
                              data-aos-delay="900"><span class="icon-sort-fill"></span><b>Total Area:</b> 758 sqft
                         </div>
 
-                        <a href="#!" class="card-schema__btn btn btn--primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span class="icon icon-download"></span>Get
+                        <a href="#!" class="card-schema__btn btn btn--primary-outline" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><span class="icon icon-download"></span>Get
                             All Floor Plans</a>
                         <a href="#!" class="card-schema__btn btn btn--primary-outline" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100"><span
                                     class="icon icon-download"></span>Download Brochure</a>
@@ -562,7 +561,7 @@
             </div>
         </div>
 
-        <div class="project-form">
+        <div class="project-form" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
                 <div class="project-form__title"><span class="icon icon-bell"></span> Notify Me About New Projects</div>
                 <p class="project-form__text">Be the first to hear about new off-plan projects and getaccess to VIP

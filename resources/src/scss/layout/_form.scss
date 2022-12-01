@@ -98,6 +98,10 @@
     justify-content: center;
     width: 21px;
     height: 21px;
+    min-width: 21px;
+    min-height: 21px;
+    max-width: 21px;
+    max-height: 21px;
     opacity: 0.7;
     border: 1px solid #515151;
     border-radius: 4px;
