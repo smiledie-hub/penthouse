@@ -12,7 +12,7 @@
     </div>
 
     <div class="banner banner--2 about-page__banner">
-        <img class="banner__image lazy" src="/public/images/lazy/about-banner.jpg" data-src="/public/images/about-banner.jpg" alt="Banner">
+        <img class="banner__image lazy" src="/assets/images/lazy/about-banner.jpg" data-src="/public/images/about-banner.jpg" alt="Banner">
 
         <div class="banner__content about-page__content">
             <h1 class="banner__title about-page__title">
@@ -30,7 +30,7 @@
                 <p class="about-page__text about-page-desc__text" data-aos="fade-right" data-aos-duration="1000">Penthouse.ae powered by Metropolitan is one of the
                     departments of the Metropolitan Group company.</p>
                 <img class="about-page-desc__image box-image__image lazy" data-aos="fade-left" data-aos-duration="1000"
-                     src="/public/images/lazy/dubai-marina-economic-1.jpg"
+                     src="/assets/images/lazy/dubai-marina-economic-1.jpg"
                      data-src="/public/images/dubai-marina-economic-1.jpg" alt="">
             </div>
         </div>
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="image-content__image-box">
-                    <img class="image-content__image lazy" src="/public/images/lazy/projects-1.jpg" data-src="/public/images/projects-1.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
+                    <img class="image-content__image lazy" src="/assets/images/lazy/projects-1.jpg" data-src="/public/images/projects-1.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
                 </div>
             </div>
 
@@ -140,7 +140,7 @@
                     </div>
 
                     <div class="image-content__image-box">
-                        <img class="image-content__image lazy" src="/public/images/lazy/about-company-1.jpg" data-src="/public/images/about-company-1.jpg" alt=""  data-aos="fade-left" data-aos-duration="1000">
+                        <img class="image-content__image lazy" src="/assets/images/lazy/about-company-1.jpg" data-src="/public/images/about-company-1.jpg" alt="" data-aos="fade-left" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
@@ -159,7 +159,7 @@
         <div class="bg-second">
             <div class="about-text-block__box-image box-image box-image--left">
                 <div class="box-image__content">
-                    <img class="box-image__image lazy" src="/public/images/lazy/emaar_beachfront_1.jpg" data-src="/public/images/emaar_beachfront_1.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
+                    <img class="box-image__image lazy" src="/assets/images/lazy/emaar_beachfront_1.jpg" data-src="/public/images/emaar_beachfront_1.jpg" alt="" data-aos="fade-right" data-aos-duration="1000">
                 </div>
             </div>
 
@@ -206,7 +206,7 @@
     </div>
 
     <div class="about-contact">
-        <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg"); ?>
+        <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/assets/images/contact-2.jpg"); ?>
     </div>
 
 <?php include_once "./templates/layout/footer.component.php"; ?>

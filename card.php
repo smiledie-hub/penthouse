@@ -24,7 +24,7 @@
                         <span class="icon icon-close"></span>
                     </button>
                     <video id="card-video" controls class="card-video__video video-js" preload="auto">
-                        <source src="/public/videos/banner.webm" type="video/webm">
+                        <source src="/assets/videos/banner.webm" type="video/webm">
                     </video>
                 </div>
 
@@ -43,13 +43,13 @@
                     <div class="swiper card-banner__swiper">
                         <div class="swiper-wrapper card-banner__wrapper">
                             <div class="card-banner__slide swiper-slide">
-                                <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
+                                <img class="card-banner__image lazy" src="/assets/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
                             </div>
                             <div class="card-banner__slide swiper-slide">
-                                <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
+                                <img class="card-banner__image lazy" src="/assets/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
                             </div>
                             <div class="card-banner__slide swiper-slide">
-                                <img class="card-banner__image lazy" src="/public/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
+                                <img class="card-banner__image lazy" src="/assets/images/lazy/card-image.jpg" data-src="/public/images/card-image.jpg" alt="">
                             </div>
                         </div>
                         <div class="card-banner__pagination"></div>
@@ -87,7 +87,7 @@
                         </div>
                         <div class="card-detail__section">
                             <div class="card-detail-profile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                                <img class="card-detail-profile__image lazy" src="/public/images/lazy/card-profile.jpg" data-src="/public/images/card-profile.jpg"
+                                <img class="card-detail-profile__image lazy" src="/assets/images/lazy/card-profile.jpg" data-src="/public/images/card-profile.jpg"
                                      alt="profile">
                                 <div>
                                     <h2 class="card-detail-profile__title">Oybek Shamsiddinov</h2>
@@ -139,7 +139,7 @@
                     Penthouses available for sale.</p>
             </div>
             <div class="card-description__wrapper card-description__wrapper--end">
-                <img class="card-description__image lazy" src="/public/images/lazy/card-description.jpg" data-src="/public/images/card-description.jpg" alt="card-description" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
+                <img class="card-description__image lazy" src="/assets/images/lazy/card-description.jpg" data-src="/public/images/card-description.jpg" alt="card-description" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
                 <div class="card-description__content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0">
                     <p>Penthouses feature 3-5 bedroom layouts, alongside a terrace with a stunning pool and
                         exclusive dining and living spaces. The size of these residences varies between 3,015 sq. ft
@@ -276,10 +276,10 @@
                         <div class="swiper slider-schema" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                             <div class="swiper-wrapper slider-schema__wrapper">
                                 <div class="swiper-slide slider-schema__slide">
-                                    <img class="slider-schema__image lazy" src="/public/images/lazy/schema.jpg" data-src="/public/images/schema.jpg" alt="">
+                                    <img class="slider-schema__image lazy" src="/assets/images/lazy/schema.jpg" data-src="/public/images/schema.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide slider-schema__slide">
-                                    <img class="slider-schema__image lazy" src="/public/images/lazy/scroll-3.jpg" data-src="/public/images/scroll-3.jpg" alt="">
+                                    <img class="slider-schema__image lazy" src="/assets/images/lazy/scroll-3.jpg" data-src="/public/images/scroll-3.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -303,7 +303,7 @@
 
             <div class="card-infrastructure__wrapper">
                 <div class="card-infrastructure__image">
-                    <img class="lazy" src="/public/images/lazy/infrastructure-1.jpg" data-src="/public/images/infrastructure-1.jpg" alt="infrastructure" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"/>
+                    <img class="lazy" src="/assets/images/lazy/infrastructure-1.jpg" data-src="/public/images/infrastructure-1.jpg" alt="infrastructure" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"/>
                 </div>
                 <div class="card-infrastructure__section">
                     <h2 class="card-infrastructure__title">
@@ -337,13 +337,13 @@
                             areas</a>
                     </div>
 
-                    <img  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="card-infrastructure__image-2 lazy" src="/public/images/lazy/infrastructure-2.jpg" data-src="/public/images/infrastructure-2.jpg"
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="card-infrastructure__image-2 lazy" src="/assets/images/lazy/infrastructure-2.jpg" data-src="/public/images/infrastructure-2.jpg"
                          alt="infrastructure">
                 </div>
 
                 <div class="box-image box-image--right card-infrastructure__image-3">
                     <div class="box-image__content box-image__content--p250">
-                        <img  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/public/images/lazy/infrastructure-3.jpg" data-src="/public/images/infrastructure-3.jpg" alt="">
+                        <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/assets/images/lazy/infrastructure-3.jpg" data-src="/public/images/infrastructure-3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -363,7 +363,7 @@
 
             <div class="box-image box-image--left card-lifestyle__image-1">
                 <div class="box-image__content box-image__content--p250">
-                    <img  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/public/images/lazy/lifestyle-1.jpg" data-src="/public/images/lifestyle-1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/assets/images/lazy/lifestyle-1.jpg" data-src="/public/images/lifestyle-1.jpg" alt="">
                 </div>
             </div>
 
@@ -379,18 +379,18 @@
 
             <div class="card-lifestyle__images row-images row-images--g50 row-images--right row-images--670-960">
                 <div class="row-images__item">
-                    <img class="row-images__img row-images__img--h670 lazy" src="/public/images/lazy/lifestyle-2.jpg" data-src="/public/images/lifestyle-2.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <img class="row-images__img row-images__img--h670 lazy" src="/assets/images/lazy/lifestyle-2.jpg" data-src="/public/images/lifestyle-2.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 </div>
                 <div class="row-images__item">
-                    <img class="row-images__img row-images__img--h850 lazy" src="/public/images/lifestyle-3.jpg" data-src="/public/images/lifestyle-3.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <img class="row-images__img row-images__img--h850 lazy" src="/assets/images/lifestyle-3.jpg" data-src="/public/images/lifestyle-3.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 </div>
             </div>
 
         </div>
 
         <?php contactSendComponent("Send us your request and we will contact you as soon as
-                possible!", "/public/images/contact-bg.jpg", '<div class="contact-send-profile">
-                    <img class="contact-send-profile__image lazy" src="/public/images/lazy/card-profile.jpg"  data-src="/public/images/card-profile.jpg" alt="">
+                possible!", "/assets/images/contact-bg.jpg", '<div class="contact-send-profile">
+                    <img class="contact-send-profile__image lazy" src="/assets/images/lazy/card-profile.jpg"  data-src="/assets/images/card-profile.jpg" alt="">
                     <p class="contact-send-profile__text">Contact<br>Oybek Shamsiddinov</p>
                 </div>
 
@@ -442,7 +442,7 @@
                                         <div>
                                             <div class="front-residence-presented">
                                                 <div class="front-residence-presented__image">
-                                                    <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                                    <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                                 </div>
                                                 <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz
                                                 </p>
@@ -456,7 +456,7 @@
                                     </div>
                                 </div>
                                 <div class="front-residence__image-box">
-                                    <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg" data-src="/public/images/front-residence.jpg" alt="">
+                                    <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg" data-src="/public/images/front-residence.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -487,7 +487,7 @@
                                         <div>
                                             <div class="front-residence-presented">
                                                 <div class="front-residence-presented__image">
-                                                    <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                                    <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                                 </div>
                                                 <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz
                                                 </p>
@@ -501,7 +501,7 @@
                                     </div>
                                 </div>
                                 <div class="front-residence__image-box">
-                                    <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg" data-src="/public/images/front-residence.jpg" alt="">
+                                    <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg" data-src="/public/images/front-residence.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -532,7 +532,7 @@
                                         <div>
                                             <div class="front-residence-presented">
                                                 <div class="front-residence-presented__image">
-                                                    <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                                    <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                                 </div>
                                                 <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz
                                                 </p>
@@ -546,7 +546,7 @@
                                     </div>
                                 </div>
                                 <div class="front-residence__image-box">
-                                    <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg" data-src="/public/images/front-residence.jpg" alt="">
+                                    <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg" data-src="/public/images/front-residence.jpg" alt="">
                                 </div>
                             </div>
                         </div>

@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg", '<div class="contact-send__item contact-send-item">
+        <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/assets/images/contact-2.jpg", '<div class="contact-send__item contact-send-item">
                     <p class="contact-send-item__title">Contact us</p>
                     <a href="tel:+971 58 648 8888" class="contact-send-item__text">+971 58 648 8888</a>
                     <a href="mailto:info@mpd.a" class="contact-send-item__text">info@mpd.ae</a>

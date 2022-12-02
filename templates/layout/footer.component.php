@@ -1,5 +1,5 @@
 <footer class="footer">
-    <img class="footer__image" src="/public/images/footer.jpg" alt="">
+    <img class="footer__image" src="/assets/images/footer.jpg" alt="">
     <div class="container footer__container">
         <div class="footer__wrapper">
             <div class="footer__menu-box">

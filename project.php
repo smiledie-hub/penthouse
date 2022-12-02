@@ -13,7 +13,7 @@
         </div>
 
         <div class="banner project-banner">
-            <img class="banner__image lazy" src="/public/images/lazy/project-banner.jpg"
+            <img class="banner__image lazy" src="/assets/images/lazy/project-banner.jpg"
                  data-src="/public/images/project-banner.jpg" alt="">
 
             <div class="banner__content project-banner__content">
@@ -303,35 +303,35 @@
             <div class="swiper project-slider__swiper">
                 <div class="swiper-wrapper">
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-1.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-1.jpg"
                              data-src="/public/images/project-slide-1.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-2.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-2.jpg"
                              data-src="/public/images/project-slide-2.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-3.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-3.jpg"
                              data-src="/public/images/project-slide-3.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-4.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-4.jpg"
                              data-src="/public/images/project-slide-4.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-5.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-5.jpg"
                              data-src="/public/images/project-slide-5.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-1.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-1.jpg"
                              data-src="/public/images/project-slide-1.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-5.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-5.jpg"
                              data-src="/public/images/project-slide-5.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-1.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-1.jpg"
                              data-src="/public/images/project-slide-1.jpg" alt="">
                     </div>
                 </div>
@@ -347,35 +347,35 @@
             <div class="swiper project-slider__items">
                 <div class="swiper-wrapper">
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-1.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-1.jpg"
                              data-src="/public/images/project-slide-1.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-2.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-2.jpg"
                              data-src="/public/images/project-slide-2.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-3.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-3.jpg"
                              data-src="/public/images/project-slide-3.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-4.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-4.jpg"
                              data-src="/public/images/project-slide-4.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-5.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-5.jpg"
                              data-src="/public/images/project-slide-5.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-1.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-1.jpg"
                              data-src="/public/images/project-slide-1.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-5.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-5.jpg"
                              data-src="/public/images/project-slide-5.jpg" alt="">
                     </div>
                     <div class="project-slider__slide swiper-slide">
-                        <img class="lazy" src="/public/images/lazy/project-slide-1.jpg"
+                        <img class="lazy" src="/assets/images/lazy/project-slide-1.jpg"
                              data-src="/public/images/project-slide-1.jpg" alt="">
                     </div>
                 </div>
@@ -471,11 +471,11 @@
                              data-aos-delay="200">
                             <div class="swiper-wrapper slider-schema__wrapper">
                                 <div class="swiper-slide slider-schema__slide">
-                                    <img class="slider-schema__image lazy" src="/public/images/lazy/schema.jpg"
+                                    <img class="slider-schema__image lazy" src="/assets/images/lazy/schema.jpg"
                                          data-src="/public/images/schema.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide slider-schema__slide">
-                                    <img class="slider-schema__image lazy" src="/public/images/lazy/scroll-3.jpg"
+                                    <img class="slider-schema__image lazy" src="/assets/images/lazy/scroll-3.jpg"
                                          data-src="/public/images/scroll-3.jpg" alt="">
                                 </div>
                             </div>
@@ -609,8 +609,8 @@
             </div>
         </div>
 
-        <?php contactSendComponent("Our Expert Will Help You Buy", "/public/images/contact-2.jpg", '<div class="contact-send-profile">
-                    <img class="contact-send-profile__image lazy" src="/public/images/lazy/card-profile.jpg" data-src="/public/images/card-profile.jpg" alt="">
+        <?php contactSendComponent("Our Expert Will Help You Buy", "/assets/images/contact-2.jpg", '<div class="contact-send-profile">
+                    <img class="contact-send-profile__image lazy" src="/assets/images/lazy/card-profile.jpg" data-src="/assets/images/card-profile.jpg" alt="">
                     <p class="contact-send-profile__text">Contact<br>Oybek Shamsiddinov</p>
                 </div>
                 <div class="contact-send__socials">

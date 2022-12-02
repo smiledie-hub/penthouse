@@ -84,7 +84,7 @@
                         <div data-index="1" data-animation="fade">
                             <div class="front-residence-presented">
                                 <div class="front-residence-presented__image">
-                                    <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                    <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                 </div>
                                 <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz</p>
                             </div>
@@ -93,7 +93,7 @@
                         <div data-index="2" data-animation="fade">
                             <div class="front-residence-presented">
                                 <div class="front-residence-presented__image">
-                                    <img class="lazy" src="/public/images/lazy/spec-2.jpg" data-src="/public/images/spec-2.jpg" alt="presented">
+                                    <img class="lazy" src="/assets/images/lazy/spec-2.jpg" data-src="/public/images/spec-2.jpg" alt="presented">
                                 </div>
                                 <p class="front-residence-presented__text">Presented <br>by Lorem Isp</p>
                             </div>
@@ -102,7 +102,7 @@
                         <div data-index="3" data-animation="fade">
                             <div class="front-residence-presented">
                                 <div class="front-residence-presented__image">
-                                    <img class="lazy" src="/public/images/spec-3.jpg" data-src="/public/images/spec-3.jpg" alt="presented">
+                                    <img class="lazy" src="/assets/images/spec-3.jpg" data-src="/public/images/spec-3.jpg" alt="presented">
                                 </div>
                                 <p class="front-residence-presented__text">Presented <br>by Elena Elk</p>
                             </div>
@@ -120,17 +120,17 @@
             </div>
             <div class="front-residence__image-box">
                 <div class="front-residence__image-el" data-index="1" data-animation="image">
-                    <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg"
+                    <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg"
                          data-src="/public/images/front-residence.jpg" alt="">
                 </div>
 
                 <div class="front-residence__image-el" data-index="2" data-animation="image">
-                    <img class="front-residence__image lazy" src="/public/images/lazy/about-company-1.jpg"
+                    <img class="front-residence__image lazy" src="/assets/images/lazy/about-company-1.jpg"
                          data-src="/public/images/about-company-1.jpg" alt="">
                 </div>
 
                 <div class="front-residence__image-el" data-index="3" data-animation="image">
-                    <img class="front-residence__image lazy" src="/public/images/lazy/banner.jpg"
+                    <img class="front-residence__image lazy" src="/assets/images/lazy/banner.jpg"
                          data-src="/public/images/banner.jpg" alt="">
                 </div>
             </div>
@@ -164,7 +164,7 @@
 
                                     <div class="front-residence-presented">
                                         <div class="front-residence-presented__image">
-                                            <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                            <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                         </div>
                                         <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz</p>
                                     </div>
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                         <div class="front-residence__image-box">
-                            <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg"
+                            <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg"
                                  data-src="/public/images/front-residence.jpg" alt="">
                         </div>
                     </div>
@@ -209,7 +209,7 @@
 
                                     <div class="front-residence-presented">
                                         <div class="front-residence-presented__image">
-                                            <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                            <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                         </div>
                                         <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz</p>
                                     </div>
@@ -225,7 +225,7 @@
                             </div>
                         </div>
                         <div class="front-residence__image-box">
-                            <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg"
+                            <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg"
                                  data-src="/public/images/front-residence.jpg" alt="">
                         </div>
                     </div>
@@ -254,7 +254,7 @@
 
                                     <div class="front-residence-presented">
                                         <div class="front-residence-presented__image">
-                                            <img class="lazy" src="/public/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
+                                            <img class="lazy" src="/assets/images/lazy/presented.jpg" data-src="/public/images/presented.jpg" alt="presented">
                                         </div>
                                         <p class="front-residence-presented__text">Presented <br>by Mohamed Ezz</p>
                                     </div>
@@ -270,7 +270,7 @@
                             </div>
                         </div>
                         <div class="front-residence__image-box">
-                            <img class="front-residence__image lazy" src="/public/images/lazy/front-residence.jpg"
+                            <img class="front-residence__image lazy" src="/assets/images/lazy/front-residence.jpg"
                                  data-src="/public/images/front-residence.jpg" alt="">
                         </div>
                     </div>

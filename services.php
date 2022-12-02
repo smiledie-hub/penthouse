@@ -3,7 +3,7 @@
         <?php HeaderComponent("header--absolute"); ?>
 
         <div class="banner banner--full">
-            <img class="banner__image lazy" src="/public/images/lazy/services-bg.jpg" data-src="/public/images/services-bg.jpg" alt="Banner">
+            <img class="banner__image lazy" src="/assets/images/lazy/services-bg.jpg" data-src="/public/images/services-bg.jpg" alt="Banner">
             <div class="banner__content">
                 <div class="container">
                     <h1 class="services-page__title banner__title">
@@ -59,7 +59,7 @@
 
                             <p class="services-item__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-is-tablet="true">01 / 05</p>
 
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/public/images/lazy/service-mobile-1.jpg" data-src="/public/images/service-mobile-1.jpg" alt="">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/assets/images/lazy/service-mobile-1.jpg" data-src="/public/images/service-mobile-1.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#3B3734" class="services-item">
@@ -88,7 +88,7 @@
 
                             <p class="services-item__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-is-tablet="true">02 / 05</p>
 
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/public/images/lazy/service-mobile-2.jpg" data-src="/public/images/service-mobile-2.jpg" alt="">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/assets/images/lazy/service-mobile-2.jpg" data-src="/public/images/service-mobile-2.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#E8E4DD" class="services-item">
@@ -117,7 +117,7 @@
 
                             <p class="services-item__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-is-tablet="true">03 / 05</p>
 
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/public/images/lazy/service-mobile-3.jpg" data-src="/public/images/service-mobile-3.jpg" alt="">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/assets/images/lazy/service-mobile-3.jpg" data-src="/public/images/service-mobile-3.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#3B3734" class="services-item">
@@ -146,7 +146,7 @@
 
                             <p class="services-item__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-is-tablet="true">04 / 05</p>
 
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/public/images/lazy/service-mobile-4.jpg" data-src="/public/images/service-mobile-4.jpg" alt="">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/assets/images/lazy/service-mobile-4.jpg" data-src="/public/images/service-mobile-4.jpg" alt="">
                         </div>
                     </div>
                     <div data-color="#AA9F8D" class="services-item">
@@ -175,26 +175,26 @@
 
                             <p class="services-item__number" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-is-tablet="true">05 / 05</p>
 
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/public/images/lazy/service-mobile-5.jpg" data-src="/public/images/service-mobile-5.jpg" alt="">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true" class="services-item__image lazy" src="/assets/images/lazy/service-mobile-5.jpg" data-src="/public/images/service-mobile-5.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="services__sticky">
                     <div class="services__wrapper">
                         <div class="service-image service-image--color-primary">
-                            <img class="lazy" src="/public/images/service-1.png" data-src="/public/images/service-1.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
+                            <img class="lazy" src="/assets/images/service-1.png" data-src="/public/images/service-1.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
                         </div>
                         <div class="service-image service-image--center service-image--color-second">
-                            <img class="lazy" src="/public/images/service-2.png" data-src="/public/images/service-2.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
+                            <img class="lazy" src="/assets/images/service-2.png" data-src="/public/images/service-2.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
                         </div>
                         <div class="service-image service-image--center service-image--color-ternary">
-                            <img class="lazy" src="/public/images/service-3.png" data-src="/public/images/service-3.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
+                            <img class="lazy" src="/assets/images/service-3.png" data-src="/public/images/service-3.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
                         </div>
                         <div class="service-image service-image--color-second">
-                            <img class="lazy" src="/public/images/service-4.png" data-src="/public/images/service-4.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
+                            <img class="lazy" src="/assets/images/service-4.png" data-src="/public/images/service-4.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
                         </div>
                         <div class="service-image service-image--color-primary">
-                            <img class="lazy" src="/public/images/service-5.png" data-src="/public/images/service-5.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
+                            <img class="lazy" src="/assets/images/service-5.png" data-src="/public/images/service-5.png" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-is-tablet="true">
                         </div>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
         </div>
 
         <div class="services-page__contact">
-            <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/public/images/contact-2.jpg"); ?>
+            <?php contactSendComponent("If you need one of our services send us a request and we will quickly contact you back", "/assets/images/contact-2.jpg"); ?>
         </div>
     </div>
 

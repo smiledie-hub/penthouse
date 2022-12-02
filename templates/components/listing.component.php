@@ -4,10 +4,10 @@
         <div class="swiper listing__slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide listing__slide">
-                    <img class="listing__image lazy" src="/public/images/lazy/catalog-item.jpg" data-src="/public/images/catalog-item.jpg" alt="catalog">
+                    <img class="listing__image lazy" src="/assets/images/lazy/catalog-item.jpg" data-src="/public/images/catalog-item.jpg" alt="catalog">
                 </div>
                 <div class="swiper-slide listing__slide">
-                    <img class="listing__image lazy" src="/public/images/lazy/catalog-item.jpg" data-src="/public/images/catalog-item.jpg" alt="catalog">
+                    <img class="listing__image lazy" src="/assets/images/lazy/catalog-item.jpg" data-src="/public/images/catalog-item.jpg" alt="catalog">
                 </div>
             </div>
             <div class="listing__pagination">

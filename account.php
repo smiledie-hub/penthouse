@@ -31,7 +31,7 @@
                 <div class="my-documents__items">
                     <?php for ($i = 1; $i <= 8; $i++): ?>
                         <a href="#!" class="my-documents-item">
-                            <img class="my-documents-item__image" src="/public/images/document.svg" alt="">
+                            <img class="my-documents-item__image" src="/assets/images/document.svg" alt="">
                             <div class="my-documents-item__main">
                                 <span class="my-documents-item__name">Document</span>
                                 <span class="my-documents-item__type">PDF</span>

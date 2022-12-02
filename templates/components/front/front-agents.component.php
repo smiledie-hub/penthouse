@@ -4,19 +4,19 @@
             <div class="swiper-wrapper slider-palms__wrapper">
                 <div class="swiper-slide slider-palms__slide">
                     <a href="#" class="slider-palms__link"></a>
-                    <img class="slider-palms__image lazy" src="/public/images/lazy/exclusive-1.jpg" data-src="/public/images/exclusive-1.jpg"
+                    <img class="slider-palms__image lazy" src="/assets/images/lazy/exclusive-1.jpg" data-src="/public/images/exclusive-1.jpg"
                          alt="exclusive">
                     <p class="slider-palms__title">Beachfront</p>
                 </div>
                 <div class="swiper-slide slider-palms__slide">
                     <a href="#" class="slider-palms__link"></a>
-                    <img class="slider-palms__image lazy" src="/public/images/lazy/exclusive-2.jpg" data-src="/public/images/exclusive-2.jpg"
+                    <img class="slider-palms__image lazy" src="/assets/images/lazy/exclusive-2.jpg" data-src="/public/images/exclusive-2.jpg"
                          alt="exclusive">
                     <p class="slider-palms__title">Dubai Marina</p>
                 </div>
                 <div class="swiper-slide slider-palms__slide">
                     <a href="#" class="slider-palms__link"></a>
-                    <img class="slider-palms__image lazy" src="/public/images/lazy/exclusive-3.jpg" data-src="/public/images/exclusive-3.jpg"
+                    <img class="slider-palms__image lazy" src="/assets/images/lazy/exclusive-3.jpg" data-src="/public/images/exclusive-3.jpg"
                          alt="exclusive">
                     <p class="slider-palms__title">Madinat Jumeirah</p>
                 </div>

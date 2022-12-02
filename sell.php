@@ -13,7 +13,7 @@
         </div>
         <div class="bg-dark">
             <div class="banner banner--3">
-                <img class="banner__image" src="/public/images/sell-banner.jpg" alt="Banner">
+                <img class="banner__image" src="/assets/images/sell-banner.jpg" alt="Banner">
 
                 <div class="banner__content">
                     <div class="container">
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
                             <div class="quote__item">
-                                <img data-aos="fade-left" data-aos-duration="600" data-aos-delay="600" class="quote__image" src="/public/images/quote.jpg" alt="">
+                                <img data-aos="fade-left" data-aos-duration="600" data-aos-delay="600" class="quote__image" src="/assets/images/quote.jpg" alt="">
                                 <?php PetriTitleRender('quote__sg'); ?>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                         <div class="sell-scroll-item__center">
                             <div class="sell-scroll-item__form">
                                 <?php contactSendComponent("Send us your request and we will contact you as soon as
-                possible!", "/public/images/contact-bg.jpg"); ?>
+                possible!", "/assets/images/contact-bg.jpg"); ?>
                             </div>
                         </div>
                     </div>
@@ -102,12 +102,12 @@
                                 <p class="sell-scroll-item__text sell-scroll-item__text--2">We estimate your project and
                                     prepare a contract.</p>
                             </div>
-                            <img class="sell-scroll-item__image-2" src="/public/images/scroll-2.jpg" alt="">
+                            <img class="sell-scroll-item__image-2" src="/assets/images/scroll-2.jpg" alt="">
                         </div>
                     </div>
                     <div class="sell-scroll-item sell-scroll-item--4" data-counter="white" data-title="white"
                          data-next="white">
-                        <img class="sell-scroll-item__bg" src="/public/images/scroll-3.jpg" alt="">
+                        <img class="sell-scroll-item__bg" src="/assets/images/scroll-3.jpg" alt="">
                         <div class="sell-scroll-item__inner">
                             <p class="sell-scroll-item__number">03.</p>
                             <p class="sell-scroll-item__text sell-scroll-item__text--3">We come to your property to take
@@ -122,7 +122,7 @@
                                 <p class="sell-scroll-item__text sell-scroll-item__text--4">We release your property on
                                     our catalog and start to sell it.</p>
                             </div>
-                            <img class="sell-scroll-item__image" src="/public/images/scroll-4.jpg" alt="">
+                            <img class="sell-scroll-item__image" src="/assets/images/scroll-4.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="sell-scroll-mobile__content sell-scroll-mobile__content--form">
                         <div class="sell-scroll-item__form">
-                            <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg.jpg"); ?>
+                            <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/assets/images/contact-bg.jpg"); ?>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                     <div class="sell-scroll-mobile__content sell-scroll-mobile__content--image-1">
-                        <img src="/public/images/scroll-2.jpg" alt="">
+                        <img src="/assets/images/scroll-2.jpg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide sell-scroll-mobile__slide ">
@@ -209,7 +209,7 @@
                         </div>
                     </div>
                     <div class="sell-scroll-mobile__content sell-scroll-mobile__content--image-2">
-                        <img src="/public/images/scroll-3.jpg" alt="">
+                        <img src="/assets/images/scroll-3.jpg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide sell-scroll-mobile__slide">
@@ -233,14 +233,14 @@
                         </div>
                     </div>
                     <div class="sell-scroll-mobile__content sell-scroll-mobile__content--image-1">
-                        <img src="/public/images/scroll-4.jpg" alt="">
+                        <img src="/assets/images/scroll-4.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="sell-scroll-mobile__form">
-        <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg-2.jpg"); ?>
+        <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/assets/images/contact-bg-2.jpg"); ?>
     </div>
 
     <div class="x-fix">
@@ -256,11 +256,11 @@
                 <div class="row-images__item sell-advantages__item">
                     <p class="sell-page__text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">Extensive online marketing campaigns</p>
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="sell-advantages__img row-images__img row-images__img--h710 lazy"
-                         src="/public/images/lazy/sell-1.jpg" data-src="/public/images/sell-1.jpg" alt="">
+                         src="/assets/images/lazy/sell-1.jpg" data-src="/public/images/sell-1.jpg" alt="">
                 </div>
                 <div class="row-images__item">
                     <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="sell-advantages__img row-images__img row-images__img--h1080 lazy"
-                         src="/public/images/lazy/sell-2.jpg"
+                         src="/assets/images/lazy/sell-2.jpg"
                          data-src="/public/images/sell-2.jpg" alt="">
                 </div>
             </div>
@@ -274,7 +274,7 @@
         <div class="bg-second">
             <div class="sell-page__box-image box-image box-image--left">
                 <div class="box-image__content">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/public/images/lazy/self-page-1.jpg" data-src="/public/images/self-page-1.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="box-image__image lazy" src="/assets/images/lazy/self-page-1.jpg" data-src="/public/images/self-page-1.jpg" alt="">
                     <div class="sell-page__end">
                         <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="sell-page__text sell-page__text--3">Promotion through social networks for a wide
                             audience coverage </p>
@@ -285,10 +285,10 @@
             <div class="sell-page__row-images row-images row-images--items-end row-images--right">
                 <div class="row-images__item">
                     <p class="sell-page__text sell-page__text--4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Own database of high net worth individuals</p>
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710 lazy" src="/public/images/lazy/sell-3.jpg" data-src="/public/images/sell-3.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row-images__img row-images__img--h710 lazy" src="/assets/images/lazy/sell-3.jpg" data-src="/public/images/sell-3.jpg" alt="">
                 </div>
                 <div class="row-images__item">
-                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row-images__img row-images__img--h1080 lazy" src="/public/images/lazy/sell-4.jpg" data-src="/public/images/sell-4.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row-images__img row-images__img--h1080 lazy" src="/assets/images/lazy/sell-4.jpg" data-src="/public/images/sell-4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -304,13 +304,13 @@
         <div class="box-image box-image--right sell-page__box-image2 sell-page__bg-mobile">
             <p class="sell-page__text sell-page__text--6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Creation of high-quality photos, videos and presentations </p>
             <div class="box-image__content box-image__content--p550">
-                <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="box-image__image lazy" src="/public/images/lazy/self-page-1.jpg" data-src="/public/images/self-page-1.jpg" alt="">
+                <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="box-image__image lazy" src="/assets/images/lazy/self-page-1.jpg" data-src="/public/images/self-page-1.jpg" alt="">
             </div>
         </div>
     </div>
 
     <div class="sell-page__contact">
-        <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/public/images/contact-bg-2.jpg"); ?>
+        <?php contactSendComponent("Send us your request and we will contact you as soon as possible!", "/assets/images/contact-bg-2.jpg"); ?>
     </div>
 
 <?php include_once "./templates/layout/footer.component.php"; ?>

@@ -241,19 +241,19 @@
   //filter: blur(150px);
   transform: translateX(-50%);
   z-index: 0;
-  background-image: url("/public/images/front-blur-desktop.png");
+  background-image: url("/assets/images/front-blur-desktop.png");
   background-size: 1920px 1611px;
   background-repeat: repeat-x;
 
   @include media-down(md) {
-    background-image: url("/public/images/front-blur-tablet.png");
+    background-image: url("/assets/images/front-blur-tablet.png");
     height: 1040px;
     background-size: 768px 1040px;
     top: 300px;
   }
 
   @include media-down(sm) {
-    background-image: url("/public/images/front-blur-mobile.png");
+    background-image: url("/assets/images/front-blur-mobile.png");
     height: 906px;
     background-size: 320px 906px;
   }

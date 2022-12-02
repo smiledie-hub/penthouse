@@ -19,7 +19,7 @@ export default function MapComponent() {
                 position: myLatlng,
                 map: map,
                 animation: google.maps.Animation.BOUNCE,
-                icon: "/public/icons/marker.svg"
+                icon: "/assets/icons/marker.svg"
             })
         }
     }
@@ -35,8 +35,8 @@ export default function MapComponent() {
 
         catalogMapData.forEach(data => {
 
-            const icon1 = "/public/icons/marker-static.svg"
-            const icon2 = "/public/icons/marker-static-hover.svg"
+            const icon1 = "/assets/icons/marker-static.svg"
+            const icon2 = "/assets/icons/marker-static-hover.svg"
 
             let content = `<div class="map-object">
                 <a class="map-object__link" target="_blank" href="${data.link}"></a>

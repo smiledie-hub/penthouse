@@ -26,5 +26,5 @@
         </div>
     </div>
 
-    <img class="front-property__image lazy" src="/public/images/lazy/property-bg.jpg" data-src="/public/images/property-bg.jpg" alt="property">
+    <img class="front-property__image lazy" src="/assets/images/lazy/property-bg.jpg" data-src="/public/images/property-bg.jpg" alt="property">
 </div>

@@ -1,6 +1,6 @@
 <div class="specialist" data-aos="fade-up" data-aos-duration="1000">
     <div class="specialist__header">
-        <img src="/public/images/lazy/spec-1.jpg" data-src="/public/images/spec-1.jpg" alt="" class="specialist__image lazy">
+        <img src="/assets/images/lazy/spec-1.jpg" data-src="/public/images/spec-1.jpg" alt="" class="specialist__image lazy">
     </div>
     <div class="specialist__main">
         <div class="specialist__main-header">

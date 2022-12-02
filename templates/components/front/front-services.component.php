@@ -24,13 +24,13 @@
                     world. Having provided all the work to professionals, you will not have to spend a minute of
                     your time solving any problems related to purchased property. </p>
             </div>
-            <img data-aos="slide-up" data-aos-duration="1500" class="front-services-item__image lazy" src="/public/images/lazy/property.png"
+            <img data-aos="slide-up" data-aos-duration="1500" class="front-services-item__image lazy" src="/assets/images/lazy/property.png"
                  data-src="/public/images/property.png" alt="">
         </article>
 
         <article class="front-services-item">
             <img data-aos="slide-up" data-aos-duration="1500" class="front-services-item__image lazy"
-                 src="/public/images/lazy/mortgages.jpg" data-src="/public/images/mortgages.jpg" alt="">
+                 src="/assets/images/lazy/mortgages.jpg" data-src="/public/images/mortgages.jpg" alt="">
             <div class="front-services-item__content">
                 <h3 class="front-services-item__title">
                     <span class="front-services-item__word" data-aos="fade-left" data-aos-duration="1000">Mortgages</span>

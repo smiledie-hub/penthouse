@@ -20,15 +20,15 @@
             <div class="swiper slider-default__el front-we-are__slider">
                 <div class="swiper-wrapper slider-default__wrapper">
                     <div class="swiper-slide slider-default__slide">
-                        <img class="slider-default__image lazy" src="/public/images/lazy/adward-1.png" data-src="/public/images/adward-1.png"
+                        <img class="slider-default__image lazy" src="/assets/images/lazy/adward-1.png" data-src="/public/images/adward-1.png"
                              alt="adward">
                     </div>
                     <div class="swiper-slide slider-default__slide">
-                        <img class="slider-default__image lazy" src="/public/images/lazy/adward-2.png" data-src="/public/images/adward-2.png"
+                        <img class="slider-default__image lazy" src="/assets/images/lazy/adward-2.png" data-src="/public/images/adward-2.png"
                              alt="adward">
                     </div>
                     <div class="swiper-slide slider-default__slide">
-                        <img class="slider-default__image lazy" src="/public/images/lazy/adward-3.png" data-src="/public/images/adward-3.png"
+                        <img class="slider-default__image lazy" src="/assets/images/lazy/adward-3.png" data-src="/public/images/adward-3.png"
                              alt="adward">
                     </div>
                 </div>

@@ -179,34 +179,34 @@
   z-index: 0;
   width: 100%;
   left: 0;
-  background-image: url("/public/images/areas-blur-desktop.png");
+  background-image: url("/assets/images/areas-blur-desktop.png");
   background-size: 1920px 1207px;
   background-repeat: repeat-x;
   bottom: -600px;
   height: 1207px;
 
   @include media-down(md) {
-    background-image: url("/public/images/areas-blur-tablet.png");
+    background-image: url("/assets/images/areas-blur-tablet.png");
     background-size: 768px 1040px;
     height: 1040px;
   }
 
   @include media-down(sm) {
-    background-image: url("/public/images/areas-blur-mobile.png");
+    background-image: url("/assets/images/areas-blur-mobile.png");
     background-size: 320px 906px;
     height: 906px;
     bottom: -400px;
   }
 
   &--dark {
-    background-image: url("/public/images/areas-blur-desktop-dark.png");
+    background-image: url("/assets/images/areas-blur-desktop-dark.png");
 
     @include media-down(md) {
-      background-image: url("/public/images/areas-blur-tablet-dark.png");
+      background-image: url("/assets/images/areas-blur-tablet-dark.png");
     }
 
     @include media-down(sm) {
-      background-image: url("/public/images/areas-blur-mobile-dark.png");
+      background-image: url("/assets/images/areas-blur-mobile-dark.png");
     }
   }
 }

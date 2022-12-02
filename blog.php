@@ -40,7 +40,7 @@
                         <article class="blog-item" data-aos="fade-up" data-aos-duration="1000">
                             <a href="#" class="blog-item__link"></a>
                             <div class="blog-item__start">
-                                <img class="blog-item__image lazy" src="/public/images/lazy/article-1.jpg" data-src="/public/images/article-1.jpg" alt="">
+                                <img class="blog-item__image lazy" src="/assets/images/lazy/article-1.jpg" data-src="/public/images/article-1.jpg" alt="">
                                 <div class="blog-item__content">
                                     <p class="blog-item__date-mobile">03.05.22</p>
                                     <h3 class="blog-item__title">Why choose Dubai?</h3>
@@ -56,7 +56,7 @@
                         <article class="blog-item" data-aos="fade-up" data-aos-duration="1000">
                             <a href="#" class="blog-item__link"></a>
                             <div class="blog-item__start">
-                                <img class="blog-item__image lazy" src="/public/images/lazy/article-2.jpg" data-src="/public/images/article-2.jpg" alt="">
+                                <img class="blog-item__image lazy" src="/assets/images/lazy/article-2.jpg" data-src="/public/images/article-2.jpg" alt="">
                                 <div class="blog-item__content">
                                     <p class="blog-item__date-mobile">03.05.22</p>
                                     <h3 class="blog-item__title">Brad Pitt bought a penthouse in Palm Jumeirah</h3>
@@ -72,7 +72,7 @@
                         <article class="blog-item" data-aos="fade-up" data-aos-duration="1000">
                             <a href="#" class="blog-item__link"></a>
                             <div class="blog-item__start">
-                                <img class="blog-item__image lazy" src="/public/images/lazy/article-3.jpg" data-src="/public/images/article-3.jpg" alt="">
+                                <img class="blog-item__image lazy" src="/assets/images/lazy/article-3.jpg" data-src="/public/images/article-3.jpg" alt="">
                                 <div class="blog-item__content">
                                     <p class="blog-item__date-mobile">03.05.22</p>
                                     <h3 class="blog-item__title">We've got Meraas!</h3>

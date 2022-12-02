@@ -14,7 +14,7 @@
       margin-bottom: 54px;
       background-repeat: no-repeat;
       background-position: bottom;
-      background-image: url(/public/images/about-bg.svg);
+      background-image: url(/assets/images/about-bg.svg);
       background-size: cover;
       background-color: #F2F0EF;
     }
@@ -229,7 +229,7 @@
     @include media-up(lg) {
       background-repeat: no-repeat;
       background-position: bottom;
-      background-image: url(/public/images/bg-about-1.png);
+      background-image: url(/assets/images/bg-about-1.png);
       background-size: cover;
       background-color: #F2F0EF;
     }
@@ -245,7 +245,7 @@
 
     @include media-up(lg) {
       background-repeat: no-repeat;
-      background-image: url(/public/images/bg-about-3.png);
+      background-image: url(/assets/images/bg-about-3.png);
       background-size: cover;
       background-color: #F2F0EF;
       background-position: top;
@@ -637,7 +637,7 @@
 
       background-repeat: no-repeat;
       background-position: top;
-      background-image: url("/public/images/bg-about-2.png");
+      background-image: url("/assets/images/bg-about-2.png");
       background-size: cover;
       background-color: #F2F0EF;
     }

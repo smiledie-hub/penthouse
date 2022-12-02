@@ -25,7 +25,7 @@
                     <div class="box-image__content box-image__content--p-none">
                         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
                              class="box-image__image box-image__image--mw-none mb-100 lazy"
-                             src="/public/images/lazy/dubai-marina-economic-1.jpg"
+                             src="/assets/images/lazy/dubai-marina-economic-1.jpg"
                              data-src="/public/images/dubai-marina-economic-1.jpg" alt="">
                         <p class="article-content__text-1" data-aos="fade-right" data-aos-duration="1000"
                            data-aos-delay="200">Where the sea greets you every morning, and pristine white
@@ -40,12 +40,12 @@
                 <div class="row-images row-images--items-end row-images--right mb-100">
                     <div class="row-images__item">
                         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                             class="row-images__img row-images__img--h710 lazy" src="/public/images/lazy/page-article-1.jpg" data-src="/public/images/page-article-1.jpg"
+                             class="row-images__img row-images__img--h710 lazy" src="/assets/images/lazy/page-article-1.jpg" data-src="/public/images/page-article-1.jpg"
                              alt="">
                     </div>
                     <div class="row-images__item">
                         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
-                             class="row-images__img row-images__img--h1080 lazy" src="/public/images/lazy/page-article-2.jpg" data-src="/public/images/page-article-2.jpg"
+                             class="row-images__img row-images__img--h1080 lazy" src="/assets/images/lazy/page-article-2.jpg" data-src="/public/images/page-article-2.jpg"
                              alt="">
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     <div class="box-image__content">
                         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
                              class="box-image__image box-image__image--mw-none mb-100 lazy"
-                             src="/public/images/lazy/page-article-3.jpg"
+                             src="/assets/images/lazy/page-article-3.jpg"
                              data-src="/public/images/page-article-3.jpg" alt="">
                         <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"
                            class="article-content__text-3">Where the sea greets you every morning, and pristine white
@@ -83,13 +83,13 @@
                     <div class="row-images__item">
                         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
                              class="row-images__img row-images__img--h1080 lazy" data-src="/public/images/page-article-4.jpg"
-                             src="/public/images/lazy/page-article-4.jpg"
+                             src="/assets/images/lazy/page-article-4.jpg"
                              alt="">
                     </div>
                     <div class="row-images__item">
                         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
                              class="row-images__img row-images__img--h710 lazy" data-src="/public/images/page-article-5.jpg"
-                             src="/public/images/lazy/page-article-5.jpg"
+                             src="/assets/images/lazy/page-article-5.jpg"
                              alt="">
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                     <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="blog-item">
                         <a href="#" class="blog-item__link"></a>
                         <div class="blog-item__start">
-                            <img class="blog-item__image lazy" src="/public/images/lazy/article-1.jpg" data-src="/public/images/article-1.jpg" alt="">
+                            <img class="blog-item__image lazy" src="/assets/images/lazy/article-1.jpg" data-src="/public/images/article-1.jpg" alt="">
                             <div class="blog-item__content">
                                 <p class="blog-item__date-mobile">03.05.22</p>
                                 <h3 class="blog-item__title">Why choose Dubai?</h3>
@@ -131,7 +131,7 @@
                     <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="blog-item">
                         <a href="#" class="blog-item__link"></a>
                         <div class="blog-item__start">
-                            <img class="blog-item__image lazy" src="/public/images/lazy/article-2.jpg" data-src="/public/images/article-2.jpg" alt="">
+                            <img class="blog-item__image lazy" src="/assets/images/lazy/article-2.jpg" data-src="/public/images/article-2.jpg" alt="">
                             <div class="blog-item__content">
                                 <p class="blog-item__date-mobile">03.05.22</p>
                                 <h3 class="blog-item__title">Brad Pitt bought a penthouse in Palm Jumeirah</h3>
@@ -148,7 +148,7 @@
                     <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="blog-item">
                         <a href="#" class="blog-item__link"></a>
                         <div class="blog-item__start">
-                            <img class="blog-item__image lazy" src="/public/images/lazy/article-3.jpg" data-src="/public/images/article-3.jpg" alt="">
+                            <img class="blog-item__image lazy" src="/assets/images/lazy/article-3.jpg" data-src="/public/images/article-3.jpg" alt="">
                             <div class="blog-item__content">
                                 <p class="blog-item__date-mobile">03.05.22</p>
                                 <h3 class="blog-item__title">We've got Meraas!</h3>
