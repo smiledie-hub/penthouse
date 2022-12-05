@@ -5,8 +5,8 @@
                 <div class="choice">
                     <label class="choice__label">
                         <select class="choice__select" name="purchase_type">
-                            <option selected value="Buy">Buy</option>
-                            <option value="Rent">Rent</option>
+                            <option value="Buy">Buy</option>
+                            <option selected value="Rent">Rent</option>
                         </select>
                     </label>
 

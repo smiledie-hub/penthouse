@@ -32,10 +32,10 @@ export default function ChoiceComponent() {
 
             const items = itemsEl.querySelectorAll('.choice__item')
 
-            if (items.length > 0) {
-                items[0].classList.add('choice__item--selected')
-                valueEl.innerText = items[0].textContent
-            }
+            // if (items.length > 0) {
+            //     items[0].classList.add('choice__item--selected')
+            //     valueEl.innerText = items[0].textContent
+            // }
 
 
             const itemsElHeight = itemsEl.scrollHeight;
@@ -61,6 +61,11 @@ export default function ChoiceComponent() {
 
             if(option.disabled) {
                 div.setAttribute('disabled', "true")
+            }
+
+            if(option.selected) {
+                div.classList.add('choice__item--selected')
+                valueEl.innerText = option.innerText
             }
 
             div.addEventListener('click', (e) => {
