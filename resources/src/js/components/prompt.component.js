@@ -64,8 +64,9 @@ class DropDownList {
 
     bind() {
         this.input.addEventListener('input', this._onElementInput);
-        this.input.addEventListener('focusin', () => {
+        this.input.addEventListener('focusin', (e) => {
             this.container.classList.add('prompt--focus')
+            this._onElementInput(e)
         });
         this.input.addEventListener('focusout', () => {
             this.container.classList.remove('prompt--focus')

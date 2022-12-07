@@ -30,7 +30,7 @@ export default function ChoiceComponent() {
             itemsEl.innerHTML = "";
             optionEls.forEach(createOption)
 
-            const items = itemsEl.querySelectorAll('.choice__item')
+            // const items = itemsEl.querySelectorAll('.choice__item')
 
             // if (items.length > 0) {
             //     items[0].classList.add('choice__item--selected')
